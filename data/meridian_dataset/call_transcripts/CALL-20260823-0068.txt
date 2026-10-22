@@ -1,0 +1,17 @@
+Call ID: CALL-20260823-0068
+Date: 2026-08-23T14:18
+Agent: Eli
+Duration: 1m 0s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Eli. How may I help?
+Customer: I want a full refund on the repair. It didn't fix anything and I had to call another company.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-38992.
+Agent: Perfect, and can you confirm the, uh, name?
+Customer: Patricia Walker.
+Agent: I understand your frustration. Refund requests go to our billing supervisor for review. I'll open a case and you'll hear back within two business days.
+Customer: I'd better.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

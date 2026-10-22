@@ -1,0 +1,19 @@
+Call ID: CALL-20260821-0353
+Date: 2026-08-21T08:07
+Agent: Jordan
+Duration: 2m 13s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Jordan. How may I help?
+Customer: Sorry, I'm driving, one sec.
+Agent: No problem, take your time.
+Customer: I want a full refund on the repair. It didn't fix anything and I had to call another company.
+Agent: Um, do you have your account number handy?
+Customer: Yeah, it's MHC-80177.
+Agent: Perfect, and can you confirm the name?
+Customer: Robert Patel.
+Agent: I understand your frustration. Refund requests go to our billing supervisor for review. I'll open a case and you'll hear back within two business days.
+Customer: I'd better.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

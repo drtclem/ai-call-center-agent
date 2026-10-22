@@ -1,0 +1,16 @@
+Call ID: CALL-20260718-0062
+Date: 2026-07-18T12:55
+Agent: Kayla
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: I want to talk to a manager. The tech who came out yesterday was rude, tracked mud through my house, and left without explaining anything.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Beth Patel, 512-497-6901.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Um, alright, take care.

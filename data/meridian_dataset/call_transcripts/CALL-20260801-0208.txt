@@ -1,0 +1,18 @@
+Call ID: CALL-20260801-0208
+Date: 2026-08-01T13:32
+Agent: Tasha
+Duration: 1m 2s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Tasha. How may I help?
+Customer: I have a tech coming tomorrow but something came up. Can I move it?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's David Murphy, 512-742-7048.
+Agent: Let me take a look. I see the appointment tomorrow 8 to 12. What day works instead?
+Customer: Any afternoon this week.
+Agent: I can do Monday 1 to 5.
+Customer: Perfect.
+Agent: Moved. New confirmation text is on its way.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

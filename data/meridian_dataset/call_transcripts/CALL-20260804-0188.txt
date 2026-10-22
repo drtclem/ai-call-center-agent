@@ -1,0 +1,18 @@
+Call ID: CALL-20260804-0188
+Date: 2026-08-04T12:43
+Agent: Tasha
+Duration: 1m 17s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Tasha. How can I help you today?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: I want to cancel my Comfort Club membership.
+Agent: Um, let me verify the account. Name and service address?
+Customer: Robert Brown, 4946 Lakeshore Blvd, Kyle.
+Agent: Um, i can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

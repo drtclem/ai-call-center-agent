@@ -1,0 +1,16 @@
+Call ID: CALL-20260722-0064
+Date: 2026-07-22T10:36
+Agent: Eli
+Duration: 1m 36s
+Direction: Inbound
+
+Agent: Um, thank you for calling Meridian Home Comfort, this is Eli. How can I help you today?
+Customer: Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing.
+Agent: Let me verify the account. Name and service address?
+Customer: Beth Hernandez, 6052 Harbor View Way, Cedar Park.
+Agent: Bear with me one second. Repairs carry a 1 year labor warranty on the same part. March is within that, so there's no charge for the return visit if it's the same failure.
+Customer: Good. Can you get someone out?
+Agent: Yes, let me book that as a warranty recall so there's no fee.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

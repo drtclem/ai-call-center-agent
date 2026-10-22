@@ -1,0 +1,15 @@
+Call ID: CALL-20260908-0164
+Date: 2026-09-08T11:44
+Agent: Marcus
+Duration: 1m 6s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Marcus. How can I help you today?
+Customer: Um, what's my current balance?
+Agent: Let me verify the account. Name and service address?
+Customer: Kim Reyes, 4128 Pecan Grove Rd, Kyle.
+Agent: One moment. You have an open balance of $245 on INV-264566, due on the 19th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Um, okay, thanks for calling Meridian.

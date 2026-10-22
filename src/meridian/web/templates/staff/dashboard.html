@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}Staff dashboard · Meridian{% endblock %}
+{% block header_extra %}<span class="muted">{{ "Reviewer (read-only)" if request.state.role == "reviewer" else "Staff" }}</span>{% endblock %}
+{% block main %}
+{% set t = o.today %}
+<h1>Today</h1>
+<p class="muted">Days run on Central time. Containment = contained ÷ finished (abandoned chats count against it; in-progress chats don't count yet).</p>
+<div class="tiles">
+  <div class="tile"><span class="tile-n">{{ t.conversations }}</span><span>conversations</span></div>
+  <div class="tile"><span class="tile-n">{{ "%d%%" % (t.containment * 100) if t.containment is not none else "—" }}</span><span>containment</span></div>
+  <div class="tile"><span class="tile-n">{{ t.handed_off }}</span><span>handed off</span></div>
+  <div class="tile"><span class="tile-n">{{ t.failed + t.abandoned }}</span><span>failed / abandoned</span></div>
+  <div class="tile"><span class="tile-n">{{ t.thumbs_down }}</span><span>👎 ratings</span></div>
+  <div class="tile"><span class="tile-n">{{ o.p50_ms if o.p50_ms is not none else "—" }} / {{ o.p95_ms if o.p95_ms is not none else "—" }}</span><span>p50 / p95 ms</span></div>
+  {% if request.state.role == "staff" %}<div class="tile"><span class="tile-n">${{ "%.2f" % (o.spend_usd_micros / 1e6) }}</span><span>spend of ${{ "%.0f" % (o.cap_usd_micros / 1e6) }} cap</span></div>{% endif %}
+  <div class="tile"><span class="tile-n">{{ o.limit_hits }}</span><span>limit hits</span></div>
+  <div class="tile"><span class="tile-n">{{ o.check_failures }}</span><span>answer-check failures</span></div>
+  <div class="tile"><span class="tile-n"><a href="/staff/flags">{{ open_flags }}</a></span><span>flags to review</span></div>
+</div>
+{% if t.handoff_reasons %}
+<p>Handoffs by reason: {% for reason, n in t.handoff_reasons.most_common() %}{{ reason.replace("_", " ") }} {{ n }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+{% endif %}
+
+<h2>Last 14 days</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th scope="col">Day</th><th scope="col">Chats</th><th scope="col">Containment</th><th scope="col">Contained</th><th scope="col">With fee follow-up</th><th scope="col">Handed off</th><th scope="col">Failed</th><th scope="col">Abandoned</th><th scope="col">👎</th></tr></thead>
+  <tbody>
+  {% for d in o.trend | reverse %}
+    <tr><td>{{ d.day.strftime("%a %b") }} {{ d.day.day }}</td><td>{{ d.conversations }}</td><td>{{ "%d%%" % (d.containment * 100) if d.containment is not none else "—" }}</td><td>{{ d.contained }}</td><td>{{ d.fee_followup }}</td><td>{{ d.handed_off }}</td><td>{{ d.failed }}</td><td>{{ d.abandoned }}</td><td>{{ d.thumbs_down }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2 id="tickets">Handoff queue ({{ tickets | length }})</h2>
+{% if tickets %}
+<div class="table-wrap"><table>
+  <thead><tr><th scope="col">Urgency</th><th scope="col">Reason</th><th scope="col">Caller</th><th scope="col">Callback</th><th scope="col">Summary</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+  <tbody>
+  {% for k in tickets %}
+    <tr><td>{{ k.urgency }}</td><td>{{ k.reason }}</td><td>{{ k.caller }}</td><td>{{ k.callback }}</td><td class="wrap"><a href="/staff/conversations/{{ k.conversation_id }}">{{ k.summary }}</a></td>
+      <td>{% if request.state.role == "staff" %}<form method="post" action="/staff/tickets/{{ k.id }}/close"><label><span class="visually-hidden">Resolution</span><select name="resolution" required><option value="">How was it resolved?</option>{% for code, label in codes.items() %}<option value="{{ code }}">{{ label }}</option>{% endfor %}</select></label> <button class="link-button" type="submit">Mark done</button></form>{% endif %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% else %}<p class="muted">No open handoffs.</p>{% endif %}
+<h3>How closed handoffs were resolved</h3>
+{% if resolutions %}
+<ul>{% for label, n in resolutions %}<li>{{ label }}: {{ n }}</li>{% endfor %}</ul>
+{% else %}<p class="muted">None closed yet.</p>{% endif %}
+
+<h2 id="fees">Fee reviews ({{ fees | length }})</h2>
+{% if fees %}
+<div class="table-wrap"><table>
+  <thead><tr><th scope="col">Visit</th><th scope="col">Change</th><th scope="col">Fee</th><th scope="col">Caller</th><th scope="col">Consent</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+  <tbody>
+  {% for f in fees %}
+    <tr><td><a href="/staff/conversations/{{ f.conversation_id }}">{{ f.visit }}</a></td><td>{{ f.change }}</td><td>{{ f.amount }}</td><td>{{ f.caller }}</td><td>{{ f.consent }} {{ f.when | ct }}</td>
+      <td>{% if request.state.role == "staff" %}<form method="post" action="/staff/fees/{{ f.id }}/close"><button class="link-button" type="submit">Mark reviewed</button></form>{% endif %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% else %}<p class="muted">No fees to review.</p>{% endif %}
+
+<h2>Recent problems</h2>
+{% if problems %}
+<ul>{% for p in problems %}<li><a href="/staff/conversations/{{ p.id }}">{{ p.when | ct }}</a>: {{ p.why }}</li>{% endfor %}</ul>
+{% else %}<p class="muted">None.</p>{% endif %}
+
+<h2>Recent conversations</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th scope="col">Started</th><th scope="col">Turns</th><th scope="col">Outcome</th><th scope="col">Reason</th><th scope="col">Rating</th><th scope="col">Cost</th></tr></thead>
+  <tbody>
+  {% for c in recent %}
+    <tr><td><a href="/staff/conversations/{{ c.id }}">{{ c.started_at | ct }}</a></td><td>{{ c.turns }}</td><td>{{ c.outcome.replace("_", " ") }}</td><td>{{ c.reason }}</td><td>{{ c.rating }}</td><td>{{ c.cost }}</td></tr>
+  {% else %}
+    <tr><td colspan="6" class="muted">No conversations yet.</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+{% if request.state.role == "staff" %}
+<h2>Demo data</h2>
+<div class="actions">
+  <form method="post" action="/staff/reset-demo"><button class="button" type="submit">Reset bookings to the original dataset</button></form>
+  <form method="post" action="/staff/delete-logs"><button class="button" type="submit">Delete all conversation logs</button></form>
+</div>
+<p class="muted">Reset also removes the fee-review queue (its consent records point at bookings that go away). Both end every chat in progress. Neither can be undone.</p>
+{% endif %}
+{% endblock %}

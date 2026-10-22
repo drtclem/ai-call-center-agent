@@ -1,0 +1,21 @@
+Call ID: CALL-20260914-0070
+Date: 2026-09-14T14:00
+Agent: Marcus
+Duration: 2m 12s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: Yeah, I need to schedule a service call. I need my annual tune-up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Sure, it's Angela Kim, 512-746-4602.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Tomorrow if possible, 4 to 7, after work.
+Agent: One moment. I have a afternoon window Thursday, 12 to 4. Would that work?
+Customer: Um, that's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

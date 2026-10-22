@@ -1,0 +1,21 @@
+Call ID: CALL-20260728-0050
+Date: 2026-07-28T15:44
+Agent: Kayla
+Duration: 2m 22s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: Hey, so the AC runs but the air is warm. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Omar Cruz, 512-400-9954.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: As soon as possible if possible, 8 to 12.
+Agent: Bear with me one second. I have a morning window Friday, 1 to 5. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260814-0123
+Date: 2026-08-14T19:08
+Agent: Brian
+Duration: 2m 49s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Brian. How can I help you today?
+Customer: Hey, so my kitchen sink is backing up. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-77194.
+Agent: Perfect, and can you confirm the name?
+Customer: Victor Foster.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Next Tuesday if possible, first thing in the morning.
+Agent: Okay, give me just a sec here. I have a morning window tomorrow, 12 to 4. Would that work?
+Customer: Um, that's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

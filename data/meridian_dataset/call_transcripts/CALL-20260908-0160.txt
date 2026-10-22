@@ -1,0 +1,23 @@
+Call ID: CALL-20260908-0160
+Date: 2026-09-08T12:36
+Agent: Kayla
+Duration: 2m 28s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Kayla. How may I help?
+Customer: My system is 18 years old and I'm thinking about replacing it. What would that cost?
+Agent: Replacement pricing depends on the size of the home, ductwork, and efficiency level. We do free in-home estimates with a comfort advisor.
+Customer: Ballpark?
+Agent: Most full system replacements run between $8,000 and $16,000, but I really can't quote without a visit. Want me to set up the estimate?
+Customer: Yeah, let's do that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-78650.
+Agent: Perfect, and can you confirm the name?
+Customer: Derek Diaz.
+Agent: I have an advisor available Tuesday at 10am.
+Customer: Works.
+Agent: Was there anything else?
+Customer: Can you hear me okay?
+Agent: Sure, go ahead.
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

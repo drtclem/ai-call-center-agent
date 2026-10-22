@@ -1,0 +1,18 @@
+Call ID: CALL-20260815-0270
+Date: 2026-08-15T14:27
+Agent: Kayla
+Duration: 2m 18s
+Direction: Inbound
+
+Agent: Um, meridian Home Comfort, Kayla speaking. What can I do for you?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Let me verify the account. Name and service address?
+Customer: Victor Johnson, 9148 Cedar Ridge Ln, Hutto.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

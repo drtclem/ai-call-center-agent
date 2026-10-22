@@ -1,0 +1,15 @@
+Call ID: CALL-20260707-0053
+Date: 2026-07-07T08:23
+Agent: Marcus
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: Did you guys register my new unit with the, uh, manufacturer? I never got anything.
+Agent: Let me verify the account. Name and service address?
+Customer: Raj Garcia, 5385 Maple St, Pflugerville.
+Agent: Let me pull that up. Yes, we register every install within 30 days. I see it was registered on the 23th. I'll resend the confirmation.
+Customer: Thanks.
+Agent: Um, was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

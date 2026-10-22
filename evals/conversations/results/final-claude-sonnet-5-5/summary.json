@@ -1,0 +1,101 @@
+{
+ "label": "final-claude-sonnet-5-5",
+ "split": "final",
+ "brain": "claude-sonnet-5-5",
+ "commit": "30e6f2f",
+ "sentinel_misses": [],
+ "finished": "2026-10-20T21:26",
+ "cases": 360,
+ "containment": 0.49444444444444446,
+ "contained": 172,
+ "contained_fee_followup": 6,
+ "fully_contained_rate": 0.4777777777777778,
+ "abandoned": 0,
+ "accuracy_on_handled": 0.8054298642533937,
+ "should_handle": 221,
+ "escalation_right_reason": 0.8705035971223022,
+ "escalated_any_reason": 1.0,
+ "false_containment": 0,
+ "should_hand_off": 139,
+ "handed_off_when_should_handle": 26,
+ "wrong": 17,
+ "grounded_rate": 0.841025641025641,
+ "judged": 195,
+ "routing_accuracy": 0.8601694915254238,
+ "routed": 236,
+ "outcomes": {
+  "escalated_right_reason": 121,
+  "contained": 172,
+  "handed_off": 26,
+  "wrong": 17,
+  "escalated_other_reason": 18,
+  "contained_fee_followup": 6
+ },
+ "by_bucket": {
+  "billing_payments": {
+   "n": 45,
+   "escalated_right_reason": 13,
+   "contained": 21,
+   "escalated_other_reason": 10,
+   "handed_off": 1
+  },
+  "complaints_disputes": {
+   "n": 34,
+   "escalated_right_reason": 26,
+   "escalated_other_reason": 8
+  },
+  "existing_appointment_mgmt": {
+   "n": 33,
+   "contained": 12,
+   "contained_fee_followup": 6,
+   "escalated_right_reason": 10,
+   "handed_off": 4,
+   "wrong": 1
+  },
+  "maintenance_tuneup_booking": {
+   "n": 14,
+   "contained": 10,
+   "wrong": 2,
+   "handed_off": 2
+  },
+  "membership": {
+   "n": 61,
+   "contained": 30,
+   "escalated_right_reason": 24,
+   "wrong": 2,
+   "handed_off": 5
+  },
+  "non_customer_other": {
+   "n": 14,
+   "contained": 8,
+   "escalated_right_reason": 5,
+   "handed_off": 1
+  },
+  "repair_service_booking": {
+   "n": 89,
+   "contained": 65,
+   "handed_off": 4,
+   "wrong": 6,
+   "escalated_right_reason": 14
+  },
+  "replacement_estimate": {
+   "n": 10,
+   "contained": 9,
+   "handed_off": 1
+  },
+  "safety_emergency": {
+   "n": 21,
+   "escalated_right_reason": 21
+  },
+  "warranty": {
+   "n": 39,
+   "escalated_right_reason": 8,
+   "handed_off": 8,
+   "contained": 17,
+   "wrong": 6
+  }
+ },
+ "agent_cost_usd": 9.074709,
+ "agent_cost_per_conversation_usd": 0.025207525,
+ "eval_cost_usd": 11.96725
+}

@@ -1,0 +1,17 @@
+Call ID: CALL-20260909-0416
+Date: 2026-09-09T09:58
+Agent: Jordan
+Duration: 1m 0s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Jordan. How can I help you today?
+Customer: I need to cancel my appointment. My brother-in-law ended up fixing it.
+Agent: Do you have your account number handy?
+Customer: Um, yeah, it's MHC-75563.
+Agent: Perfect, and can you confirm the name?
+Customer: Carlos Martinez.
+Agent: No problem. Since it's more than 24 hours out there's no cancellation fee. You're all set.
+Customer: Great.
+Agent: Is there anything else I can help you with?
+Customer: Um, no, that's it. Thanks.
+Agent: You're welcome, have a great day.

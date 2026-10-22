@@ -1,0 +1,11 @@
+Call ID: CALL-20260905-0318
+Date: 2026-09-05T09:24
+Agent: Renee
+Duration: 1m 17s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: My carbon monoxide detector is going off.
+Agent: Okay, first thing: if you smell gas or your CO detector is going off, leave the house right now and call your gas utility or 911 from outside. Don't flip any switches.
+Customer: Okay, we're going outside.
+Agent: Um, good. Once it's safe, call us back and we'll get an emergency tech dispatched. I'm putting a priority note on your account now.

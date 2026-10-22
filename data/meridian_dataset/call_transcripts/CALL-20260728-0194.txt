@@ -1,0 +1,15 @@
+Call ID: CALL-20260728-0194
+Date: 2026-07-28T19:56
+Agent: Marcus
+Duration: 1m 55s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Marcus. How can I help you today?
+Customer: Did you guys register my new unit with the, uh, manufacturer? I never got anything.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Raj Chen, 512-425-4205.
+Agent: Let me pull that up. Yes, we register every install within 30 days. I see it was registered on the 21th. I'll resend the confirmation.
+Customer: Thanks.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

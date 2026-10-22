@@ -1,0 +1,135 @@
+{
+  "buckets": [
+    {
+      "id": "repair_service_booking",
+      "name": "Book repair / diagnostic visit",
+      "definition": "Customer reports a non-emergency equipment or plumbing problem and wants a technician scheduled.",
+      "includes": "Burning smell from vents, AC blowing warm or not cooling, furnace won't turn on, blank thermostat, grinding noise, water pooling at indoor unit, backed-up kitchen sink, water heater pilot going out. Also covers waitlist requests and questions about whether the maintenance plan would lower the cost of this repair.",
+      "excludes": "Gas, CO or sparks emergencies. Warranty-coverage questions on failed equipment. Annual tune-ups.",
+      "examples": [
+        "CALL-20260706-0101",
+        "CALL-20260709-0103",
+        "CALL-20260709-0365"
+      ],
+      "estimated_count": 105
+    },
+    {
+      "id": "maintenance_tuneup_booking",
+      "name": "Book annual tune-up",
+      "definition": "Customer wants to schedule routine annual HVAC maintenance.",
+      "includes": "Annual tune-up scheduling, including waitlist requests.",
+      "excludes": "Visits for a reported problem.",
+      "examples": [
+        "CALL-20260711-0109",
+        "CALL-20260720-0371",
+        "CALL-20260801-0176"
+      ],
+      "estimated_count": 17
+    },
+    {
+      "id": "existing_appointment_mgmt",
+      "name": "Manage existing appointment",
+      "definition": "Customer is calling about an appointment that is already booked.",
+      "includes": "Reschedules, cancellations because the issue was already fixed, confirming an appointment window, and technician no-shows (window passed with no arrival or call).",
+      "excludes": "New bookings.",
+      "examples": [
+        "CALL-20260711-0063",
+        "CALL-20260707-0002",
+        "CALL-20260721-0261"
+      ],
+      "estimated_count": 41
+    },
+    {
+      "id": "billing_payments",
+      "name": "Billing & payments",
+      "definition": "Routine account balance, payment, or charge-explanation requests that are not disputes.",
+      "includes": "Balance lookups, paying an invoice (via a texted secure link), explaining an unrecognized invoice and emailing an itemized copy, and suspected double charges.",
+      "excludes": "Disputes over quoted vs. invoiced price. Refund demands. Membership autopay.",
+      "examples": [
+        "CALL-20260708-0255",
+        "CALL-20260709-0356",
+        "CALL-20260710-0373"
+      ],
+      "estimated_count": 52
+    },
+    {
+      "id": "membership",
+      "name": "Membership (Comfort Club)",
+      "definition": "Questions or account changes about the maintenance membership.",
+      "includes": "Plan info and price (including the $149 check), renewal charge timing, cancelling membership, autopay setup, upgrading to Plus, and member discount on a new system.",
+      "excludes": "Questions about whether the plan would save money on a repair being booked; those go to the repair bucket.",
+      "examples": [
+        "CALL-20260707-0148",
+        "CALL-20260707-0096",
+        "CALL-20260710-0364"
+      ],
+      "estimated_count": 64
+    },
+    {
+      "id": "warranty",
+      "name": "Warranty questions & claims",
+      "definition": "Questions about warranty coverage, registration, transfer, or filing a claim.",
+      "includes": "Warranty claims on last year's install, compressor coverage (often followed by booking a repair), labor warranty on a repeat blower failure, manufacturer registration status, and warranty transfer to a new homeowner.",
+      "excludes": "Generic repairs with no warranty question.",
+      "examples": [
+        "CALL-20260711-0248",
+        "CALL-20260707-0053",
+        "CALL-20260722-0161"
+      ],
+      "estimated_count": 50
+    },
+    {
+      "id": "replacement_estimate",
+      "name": "Residential replacement estimate",
+      "definition": "Customer wants a ballpark cost for replacing an aging home system and/or a free in-home estimate.",
+      "includes": "Replacement of an 18-year-old system, ballpark price, and booking a comfort advisor visit.",
+      "excludes": "Commercial quotes. Member discount questions.",
+      "examples": [
+        "CALL-20260709-0134",
+        "CALL-20260711-0030",
+        "CALL-20260721-0321"
+      ],
+      "estimated_count": 15
+    },
+    {
+      "id": "complaints_disputes",
+      "name": "Complaints, disputes & refunds",
+      "definition": "Customer is dissatisfied and needs human or manager resolution.",
+      "includes": "Invoice higher than the quote (after-hours, disposal or permit fees), refund for a failed repair, disputed $4,000 replacement recommendation, rude technician, and repeated unreturned calls.",
+      "excludes": "Neutral invoice questions or double-charge checks.",
+      "examples": [
+        "CALL-20260714-0246",
+        "CALL-20260710-0136",
+        "CALL-20260718-0062"
+      ],
+      "estimated_count": 47
+    },
+    {
+      "id": "safety_emergency",
+      "name": "Safety emergency",
+      "definition": "Potentially hazardous situation needing immediate safety guidance and dispatch.",
+      "includes": "Gas smell, carbon monoxide alarm, sparks from the outdoor unit.",
+      "excludes": "Burning smell from vents, which these lines treat as a routine booking.",
+      "examples": [
+        "CALL-20260712-0046",
+        "CALL-20260721-0093",
+        "CALL-20260717-0180"
+      ],
+      "estimated_count": 9
+    },
+    {
+      "id": "non_customer_other",
+      "name": "Non-service / out of scope",
+      "definition": "Calls not about residential service for an existing or prospective customer.",
+      "includes": "Job/hiring inquiries, wrong number (Meridian Dental), and commercial rooftop replacement quotes.",
+      "excludes": "Any residential service need.",
+      "examples": [
+        "CALL-20260712-0067",
+        "CALL-20260813-0031",
+        "CALL-20260728-0089"
+      ],
+      "estimated_count": 16
+    }
+  ],
+  "notes": "Counts are approximate. 1) Burning smell from vents is bucketed as a routine repair because every one of these calls was booked normally; decide whether policy should treat it as a safety emergency. 2) Technician no-shows are placed in appointment management, though one asked for a fee waiver and could count as a complaint. 3) Compressor-warranty and repeat-blower calls usually end in a booking; they are classified by the opening warranty question. 4) Membership autopay could go under billing instead; it is placed under membership. 5) Commercial quotes are grouped with out-of-scope; split them out if commercial is a real line of business. 6) Several lines mention a 'Trane' or 'Goodman' unit on kitchen-sink calls, which suggests transcript or summary noise. 7) All complaints and safety calls ended in a callback or escalation, while most other buckets resolved on the call. That points to the first seven buckets as the AI-automatable set, though registration, warranty transfer, and replacement-estimate calls sometimes needed callbacks."
+}

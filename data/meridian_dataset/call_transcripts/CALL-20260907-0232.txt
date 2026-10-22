@@ -1,0 +1,23 @@
+Call ID: CALL-20260907-0232
+Date: 2026-09-07T10:44
+Agent: Renee
+Duration: 2m 13s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Renee. How can I help you today?
+Customer: I'm calling to book a repair, the furnace won't kick on.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Victor Hernandez, 512-761-7688.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Sometime this week if possible, the afternoon.
+Agent: Let me pull that up. I have a afternoon window Friday, 1 to 5. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

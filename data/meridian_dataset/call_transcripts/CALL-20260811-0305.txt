@@ -1,0 +1,21 @@
+Call ID: CALL-20260811-0305
+Date: 2026-08-11T13:15
+Agent: Eli
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: I'm calling to book a repair, the water heater pilot light keeps going out.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's David Johnson, 512-377-6871.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: This Saturday if possible, 12 to 4.
+Agent: Um, one moment. I have a morning window Thursday, 8 to 12. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Um, i think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

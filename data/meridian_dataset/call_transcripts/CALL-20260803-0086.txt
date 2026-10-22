@@ -1,0 +1,14 @@
+Call ID: CALL-20260803-0086
+Date: 2026-08-03T10:02
+Agent: Eli
+Duration: 2m 2s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Eli. How may I help?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: It's 9537 Cedar Ridge Ln, Cedar Park.
+Agent: Okay, give me just a sec here. I see a American Standard installed there. I'll email you the manufacturer transfer form.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

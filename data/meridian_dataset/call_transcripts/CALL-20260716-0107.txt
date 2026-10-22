@@ -1,0 +1,21 @@
+Call ID: CALL-20260716-0107
+Date: 2026-07-16T12:13
+Agent: Tasha
+Duration: 1m 52s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Tasha. How can I help you today?
+Customer: Hi, the furnace won't kick on and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Omar Smith, 3130 Lakeshore Blvd, Buda.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Next Tuesday if possible, the afternoon.
+Agent: Bear with me one second. I have a morning window Thursday, 1 to 5. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

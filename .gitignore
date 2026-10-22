@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Runtime data (the app's working copy of the DB, logs, caches)
+var/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Dataset zip as uploaded (extracted copy lives in data/meridian_dataset/)
+data/*.zip
+
+# Node (only if a frontend is added)
+node_modules/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+

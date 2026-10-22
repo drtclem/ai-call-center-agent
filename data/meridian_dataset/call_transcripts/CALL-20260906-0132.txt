@@ -1,0 +1,18 @@
+Call ID: CALL-20260906-0132
+Date: 2026-09-06T09:34
+Agent: Brian
+Duration: 1m 56s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-42285.
+Agent: Perfect, and can you confirm the name?
+Customer: Priya Reyes.
+Agent: Okay, give me just a sec here. Repairs carry a 1 year labor warranty on the same part. March is within that, so there's no charge for the return visit if it's the same failure.
+Customer: Good. Can you get someone out?
+Agent: Yes, let me book that as a warranty recall so there's no fee.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

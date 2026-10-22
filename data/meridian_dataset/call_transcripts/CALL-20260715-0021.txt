@@ -1,0 +1,15 @@
+Call ID: CALL-20260715-0021
+Date: 2026-07-15T16:45
+Agent: Denise
+Duration: 1m 22s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Denise. How may I help?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Priya Garcia, 512-490-8972.
+Agent: Um, bear with me one second. You have an open balance of $89 on INV-207180, due on the 7th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

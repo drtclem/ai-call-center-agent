@@ -1,0 +1,23 @@
+Call ID: CALL-20260728-0094
+Date: 2026-07-28T14:19
+Agent: Tasha
+Duration: 1m 59s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Tasha here. What's going on today?
+Customer: Hey, so my thermostat is blank. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Patricia Singh, 512-319-6050.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Um, as soon as possible if possible, first thing in the morning.
+Agent: Bear with me one second. I have a morning window Thursday, 12 to 4. Would that work?
+Customer: Can you hear me okay?
+Agent: Sure, go ahead.
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

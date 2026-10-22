@@ -1,0 +1,16 @@
+Call ID: CALL-20260909-0327
+Date: 2026-09-09T11:02
+Agent: Tasha
+Duration: 2m 17s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Tasha here. What's going on today?
+Customer: Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing.
+Agent: Let me verify the account. Name and service address?
+Customer: Elena Hernandez, 3170 Pecan Grove Rd, Buda.
+Agent: One moment. Repairs carry a 1 year labor warranty on the same part. March is within that, so there's no charge for the return visit if it's the same failure.
+Customer: Good. Can you get someone out?
+Agent: Yes, let me book that as a warranty recall so there's no fee.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

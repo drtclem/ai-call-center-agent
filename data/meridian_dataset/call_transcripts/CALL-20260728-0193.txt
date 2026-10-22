@@ -1,0 +1,17 @@
+Call ID: CALL-20260728-0193
+Date: 2026-07-28T16:42
+Agent: Renee
+Duration: 1m 20s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: I got an invoice, INV-248436, for $245 and I'm not sure what it's for.
+Agent: Sure, let me look that up.
+Agent: Let me verify the account. Name and service address?
+Customer: Omar Kim, 8944 Sunset Terrace, Georgetown.
+Agent: Let me take a look. That's from the service visit on the 14th. It's the diagnostic fee plus the drain line clearing.
+Customer: Oh okay. Can you email me an itemized copy?
+Agent: Absolutely, sending that to the email on file now.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

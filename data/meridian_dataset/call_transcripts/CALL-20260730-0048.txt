@@ -1,0 +1,13 @@
+Call ID: CALL-20260730-0048
+Date: 2026-07-30T18:37
+Agent: Denise
+Duration: 1m 5s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Denise here. What's going on today?
+Customer: I'm a member. Do I get a discount on a new system?
+Agent: Members get 15 percent off repairs. On full system replacements it's a flat $500 off plus the extended labor warranty.
+Customer: Okay good to know.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

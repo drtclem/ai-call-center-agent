@@ -1,0 +1,11 @@
+Call ID: CALL-20260816-0038
+Date: 2026-08-16T07:44
+Agent: Jordan
+Duration: 1m 56s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: My carbon monoxide detector is going off.
+Agent: Okay, first thing: if you smell gas or your CO detector is going off, leave the house right now and call your gas utility or 911 from outside. Don't flip any switches.
+Customer: Okay, we're going outside.
+Agent: Good. Once it's safe, call us back and we'll get an emergency tech dispatched. I'm putting a priority note on your account now.

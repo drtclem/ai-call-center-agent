@@ -1,0 +1,19 @@
+Call ID: CALL-20260710-0373
+Date: 2026-07-10T19:20
+Agent: Kayla
+Duration: 2m 17s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: I got an invoice, INV-292142, for $245 and I'm not sure what it's for.
+Agent: Sure, let me look that up.
+Agent: Can I get your name and the phone number on the account?
+Customer: Hold on, my dog is barking.
+Agent: Sure, go ahead.
+Customer: Sure, it's Raj Okafor, 512-658-6601.
+Agent: Okay, give me just a sec here. That's from the service visit on the 12th. It's the diagnostic fee plus the refrigerant recharge.
+Customer: Oh okay. Can you email me an itemized copy?
+Agent: Absolutely, sending that to the email on file now.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

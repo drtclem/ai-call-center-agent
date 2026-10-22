@@ -1,0 +1,13 @@
+Call ID: CALL-20260715-0351
+Date: 2026-07-15T12:16
+Agent: Eli
+Duration: 1m 55s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: Hi, are you guys hiring HVAC techs? I saw a posting.
+Agent: Um, we are. Applications go through the careers page on our website. I can't take applications over the phone, but I'll pass along that you called.
+Customer: Okay, I'll apply online.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

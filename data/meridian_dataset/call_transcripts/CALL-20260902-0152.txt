@@ -1,0 +1,15 @@
+Call ID: CALL-20260902-0152
+Date: 2026-09-02T17:38
+Agent: Marcus
+Duration: 1m 49s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: I need to cancel my appointment. My brother-in-law ended up fixing it.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Maria Garcia, 512-727-6545.
+Agent: No problem. Since it's more than 24 hours out there's no cancellation fee. You're all set.
+Customer: Great.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

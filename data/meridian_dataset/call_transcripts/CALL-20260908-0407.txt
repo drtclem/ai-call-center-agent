@@ -1,0 +1,16 @@
+Call ID: CALL-20260908-0407
+Date: 2026-09-08T07:53
+Agent: Kayla
+Duration: 1m 21s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Kayla speaking. What can I do for you?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Let me verify the account. Name and service address?
+Customer: Um, carlos Reyes, 8846 Ridgeline Pass, Cedar Park.
+Agent: Let me take a look. Your term ends on the 15th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

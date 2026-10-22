@@ -1,0 +1,13 @@
+Call ID: CALL-20260712-0067
+Date: 2026-07-12T12:26
+Agent: Jordan
+Duration: 1m 57s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Jordan. How can I help you today?
+Customer: Hi, are you guys hiring HVAC techs? I saw a posting.
+Agent: We are. Applications go through the careers page on our website. I can't take applications over the phone, but I'll pass along that you called.
+Customer: Okay, I'll apply online.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

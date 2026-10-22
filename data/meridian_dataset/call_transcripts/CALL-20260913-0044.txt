@@ -1,0 +1,23 @@
+Call ID: CALL-20260913-0044
+Date: 2026-09-13T14:57
+Agent: Brian
+Duration: 2m 40s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: Hey, so my thermostat is blank. What's the, uh, soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Sofia Ali, 512-625-8272.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: This Saturday if possible, 8 to 12.
+Agent: Bear with me one second. I have a morning window tomorrow, 1 to 5. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

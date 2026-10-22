@@ -1,0 +1,23 @@
+Call ID: CALL-20260830-0130
+Date: 2026-08-30T13:11
+Agent: Brian
+Duration: 2m 26s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Brian. How can I help you today?
+Customer: I'm calling to book a repair, there's water pooling around the indoor unit.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Michael Garcia, 512-580-5995.
+Agent: Okay, I see the account. Bear with me one second. What day works best for you?
+Customer: Friday if possible, 4 to 7, after work.
+Agent: Bear with me one second. I have a morning window Friday, 1 to 5. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: Um, yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

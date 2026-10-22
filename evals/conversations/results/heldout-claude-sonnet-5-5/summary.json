@@ -1,0 +1,97 @@
+{
+ "label": "heldout-claude-sonnet-5-5",
+ "split": "heldout",
+ "brain": "claude-sonnet-5-5",
+ "commit": "4243fc6",
+ "sentinel_misses": [],
+ "finished": "2026-10-19T22:03",
+ "cases": 150,
+ "containment": 0.48,
+ "contained": 70,
+ "contained_fee_followup": 2,
+ "fully_contained_rate": 0.4666666666666667,
+ "abandoned": 0,
+ "accuracy_on_handled": 0.8181818181818182,
+ "should_handle": 88,
+ "escalation_right_reason": 0.6612903225806451,
+ "escalated_any_reason": 1.0,
+ "false_containment": 0,
+ "should_hand_off": 62,
+ "handed_off_when_should_handle": 13,
+ "wrong": 3,
+ "grounded_rate": 0.7733333333333333,
+ "judged": 75,
+ "routing_accuracy": 0.8571428571428571,
+ "routed": 98,
+ "outcomes": {
+  "contained": 70,
+  "wrong": 3,
+  "escalated_right_reason": 41,
+  "contained_fee_followup": 2,
+  "handed_off": 13,
+  "escalated_other_reason": 21
+ },
+ "by_bucket": {
+  "billing_payments": {
+   "n": 19,
+   "escalated_right_reason": 5,
+   "contained": 7,
+   "escalated_other_reason": 5,
+   "handed_off": 2
+  },
+  "complaints_disputes": {
+   "n": 14,
+   "escalated_right_reason": 10,
+   "escalated_other_reason": 4
+  },
+  "existing_appointment_mgmt": {
+   "n": 14,
+   "contained_fee_followup": 2,
+   "handed_off": 2,
+   "escalated_other_reason": 6,
+   "contained": 4
+  },
+  "maintenance_tuneup_booking": {
+   "n": 6,
+   "contained": 5,
+   "handed_off": 1
+  },
+  "membership": {
+   "n": 25,
+   "contained": 13,
+   "wrong": 1,
+   "escalated_right_reason": 9,
+   "handed_off": 2
+  },
+  "non_customer_other": {
+   "n": 6,
+   "contained": 1,
+   "escalated_right_reason": 4,
+   "handed_off": 1
+  },
+  "repair_service_booking": {
+   "n": 37,
+   "contained": 25,
+   "wrong": 1,
+   "escalated_other_reason": 6,
+   "handed_off": 5
+  },
+  "replacement_estimate": {
+   "n": 4,
+   "contained": 4
+  },
+  "safety_emergency": {
+   "n": 9,
+   "escalated_right_reason": 9
+  },
+  "warranty": {
+   "n": 16,
+   "contained": 11,
+   "escalated_right_reason": 4,
+   "wrong": 1
+  }
+ },
+ "agent_cost_usd": 3.736471,
+ "agent_cost_per_conversation_usd": 0.024909806666666666,
+ "eval_cost_usd": 4.887433
+}

@@ -1,0 +1,20 @@
+Call ID: CALL-20260917-0023
+Date: 2026-09-17T16:52
+Agent: Denise
+Duration: 1m 23s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I have a tech coming tomorrow but something came up. Can I move it?
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-54350.
+Agent: Perfect, and can you confirm the name?
+Customer: Kim Kim.
+Agent: Bear with me one second. I see the appointment tomorrow 8 to 12. What day works instead?
+Customer: Early next week.
+Agent: I can do Friday 1 to 5.
+Customer: Perfect.
+Agent: Moved. New confirmation text is on its way.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

@@ -1,0 +1,4 @@
+# Historical .env.example placeholder (not a live token). The current file does not use this shape.
+64cc40a0dd6ee5914f16561f8ab71ea47f7b3f05:.env.example:gitlab-pat:2
+# Claude's ai-log entry (2026-10-18) quoting that same placeholder; not a token.
+f5c491e1097b10e592f94621a5fc4931c26d32d7:docs/ai-log.md:gitlab-pat:88

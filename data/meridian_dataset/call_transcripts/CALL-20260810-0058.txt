@@ -1,0 +1,21 @@
+Call ID: CALL-20260810-0058
+Date: 2026-08-10T15:41
+Agent: Kayla
+Duration: 1m 36s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Kayla speaking. What can I do for you?
+Customer: Yeah, I need to schedule a service call. The water heater pilot light keeps going out.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Patricia Ali, 512-800-6730.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Tomorrow if possible, 12 to 4.
+Agent: Let me pull that up. I have a afternoon window tomorrow, 1 to 5. Would that work?
+Customer: Um, yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

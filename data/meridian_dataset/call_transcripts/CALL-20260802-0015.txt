@@ -1,0 +1,23 @@
+Call ID: CALL-20260802-0015
+Date: 2026-08-02T13:41
+Agent: Renee
+Duration: 1m 51s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: Hey, so the water heater pilot light keeps going out. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Jennifer Hernandez, 512-764-3369.
+Agent: Okay, I see the account. Bear with me one second. What day works best for you?
+Customer: As soon as possible if possible, 4 to 7, after work.
+Agent: Bear with me one second. I have a afternoon window Friday, 12 to 4. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

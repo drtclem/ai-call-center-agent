@@ -1,0 +1,22 @@
+Call ID: CALL-20260902-0375
+Date: 2026-09-02T12:03
+Agent: Brian
+Duration: 1m 59s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-40733.
+Agent: Perfect, and can you confirm the name?
+Customer: Priya Ali.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 12 to 4.
+Customer: Take it.
+Agent: Was there anything else?
+Customer: Sorry, you cut out for a second.
+Agent: Sure, go ahead.
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

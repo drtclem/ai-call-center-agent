@@ -1,0 +1,19 @@
+Call ID: CALL-20260724-0113
+Date: 2026-07-24T10:24
+Agent: Marcus
+Duration: 1m 56s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: My system is 18 years old and I'm thinking about replacing it. What would that cost?
+Agent: Replacement pricing depends on the size of the home, ductwork, and efficiency level. We do free in-home estimates with a comfort advisor.
+Customer: Ballpark?
+Agent: Most full system replacements run between $8,000 and $16,000, but I really can't quote without a visit. Want me to set up the estimate?
+Customer: Yeah, let's do that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Beth Diaz, 512-686-7004.
+Agent: I have an advisor available Thursday at 2pm.
+Customer: Works.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

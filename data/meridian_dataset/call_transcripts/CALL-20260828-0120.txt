@@ -1,0 +1,18 @@
+Call ID: CALL-20260828-0120
+Date: 2026-08-28T11:35
+Agent: Jordan
+Duration: 1m 26s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Do you have your account number handy?
+Customer: Um, yeah, it's MHC-37080.
+Agent: Perfect, and can you confirm the name?
+Customer: David Martinez.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

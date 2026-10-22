@@ -1,0 +1,14 @@
+Call ID: CALL-20260728-0089
+Date: 2026-07-28T16:17
+Agent: Marcus
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I manage a 12-unit strip center and I need a quote on replacing four rooftop units.
+Agent: Thanks for calling. Commercial projects are handled by our commercial division. Let me take your info and have an estimator call you.
+Customer: Sure. Angela Smith, 512-367-4166.
+Agent: Got it. Someone will reach out within one business day.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

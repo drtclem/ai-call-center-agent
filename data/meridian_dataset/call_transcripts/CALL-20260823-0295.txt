@@ -1,0 +1,18 @@
+Call ID: CALL-20260823-0295
+Date: 2026-08-23T16:59
+Agent: Jordan
+Duration: 2m 13s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Tom Walker, 512-202-2811.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Um, tomorrow if you can.
+Agent: I have tomorrow 8 to 12.
+Customer: Um, take it.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: Um, you're welcome, have a great day.

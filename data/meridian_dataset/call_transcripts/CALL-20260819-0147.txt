@@ -1,0 +1,21 @@
+Call ID: CALL-20260819-0147
+Date: 2026-08-19T11:25
+Agent: Jordan
+Duration: 1m 46s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Jordan. How may I help?
+Customer: Hi, my thermostat is blank and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Nate Foster, 512-860-3422.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Friday if possible, 8 to 12.
+Agent: Okay, give me just a sec here. I have a morning window Friday, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260811-0369
+Date: 2026-08-11T16:38
+Agent: Eli
+Duration: 1m 57s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: Yeah, I need to schedule a service call. My kitchen sink is backing up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Elena Clark, 7451 Pecan Grove Rd, Kyle.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Next Tuesday if possible, 12 to 4.
+Agent: Let me pull that up. I have a afternoon window Friday, 1 to 5. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the, uh, slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Um, nope, that covers it.
+Agent: Alright, take care.

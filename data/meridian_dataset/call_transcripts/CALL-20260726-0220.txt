@@ -1,0 +1,15 @@
+Call ID: CALL-20260726-0220
+Date: 2026-07-26T18:13
+Agent: Kayla
+Duration: 1m 58s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: I need to cancel my appointment. My brother-in-law ended up fixing it.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Jennifer Rivera, 512-272-4707.
+Agent: Um, no problem. Since it's more than 24 hours out there's no cancellation fee. You're all set.
+Customer: Great.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260822-0212
+Date: 2026-08-22T07:44
+Agent: Renee
+Duration: 2m 36s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: Hi, the furnace won't kick on and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-72691.
+Agent: Perfect, and can you confirm the name?
+Customer: Tom Garcia.
+Agent: Um, okay, I see the account. Let me take a look. What day works best for you?
+Customer: Sometime this week if possible, 12 to 4.
+Agent: Let me pull that up. I have a afternoon window Monday, 1 to 5. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

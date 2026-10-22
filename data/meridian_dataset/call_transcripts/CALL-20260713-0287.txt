@@ -1,0 +1,16 @@
+Call ID: CALL-20260713-0287
+Date: 2026-07-13T14:46
+Agent: Kayla
+Duration: 1m 56s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Let me verify the account. Name and service address?
+Customer: Omar Ali, 6014 Maple St, Georgetown.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

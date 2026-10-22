@@ -1,0 +1,23 @@
+Call ID: CALL-20260715-0061
+Date: 2026-07-15T09:32
+Agent: Tasha
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Tasha. How can I help you today?
+Customer: Yeah, I need to schedule a service call. There's water pooling around the indoor unit.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Victor Ali, 512-567-4087.
+Agent: Okay, I see the account. Bear with me one second. What day works best for you?
+Customer: Monday if possible, 8 to 12.
+Agent: One moment. I have a afternoon window Monday, 1 to 5. Would that work?
+Customer: Yeah, that works.
+Agent: Um, you're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

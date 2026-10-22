@@ -1,0 +1,23 @@
+Call ID: CALL-20260801-0176
+Date: 2026-08-01T12:37
+Agent: Kayla
+Duration: 2m 17s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: Yeah, I need to schedule a service call. I need my annual tune-up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Omar Lee, 2623 Sunset Terrace, Cedar Park.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Next Tuesday if possible, first thing in the morning.
+Agent: One moment. I have a afternoon window tomorrow, 8 to 12. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Um, i think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

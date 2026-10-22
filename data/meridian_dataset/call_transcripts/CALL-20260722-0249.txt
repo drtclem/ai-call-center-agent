@@ -1,0 +1,17 @@
+Call ID: CALL-20260722-0249
+Date: 2026-07-22T10:36
+Agent: Brian
+Duration: 1m 32s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: Did you guys register my new unit with the manufacturer? I never got anything.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Beth Johnson, 512-484-2760.
+Agent: Let me take a look. Yes, we register every install within 30 days. I see it was registered on the 2th. I'll resend the confirmation.
+Customer: Hold on, my dog is barking.
+Agent: No problem, take your time.
+Customer: Thanks.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

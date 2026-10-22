@@ -1,0 +1,20 @@
+Call ID: CALL-20260824-0033
+Date: 2026-08-24T13:09
+Agent: Eli
+Duration: 1m 53s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Um, do you have your account number handy?
+Customer: Yeah, it's MHC-18094.
+Agent: Perfect, and can you confirm the name?
+Customer: Marcus Hernandez.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Um, tomorrow if you can.
+Agent: I have tomorrow 8 to 12.
+Customer: Take it.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

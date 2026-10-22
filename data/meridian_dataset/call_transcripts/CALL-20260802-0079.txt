@@ -1,0 +1,16 @@
+Call ID: CALL-20260802-0079
+Date: 2026-08-02T14:00
+Agent: Eli
+Duration: 1m 3s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: I want to talk to a manager. The tech who came out yesterday was rude, tracked mud through my house, and left without explaining anything.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Jennifer Brown, 512-955-5655.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Um, was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

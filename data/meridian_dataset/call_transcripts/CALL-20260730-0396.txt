@@ -1,0 +1,14 @@
+Call ID: CALL-20260730-0396
+Date: 2026-07-30T18:32
+Agent: Marcus
+Duration: 1m 35s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: I manage a 12-unit strip center and I need a quote on replacing four rooftop units.
+Agent: Thanks for calling. Commercial projects are handled by our commercial division. Let me take your info and have an estimator call you.
+Customer: Sure. Wei Singh, 512-807-4061.
+Agent: Got it. Someone will reach out within one business day.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

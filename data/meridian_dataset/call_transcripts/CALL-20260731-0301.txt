@@ -1,0 +1,15 @@
+Call ID: CALL-20260731-0301
+Date: 2026-07-31T15:42
+Agent: Brian
+Duration: 1m 33s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Brian. How may I help?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Victor Walker, 512-340-5235.
+Agent: Let me take a look. You have an open balance of $1240 on INV-208932, due on the 27th.
+Customer: Okay, I'll pay it through the, uh, portal.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

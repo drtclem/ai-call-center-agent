@@ -1,0 +1,17 @@
+Call ID: CALL-20260915-0303
+Date: 2026-09-15T14:35
+Agent: Kayla
+Duration: 1m 25s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: I got an invoice, INV-203247, for $312 and I'm not sure what it's for.
+Agent: Sure, let me look that up.
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Um, sure, it's Linda Clark, 512-793-5258.
+Agent: Bear with me one second. That's from the service visit on the 17th. It's the diagnostic fee plus the contactor replacement.
+Customer: Oh okay. Can you email me an itemized copy?
+Agent: Absolutely, sending that to the email on file now.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: My pleasure. Bye now.

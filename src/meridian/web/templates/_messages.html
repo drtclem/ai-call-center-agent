@@ -1,0 +1,25 @@
+<li class="msg msg-user"><p class="bubble">{{ text }}</p></li>
+<li class="msg msg-agent">
+  <p class="bubble">{{ turn.reply }}</p>
+  {% if turn.ticket %}
+  <div class="card ticket" role="note" aria-label="Handoff ticket">
+    <p class="card-title">Passed to the Meridian team</p>
+    <p class="card-note">In production this goes to a live agent; here's exactly what they'd receive:</p>
+    <dl>
+      <dt>Reason</dt><dd>{{ turn.ticket.reason.value | replace("_", " ") }}</dd>
+      <dt>Urgency</dt><dd>{{ turn.ticket.urgency }}</dd>
+      <dt>Caller</dt><dd>{{ turn.ticket.customer_id if turn.ticket.verified else "not verified" }}</dd>
+      <dt>Summary</dt><dd>{{ turn.ticket.summary }}</dd>
+      {% if turn.ticket.tried %}<dt>Already tried</dt><dd>{{ turn.ticket.tried }}</dd>{% endif %}
+      {% if turn.ticket.wants %}<dt>Wants</dt><dd>{{ turn.ticket.wants }}</dd>{% endif %}
+    </dl>
+  </div>
+  {% endif %}
+  {% if last and turn.fee_button and conv.sched.pending_fee %}
+  <form id="consent" class="card consent" method="post" action="/chat/consent" hx-post="/chat/consent" hx-target="#messages" hx-swap="beforeend" hx-indicator=".chat" hx-disabled-elt="find button">
+    <p class="card-title">Late-change fee</p>
+    <button class="button" type="submit">{{ turn.fee_button }}</button>
+    <p class="card-note">Or type "I agree". Anything else leaves your visit as it is.</p>
+  </form>
+  {% endif %}
+</li>

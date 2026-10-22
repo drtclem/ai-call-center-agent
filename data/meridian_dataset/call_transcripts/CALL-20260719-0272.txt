@@ -1,0 +1,16 @@
+Call ID: CALL-20260719-0272
+Date: 2026-07-19T12:36
+Agent: Eli
+Duration: 1m 50s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Eli. How can I help you today?
+Customer: I need to pay invoice INV-227252. Can I do it over the phone?
+Agent: Um, we don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Let me verify the account. Name and service address?
+Customer: Aisha Lee, 786 Sunset Terrace, Round Rock.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

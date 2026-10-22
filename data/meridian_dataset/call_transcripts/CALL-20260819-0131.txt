@@ -1,0 +1,15 @@
+Call ID: CALL-20260819-0131
+Date: 2026-08-19T09:11
+Agent: Kayla
+Duration: 0m 55s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: What's my current balance?
+Agent: Let me verify the account. Name and service address?
+Customer: Um, wei Baker, 481 Lakeshore Blvd, Kyle.
+Agent: One moment. You have an open balance of $1240 on INV-241599, due on the 4th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: Um, you're welcome, have a great day.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260813-0398
+Date: 2026-08-13T14:19
+Agent: Renee
+Duration: 2m 34s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: Hi, my AC isn't cooling and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Carlos Singh, 512-520-3776.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Sometime this week if possible, the afternoon.
+Agent: Bear with me one second. I have a morning window tomorrow, 12 to 4. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

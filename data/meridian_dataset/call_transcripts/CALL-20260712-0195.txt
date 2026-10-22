@@ -1,0 +1,17 @@
+Call ID: CALL-20260712-0195
+Date: 2026-07-12T10:08
+Agent: Tasha
+Duration: 1m 3s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Tasha. How may I help?
+Customer: Did you guys register my new unit with the manufacturer? I never got anything.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-26784.
+Agent: Perfect, and can you confirm the name?
+Customer: Um, linda Kim.
+Agent: Okay, give me just a sec here. Yes, we register every install within 30 days. I see it was registered on the 22th. I'll resend the confirmation.
+Customer: Thanks.
+Agent: Anything else today?
+Customer: Um, nope, that covers it.
+Agent: Alright, take care.

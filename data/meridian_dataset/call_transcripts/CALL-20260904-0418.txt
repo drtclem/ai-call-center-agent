@@ -1,0 +1,23 @@
+Call ID: CALL-20260904-0418
+Date: 2026-09-04T08:53
+Agent: Jordan
+Duration: 1m 58s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Hi, I smell something burning from the vents and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-11487.
+Agent: Perfect, and can you confirm the name?
+Customer: Kim Garcia.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: This Saturday if possible, 4 to 7, after work.
+Agent: Let me pull that up. I have a afternoon window tomorrow, 1 to 5. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Um, yep, same one.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

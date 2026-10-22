@@ -1,0 +1,21 @@
+Call ID: CALL-20260720-0292
+Date: 2026-07-20T09:12
+Agent: Jordan
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Jordan. How can I help you today?
+Customer: My Carrier compressor died and the system is only three years old. Is that under warranty?
+Agent: Can I get your name and the phone number on the account?
+Customer: Hold on, my dog is barking.
+Agent: Sure, go ahead.
+Customer: Sure, it's Sofia Clark, 512-565-4025.
+Agent: Bear with me one second. Your system was installed 3 years ago. Carrier parts are covered 10 years if registered, which yours is. So the compressor part is covered. Labor is covered for 2 years through us, so labor would be billable.
+Customer: Can you hear me okay?
+Agent: No problem, take your time.
+Customer: How much is labor on a compressor?
+Agent: Typically $600 to $900 depending on the unit. The tech will quote exact before starting.
+Customer: Okay. Let's schedule it then.
+Agent: Um, anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

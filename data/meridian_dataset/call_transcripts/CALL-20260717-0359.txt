@@ -1,0 +1,16 @@
+Call ID: CALL-20260717-0359
+Date: 2026-07-17T11:42
+Agent: Jordan
+Duration: 1m 47s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Jordan. How may I help?
+Customer: Um, i need to pay invoice INV-205121. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Can I get your name and the, uh, phone number on the account?
+Customer: Um, sure, it's Luis Okafor, 512-533-4775.
+Agent: Um, sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Anything else today?
+Customer: Um, nope, that covers it.
+Agent: Alright, take care.

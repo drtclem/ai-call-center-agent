@@ -1,0 +1,18 @@
+Call ID: CALL-20260816-0106
+Date: 2026-08-16T17:06
+Agent: Marcus
+Duration: 2m 3s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Um, let me verify the account. Name and service address?
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: Raj Lopez, 6845 Sunset Terrace, Buda.
+Agent: One moment. Your term ends on the 24th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Anything else I can do for you?
+Customer: Um, no that's everything.
+Agent: Okay, thanks for calling Meridian.

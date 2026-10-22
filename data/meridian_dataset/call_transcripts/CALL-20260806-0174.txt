@@ -1,0 +1,18 @@
+Call ID: CALL-20260806-0174
+Date: 2026-08-06T18:57
+Agent: Brian
+Duration: 1m 55s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Brian here. What's going on today?
+Customer: Can I upgrade from the, uh, regular plan to the Plus plan mid-year?
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Sure, it's Tom Baker, 512-529-4811.
+Agent: Yes. We prorate the, uh, difference for the remaining months. For you that'd be about $36 today.
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: Let's do it.
+Agent: You're upgraded. I'll send a payment link for the prorated amount.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: My pleasure. Bye now.

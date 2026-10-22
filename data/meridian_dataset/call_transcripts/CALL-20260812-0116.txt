@@ -1,0 +1,23 @@
+Call ID: CALL-20260812-0116
+Date: 2026-08-12T14:29
+Agent: Marcus
+Duration: 2m 20s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: Hey, so my kitchen sink is backing up. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Raj Nguyen, 9444 Pecan Grove Rd, Hutto.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Thursday if possible, 12 to 4.
+Agent: Bear with me one second. I have a morning window Monday, 12 to 4. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

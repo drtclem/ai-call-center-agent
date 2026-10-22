@@ -1,0 +1,22 @@
+Call ID: CALL-20260829-0049
+Date: 2026-08-29T12:04
+Agent: Kayla
+Duration: 2m 15s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: I have a tech coming tomorrow but something came up. Can I move it?
+Agent: Um, let me verify the account. Name and service address?
+Customer: Sorry, I'm driving, one sec.
+Agent: No problem, take your time.
+Customer: Omar Nguyen, 4556 Sunset Terrace, Cedar Park.
+Agent: Okay, give me just a sec here. I see the appointment tomorrow 12 to 4. What day works instead?
+Customer: Friday?
+Agent: I can do Monday 8 to 12.
+Customer: Perfect.
+Agent: Um, moved. New confirmation text is on its way.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: My pleasure. Bye now.

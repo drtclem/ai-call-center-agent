@@ -1,0 +1,23 @@
+Call ID: CALL-20260713-0075
+Date: 2026-07-13T13:35
+Agent: Jordan
+Duration: 2m 43s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Um, yeah, I need to schedule a service call. I smell something burning from the vents.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-35525.
+Agent: Perfect, and can you confirm the name?
+Customer: Um, derek Ali.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Monday if possible, 4 to 7, after work.
+Agent: Bear with me one second. I have a morning window Thursday, 8 to 12. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: My pleasure. Bye now.

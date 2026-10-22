@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="htmx-config" content='{"includeIndicatorStyles": false, "allowEval": false, "allowScriptTags": false, "selfRequestsOnly": true, "responseHandling": [{"code": "204", "swap": false}, {"code": "[23]..", "swap": true}, {"code": "5..", "swap": true, "error": true}, {"code": "...", "swap": false}]}'>
+  <title>{% block title %}Meridian Home Comfort{% endblock %}</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/htmx-2.0.4.min.js" defer></script>
+  <script src="/static/composer.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span>Meridian Home Comfort</div>
+    {% block header_extra %}{% endblock %}
+  </header>
+  <main id="main">{% block main %}{% endblock %}</main>
+</body>
+</html>

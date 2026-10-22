@@ -1,0 +1,11 @@
+#!/bin/sh
+# Conventional Commits subject line. Body and trailers are not checked.
+set -eu
+
+subject=$(head -n 1 "$1")
+if printf '%s\n' "$subject" | grep -Eq '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z0-9._/-]+\))?(!)?: .+$'; then
+  exit 0
+fi
+
+echo "Commit subject must be Conventional Commits: type(scope): summary" >&2
+exit 1

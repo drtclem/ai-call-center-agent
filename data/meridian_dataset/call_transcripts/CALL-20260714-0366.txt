@@ -1,0 +1,13 @@
+Call ID: CALL-20260714-0366
+Date: 2026-07-14T10:53
+Agent: Brian
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Brian here. What's going on today?
+Customer: Hi, are you guys hiring HVAC techs? I saw a posting.
+Agent: We are. Applications go through the careers page on our website. I can't take applications over the phone, but I'll pass along that you called.
+Customer: Okay, I'll apply online.
+Agent: Um, anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

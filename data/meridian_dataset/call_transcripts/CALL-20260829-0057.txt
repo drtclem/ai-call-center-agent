@@ -1,0 +1,16 @@
+Call ID: CALL-20260829-0057
+Date: 2026-08-29T09:12
+Agent: Marcus
+Duration: 2m 6s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: Hold on, my dog is barking.
+Agent: No problem, take your time.
+Customer: It's 6928 Ridgeline Pass, Cedar Park.
+Agent: Let me pull that up. I see a Lennox installed there. I'll email you the manufacturer transfer form.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

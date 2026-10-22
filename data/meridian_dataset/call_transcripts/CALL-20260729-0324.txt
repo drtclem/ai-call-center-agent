@@ -1,0 +1,16 @@
+Call ID: CALL-20260729-0324
+Date: 2026-07-29T16:57
+Agent: Denise
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Wei Garcia, 512-492-1862.
+Agent: Bear with me one second. Repairs carry a 1 year labor warranty on the same part. March is within that, so there's no charge for the return visit if it's the same failure.
+Customer: Good. Can you get someone out?
+Agent: Yes, let me book that as a warranty recall so there's no fee.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

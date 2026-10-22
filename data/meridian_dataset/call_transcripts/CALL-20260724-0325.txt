@@ -1,0 +1,17 @@
+Call ID: CALL-20260724-0325
+Date: 2026-07-24T09:11
+Agent: Jordan
+Duration: 1m 11s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Jordan. How may I help?
+Customer: I need to cancel my appointment. My brother-in-law ended up fixing it.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-35427.
+Agent: Perfect, and can you confirm the, uh, name?
+Customer: Beth Foster.
+Agent: No problem. Since it's more than 24 hours out there's no cancellation fee. You're all set.
+Customer: Great.
+Agent: Um, is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

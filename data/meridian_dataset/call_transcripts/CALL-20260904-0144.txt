@@ -1,0 +1,16 @@
+Call ID: CALL-20260904-0144
+Date: 2026-09-04T14:13
+Agent: Tasha
+Duration: 1m 27s
+Direction: Inbound
+
+Agent: Um, meridian Home Comfort, Tasha speaking. What can I do for you?
+Customer: Can I upgrade from the regular plan to the Plus plan mid-year?
+Agent: Um, let me verify the account. Name and service address?
+Customer: Carlos Kim, 7999 Cedar Ridge Ln, Hutto.
+Agent: Yes. We prorate the difference for the remaining months. For you that'd be about $54 today.
+Customer: Let's do it.
+Agent: You're upgraded. I'll send a payment link for the prorated amount.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

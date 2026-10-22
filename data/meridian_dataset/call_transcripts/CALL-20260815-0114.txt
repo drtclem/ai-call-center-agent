@@ -1,0 +1,18 @@
+Call ID: CALL-20260815-0114
+Date: 2026-08-15T14:16
+Agent: Renee
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Let me verify the account. Name and service address?
+Customer: Um, david Singh, 3915 Pecan Grove Rd, Buda.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 12 to 4.
+Customer: Take it.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

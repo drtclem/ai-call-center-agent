@@ -1,0 +1,14 @@
+Call ID: CALL-20260816-0389
+Date: 2026-08-16T10:40
+Agent: Brian
+Duration: 1m 39s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Brian here. What's going on today?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: It's 184 Harbor View Way, Kyle.
+Agent: Bear with me one second. I see a Trane installed there. I'll email you the manufacturer transfer form.
+Agent: Is there anything else I can help you with?
+Customer: Um, no, that's it. Thanks.
+Agent: You're welcome, have a great day.

@@ -1,0 +1,21 @@
+Call ID: CALL-20260814-0420
+Date: 2026-08-14T09:56
+Agent: Jordan
+Duration: 2m 23s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: Um, hey, so there's water pooling around the indoor unit. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Victor Hernandez, 512-885-1070.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Sometime this week if possible, the afternoon.
+Agent: One moment. I have a morning window tomorrow, 12 to 4. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

@@ -1,0 +1,18 @@
+Call ID: CALL-20260710-0364
+Date: 2026-07-10T19:37
+Agent: Tasha
+Duration: 1m 16s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Tasha here. What's going on today?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-18489.
+Agent: Perfect, and can you confirm the name?
+Customer: Jennifer Lee.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

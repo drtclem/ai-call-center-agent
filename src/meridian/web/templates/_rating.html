@@ -1,0 +1,9 @@
+<div id="rating" class="rating" {% if oob %}hx-swap-oob="true"{% endif %}>
+  {% if (turns or text) and not conv.closed %}
+  <form method="post" action="/chat/rate" hx-post="/chat/rate" hx-target="#rating" hx-swap="innerHTML">
+    <span>Was this helpful?</span>
+    <button class="icon-button" type="submit" name="rating" value="up" aria-label="Helpful">👍</button>
+    <button class="icon-button" type="submit" name="rating" value="down" aria-label="Not helpful">👎</button>
+  </form>
+  {% endif %}
+</div>

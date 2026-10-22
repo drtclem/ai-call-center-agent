@@ -1,0 +1,16 @@
+Call ID: CALL-20260908-0017
+Date: 2026-09-08T11:01
+Agent: Renee
+Duration: 1m 43s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Hannah Walker, 512-379-4289.
+Agent: I can help with that. Just so you know, the, uh, plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

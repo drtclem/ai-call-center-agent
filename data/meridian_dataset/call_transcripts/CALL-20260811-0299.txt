@@ -1,0 +1,17 @@
+Call ID: CALL-20260811-0299
+Date: 2026-08-11T13:17
+Agent: Kayla
+Duration: 1m 32s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: The tech quoted me $89 and the invoice says $149. That's not what I agreed to.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Luis Kim, 512-393-7230.
+Agent: Let me take a look. I see the quote and the invoice. The difference is the disposal fee which wasn't on the verbal quote.
+Customer: Nobody told me about that.
+Agent: I understand. I'll flag this for a billing supervisor to review and they'll call you back within one business day.
+Customer: Fine.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

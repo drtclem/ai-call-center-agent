@@ -1,0 +1,23 @@
+Call ID: CALL-20260919-0402
+Date: 2026-09-19T14:05
+Agent: Brian
+Duration: 2m 31s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Brian. How may I help?
+Customer: Yeah, I need to schedule a service call. The AC is making a loud grinding noise.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Kim Cruz, 512-343-6441.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Friday if possible, 8 to 12.
+Agent: Okay, give me just a sec here. I have a afternoon window tomorrow, 12 to 4. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

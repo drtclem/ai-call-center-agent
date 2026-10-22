@@ -1,0 +1,20 @@
+Call ID: CALL-20260730-0306
+Date: 2026-07-30T11:36
+Agent: Kayla
+Duration: 2m 0s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: I've called three times about the same problem and nobody has called me back. I'm done.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-35117.
+Agent: Perfect, and can you confirm the name?
+Customer: Jennifer Foster.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Sorry, you cut out for a second.
+Agent: Sure, go ahead.
+Customer: Today. Not next week.
+Agent: Um, today. I've marked it urgent.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

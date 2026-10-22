@@ -1,0 +1,11 @@
+Call ID: CALL-20260728-0264
+Date: 2026-07-28T14:20
+Agent: Denise
+Duration: 1m 5s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Denise here. What's going on today?
+Customer: I smell gas near my furnace.
+Agent: Um, okay, first thing: if you smell gas or your CO detector is going off, leave the house right now and call your gas utility or 911 from outside. Don't flip any switches.
+Customer: Okay, we're going outside.
+Agent: Good. Once it's safe, call us back and we'll get an emergency tech dispatched. I'm putting a priority note on your account now.

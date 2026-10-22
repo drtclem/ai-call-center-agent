@@ -1,0 +1,25 @@
+Call ID: CALL-20260912-0361
+Date: 2026-09-12T16:27
+Agent: Marcus
+Duration: 2m 9s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: Hey, so I need my annual tune-up. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-28446.
+Agent: Perfect, and can you confirm the, uh, name?
+Customer: Sorry, I'm driving, one sec.
+Agent: Sure, go ahead.
+Customer: Marcus Hernandez.
+Agent: Okay, I see the account. Bear with me one second. What day works best for you?
+Customer: Um, thursday if possible, first thing in the morning.
+Agent: Let me pull that up. I have a afternoon window Friday, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

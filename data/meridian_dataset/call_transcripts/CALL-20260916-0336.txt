@@ -1,0 +1,21 @@
+Call ID: CALL-20260916-0336
+Date: 2026-09-16T08:57
+Agent: Eli
+Duration: 2m 27s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Eli. How can I help you today?
+Customer: I'm calling to book a repair, the furnace won't kick on.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Marcus Hernandez, 3961 Lakeshore Blvd, Kyle.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Sometime this week if possible, 8 to 12.
+Agent: Let me pull that up. I have a morning window Monday, 8 to 12. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the, uh, morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Um, alright, take care.

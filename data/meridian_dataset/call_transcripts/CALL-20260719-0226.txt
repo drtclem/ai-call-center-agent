@@ -1,0 +1,19 @@
+Call ID: CALL-20260719-0226
+Date: 2026-07-19T12:21
+Agent: Marcus
+Duration: 1m 35s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: Sure, it's Sofia Rivera, 512-297-3760.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

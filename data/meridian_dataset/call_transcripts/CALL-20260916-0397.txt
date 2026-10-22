@@ -1,0 +1,15 @@
+Call ID: CALL-20260916-0397
+Date: 2026-09-16T15:49
+Agent: Tasha
+Duration: 1m 4s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Tasha. How can I help you today?
+Customer: How much is the maintenance plan?
+Agent: The Comfort Club is $189 a year for a single system, or $16.99 monthly. Plus is $269 and adds plumbing coverage.
+Customer: I thought it was $149?
+Agent: That was the old pricing. It changed at the start of the year. Existing members keep their rate until renewal.
+Customer: Hm. Okay.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

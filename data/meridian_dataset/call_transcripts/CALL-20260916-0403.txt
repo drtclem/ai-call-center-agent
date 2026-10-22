@@ -1,0 +1,16 @@
+Call ID: CALL-20260916-0403
+Date: 2026-09-16T07:36
+Agent: Kayla
+Duration: 1m 53s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: I manage a 12-unit strip center and I need a quote on replacing four rooftop units.
+Agent: Thanks for calling. Commercial projects are handled by our commercial division. Let me take your info and have an estimator call you.
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: Sure. Luis Thompson, 512-776-6118.
+Agent: Got it. Someone will reach out within one business day.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

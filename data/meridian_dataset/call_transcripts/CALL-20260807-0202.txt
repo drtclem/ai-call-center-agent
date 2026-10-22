@@ -1,0 +1,19 @@
+Call ID: CALL-20260807-0202
+Date: 2026-08-07T15:20
+Agent: Kayla
+Duration: 1m 51s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-32621.
+Agent: Um, perfect, and can you confirm the name?
+Customer: Robert Okafor.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

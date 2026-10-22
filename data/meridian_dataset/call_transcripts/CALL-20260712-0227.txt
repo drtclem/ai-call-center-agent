@@ -1,0 +1,22 @@
+Call ID: CALL-20260712-0227
+Date: 2026-07-12T16:53
+Agent: Jordan
+Duration: 1m 34s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-72970.
+Agent: Perfect, and can you confirm the name?
+Customer: Luis Ali.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 8 to 12.
+Customer: Take it.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

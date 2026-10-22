@@ -1,0 +1,14 @@
+Call ID: CALL-20260722-0161
+Date: 2026-07-22T11:45
+Agent: Jordan
+Duration: 1m 54s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Jordan. How may I help?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: It's 4682 Maple St, Leander.
+Agent: One moment. I see a Carrier installed there. I'll email you the manufacturer transfer form.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

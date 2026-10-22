@@ -1,0 +1,18 @@
+Call ID: CALL-20260902-0386
+Date: 2026-09-02T17:16
+Agent: Brian
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-16403.
+Agent: Perfect, and can you confirm the name?
+Customer: James Lee.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

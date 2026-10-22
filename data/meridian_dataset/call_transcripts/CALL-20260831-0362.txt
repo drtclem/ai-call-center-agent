@@ -1,0 +1,17 @@
+Call ID: CALL-20260831-0362
+Date: 2026-08-31T14:58
+Agent: Brian
+Duration: 2m 11s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: I think I got charged twice. There are two $312 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Let me verify the account. Name and service address?
+Customer: Susan Chen, 5104 Maple St, Pflugerville.
+Agent: One moment. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the, uh, processor.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

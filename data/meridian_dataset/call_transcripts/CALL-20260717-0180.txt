@@ -1,0 +1,11 @@
+Call ID: CALL-20260717-0180
+Date: 2026-07-17T09:36
+Agent: Kayla
+Duration: 1m 34s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: There are sparks coming from the outdoor unit.
+Agent: Um, okay, first thing: if you smell gas or your CO detector is going off, leave the house right now and call your gas utility or 911 from outside. Don't flip any switches.
+Customer: Okay, we're going outside.
+Agent: Um, good. Once it's safe, call us back and we'll get an emergency tech dispatched. I'm putting a priority note on your account now.

@@ -1,0 +1,16 @@
+Call ID: CALL-20260729-0041
+Date: 2026-07-29T14:43
+Agent: Kayla
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: I want to talk to a manager. The tech who came out yesterday was rude, tracked mud through my house, and left without explaining anything.
+Agent: Let me verify the account. Name and service address?
+Customer: Patricia Foster, 7663 Brookside Ct, Buda.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

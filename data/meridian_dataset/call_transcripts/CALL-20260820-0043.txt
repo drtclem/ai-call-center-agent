@@ -1,0 +1,18 @@
+Call ID: CALL-20260820-0043
+Date: 2026-08-20T08:46
+Agent: Renee
+Duration: 1m 53s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: I need to pay invoice INV-276939. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Let me verify the account. Name and service address?
+Customer: Carlos Okafor, 4398 Harbor View Way, Hutto.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Was there anything else?
+Customer: Hold on, my dog is barking.
+Agent: No problem, take your time.
+Customer: Um, that's all, thank you so much.
+Agent: My pleasure. Bye now.

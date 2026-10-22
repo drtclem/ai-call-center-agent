@@ -1,0 +1,15 @@
+Call ID: CALL-20260710-0136
+Date: 2026-07-10T11:40
+Agent: Renee
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: I want a full refund on the repair. It didn't fix anything and I had to call another company.
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Michael Lee, 512-798-8140.
+Agent: I understand your frustration. Refund requests go to our billing supervisor for review. I'll open a case and you'll hear back within two business days.
+Customer: I'd better.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

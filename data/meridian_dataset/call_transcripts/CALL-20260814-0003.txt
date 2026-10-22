@@ -1,0 +1,23 @@
+Call ID: CALL-20260814-0003
+Date: 2026-08-14T13:08
+Agent: Eli
+Duration: 2m 22s
+Direction: Inbound
+
+Agent: Um, hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: Yeah, I need to schedule a service call. My AC isn't cooling.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-66985.
+Agent: Perfect, and can you confirm the name?
+Customer: Sofia Lopez.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: This Saturday if possible, 4 to 7, after work.
+Agent: Bear with me one second. I have a morning window Friday, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

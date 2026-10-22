@@ -1,0 +1,17 @@
+Call ID: CALL-20260822-0343
+Date: 2026-08-22T12:01
+Agent: Jordan
+Duration: 1m 49s
+Direction: Inbound
+
+Agent: Um, hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Did you guys register my new unit with the manufacturer? I never got anything.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-28706.
+Agent: Perfect, and can you confirm the name?
+Customer: Hannah Lee.
+Agent: Bear with me one second. Yes, we register every install within 30 days. I see it was registered on the 3th. I'll resend the confirmation.
+Customer: Thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Um, okay, thanks for calling Meridian.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260910-0400
+Date: 2026-09-10T18:37
+Agent: Eli
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: Yeah, I need to schedule a service call. The AC runs but the air is warm.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: Jennifer Nguyen, 2625 Brookside Ct, Kyle.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Tomorrow if possible, 4 to 7, after work.
+Agent: Okay, give me just a sec here. I have a afternoon window Friday, 8 to 12. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

@@ -1,0 +1,21 @@
+Call ID: CALL-20260724-0337
+Date: 2026-07-24T16:48
+Agent: Marcus
+Duration: 1m 27s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: My system is 18 years old and I'm thinking about replacing it. What would that cost?
+Agent: Replacement pricing depends on the size of the home, ductwork, and efficiency level. We do free in-home estimates with a comfort advisor.
+Customer: Ballpark?
+Agent: Most full system replacements run between $8,000 and $16,000, but I really can't quote without a visit. Want me to set up the estimate?
+Customer: Yeah, let's do that.
+Agent: Um, do you have your account number handy?
+Customer: Yeah, it's MHC-30966.
+Agent: Perfect, and can you confirm the name?
+Customer: Angela Martinez.
+Agent: I have an advisor available Saturday at 2pm.
+Customer: Works.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

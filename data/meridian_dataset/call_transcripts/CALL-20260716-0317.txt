@@ -1,0 +1,18 @@
+Call ID: CALL-20260716-0317
+Date: 2026-07-16T16:19
+Agent: Kayla
+Duration: 1m 23s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing.
+Agent: Let me verify the account. Name and service address?
+Customer: Beth Brown, 6532 Harbor View Way, Buda.
+Agent: One moment. Repairs carry a 1 year labor warranty on the same part. March is within that, so there's no charge for the return visit if it's the same failure.
+Customer: Good. Can you get someone out?
+Agent: Um, yes, let me book that as a warranty recall so there's no fee.
+Agent: Um, anything else today?
+Customer: Sorry, I'm driving, one sec.
+Agent: Sure, go ahead.
+Customer: Nope, that covers it.
+Agent: Alright, take care.

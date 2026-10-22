@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Chat with Meridian's virtual assistant{% endblock %}
+{% block header_extra %}
+<form method="post" action="/chat/new"><button class="link-button" type="submit">New chat</button></form>
+{% endblock %}
+{% block main %}
+{% if unavailable %}
+<section class="notice notice-alert" role="status"><p>Our virtual assistant is unavailable right now. Please try again later or contact Meridian by phone during business hours.</p></section>
+{% endif %}
+<section class="notice" aria-label="About this demo">
+  <p><strong>Demo date: {{ demo_date }}</strong> (per Meridian's dataset). This is a demo with fictional customer data; please don't enter real personal information.</p>
+</section>
+<section class="chat" aria-label="Conversation">
+  <ol id="messages" class="messages" aria-live="polite">
+    <li class="msg msg-agent"><p class="bubble">{{ greeting }}</p></li>
+    {% for text, turn in turns %}
+      {% with last = loop.last %}{% include "_messages.html" %}{% endwith %}
+    {% endfor %}
+  </ol>
+  <p class="typing" aria-hidden="true">Assistant is typing…</p>
+  {% include "_composer.html" %}
+  {% include "_rating.html" %}
+</section>
+{% endblock %}

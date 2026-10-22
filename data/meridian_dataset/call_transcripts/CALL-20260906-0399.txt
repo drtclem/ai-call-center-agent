@@ -1,0 +1,23 @@
+Call ID: CALL-20260906-0399
+Date: 2026-09-06T09:12
+Agent: Kayla
+Duration: 2m 44s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: Hi, the furnace won't kick on and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-59939.
+Agent: Perfect, and can you confirm the name?
+Customer: Susan Okafor.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Friday if possible, 4 to 7, after work.
+Agent: Bear with me one second. I have a afternoon window Monday, 8 to 12. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

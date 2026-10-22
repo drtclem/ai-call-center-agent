@@ -1,0 +1,18 @@
+Call ID: CALL-20260903-0026
+Date: 2026-09-03T10:29
+Agent: Brian
+Duration: 1m 38s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: I have a tech coming tomorrow but something came up. Can I move it?
+Agent: Um, let me verify the account. Name and service address?
+Customer: Patricia Ali, 6118 Sunset Terrace, Leander.
+Agent: Let me take a look. I see the appointment tomorrow 8 to 12. What day works instead?
+Customer: Any afternoon this week.
+Agent: I can do Monday 1 to 5.
+Customer: Perfect.
+Agent: Moved. New confirmation text is on its way.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

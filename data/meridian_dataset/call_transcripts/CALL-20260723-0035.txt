@@ -1,0 +1,18 @@
+Call ID: CALL-20260723-0035
+Date: 2026-07-23T14:36
+Agent: Kayla
+Duration: 1m 17s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: I need to pay invoice INV-253511. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Let me verify the account. Name and service address?
+Customer: Um, derek Foster, 868 Lakeshore Blvd, Kyle.
+Agent: Sent. You should have it now.
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: Got it. Thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

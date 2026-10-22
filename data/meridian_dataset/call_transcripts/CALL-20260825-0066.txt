@@ -1,0 +1,17 @@
+Call ID: CALL-20260825-0066
+Date: 2026-08-25T09:35
+Agent: Denise
+Duration: 1m 30s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I got an invoice, INV-287851, for $89 and I'm not sure what it's for.
+Agent: Sure, let me look that up.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Sofia Murphy, 512-746-5684.
+Agent: Bear with me one second. That's from the service visit on the 25th. It's the diagnostic fee plus the refrigerant recharge.
+Customer: Oh okay. Can you email me an itemized copy?
+Agent: Absolutely, sending that to the email on file now.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

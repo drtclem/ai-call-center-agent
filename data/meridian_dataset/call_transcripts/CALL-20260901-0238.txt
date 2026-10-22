@@ -1,0 +1,17 @@
+Call ID: CALL-20260901-0238
+Date: 2026-09-01T14:46
+Agent: Marcus
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I think I got charged twice. There are two $189 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Let me verify the account. Name and service address?
+Customer: Kim Thompson, 8143 Harbor View Way, Leander.
+Agent: One moment. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

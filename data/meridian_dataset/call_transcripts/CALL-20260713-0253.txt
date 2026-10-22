@@ -1,0 +1,16 @@
+Call ID: CALL-20260713-0253
+Date: 2026-07-13T10:09
+Agent: Tasha
+Duration: 1m 37s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Tasha. How may I help?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Let me verify the account. Name and service address?
+Customer: Grace Patel, 9927 Lakeshore Blvd, Leander.
+Agent: Okay, give me just a sec here. Your term ends on the 10th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

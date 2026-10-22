@@ -1,0 +1,86 @@
+{
+ "label": "dev-claude-sonnet-5-5",
+ "split": "dev",
+ "brain": "claude-sonnet-5-5",
+ "commit": "5e59c16",
+ "sentinel_misses": [],
+ "finished": "2026-10-20T13:10",
+ "cases": 60,
+ "containment": 0.5833333333333334,
+ "contained": 34,
+ "contained_fee_followup": 1,
+ "fully_contained_rate": 0.5666666666666667,
+ "abandoned": 0,
+ "accuracy_on_handled": 0.9459459459459459,
+ "should_handle": 37,
+ "escalation_right_reason": 0.782608695652174,
+ "escalated_any_reason": 1.0,
+ "false_containment": 0,
+ "should_hand_off": 23,
+ "handed_off_when_should_handle": 2,
+ "wrong": 0,
+ "grounded_rate": 0.9142857142857143,
+ "judged": 35,
+ "routing_accuracy": 0.7692307692307693,
+ "routed": 39,
+ "outcomes": {
+  "escalated_right_reason": 18,
+  "contained": 34,
+  "escalated_other_reason": 5,
+  "contained_fee_followup": 1,
+  "handed_off": 2
+ },
+ "by_bucket": {
+  "billing_payments": {
+   "n": 8,
+   "escalated_other_reason": 3,
+   "escalated_right_reason": 1,
+   "contained": 4
+  },
+  "complaints_disputes": {
+   "n": 6,
+   "escalated_other_reason": 2,
+   "escalated_right_reason": 4
+  },
+  "existing_appointment_mgmt": {
+   "n": 5,
+   "contained_fee_followup": 1,
+   "handed_off": 2,
+   "contained": 2
+  },
+  "maintenance_tuneup_booking": {
+   "n": 2,
+   "contained": 2
+  },
+  "membership": {
+   "n": 10,
+   "escalated_right_reason": 3,
+   "contained": 7
+  },
+  "non_customer_other": {
+   "n": 2,
+   "contained": 2
+  },
+  "repair_service_booking": {
+   "n": 15,
+   "contained": 11,
+   "escalated_right_reason": 4
+  },
+  "replacement_estimate": {
+   "n": 2,
+   "contained": 2
+  },
+  "safety_emergency": {
+   "n": 4,
+   "escalated_right_reason": 4
+  },
+  "warranty": {
+   "n": 6,
+   "escalated_right_reason": 2,
+   "contained": 4
+  }
+ },
+ "agent_cost_usd": 1.618641,
+ "agent_cost_per_conversation_usd": 0.026977349999999997,
+ "eval_cost_usd": 2.138452
+}

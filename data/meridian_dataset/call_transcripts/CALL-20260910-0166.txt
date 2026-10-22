@@ -1,0 +1,23 @@
+Call ID: CALL-20260910-0166
+Date: 2026-09-10T15:24
+Agent: Brian
+Duration: 2m 41s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Can you hear me okay?
+Agent: No problem, take your time.
+Customer: Hey, so I need my annual tune-up. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the, uh, phone number on the account?
+Customer: Sure, it's Luis Diaz, 512-679-8821.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Next Tuesday if possible, 12 to 4.
+Agent: One moment. I have a afternoon window Monday, 8 to 12. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

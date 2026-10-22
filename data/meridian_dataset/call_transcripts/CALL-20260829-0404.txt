@@ -1,0 +1,15 @@
+Call ID: CALL-20260829-0404
+Date: 2026-08-29T08:24
+Agent: Renee
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: I'm a member. Do I get a discount on a new system?
+Agent: Members get 15 percent off repairs. On full system replacements it's a flat $500 off plus the extended labor warranty.
+Customer: Okay good to know.
+Agent: Is there anything else I can help you with?
+Customer: Hold on, my dog is barking.
+Agent: No problem, take your time.
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

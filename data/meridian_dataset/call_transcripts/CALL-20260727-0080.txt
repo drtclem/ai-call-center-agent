@@ -1,0 +1,15 @@
+Call ID: CALL-20260727-0080
+Date: 2026-07-27T12:04
+Agent: Jordan
+Duration: 1m 3s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Omar Walker, 512-499-4788.
+Agent: Let me pull that up. You have an open balance of $1240 on INV-257292, due on the 23th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

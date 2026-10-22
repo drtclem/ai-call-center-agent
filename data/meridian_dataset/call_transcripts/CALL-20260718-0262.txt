@@ -1,0 +1,16 @@
+Call ID: CALL-20260718-0262
+Date: 2026-07-18T16:05
+Agent: Marcus
+Duration: 1m 56s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I need to pay invoice INV-299189. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Carlos Kim, 512-734-9762.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

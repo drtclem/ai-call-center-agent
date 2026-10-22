@@ -1,0 +1,20 @@
+Call ID: CALL-20260827-0084
+Date: 2026-08-27T10:38
+Agent: Renee
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-31864.
+Agent: Perfect, and can you confirm the, uh, name?
+Customer: Omar Reyes.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 12 to 4.
+Customer: Take it.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

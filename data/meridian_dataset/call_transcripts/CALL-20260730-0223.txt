@@ -1,0 +1,16 @@
+Call ID: CALL-20260730-0223
+Date: 2026-07-30T07:14
+Agent: Eli
+Duration: 1m 54s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: I've called three times about the same problem and nobody has called me back. I'm done.
+Agent: Let me verify the account. Name and service address?
+Customer: Nate Thompson, 6600 Maple St, Kyle.
+Agent: Um, i'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

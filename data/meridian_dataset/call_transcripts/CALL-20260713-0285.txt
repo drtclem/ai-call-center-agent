@@ -1,0 +1,15 @@
+Call ID: CALL-20260713-0285
+Date: 2026-07-13T10:16
+Agent: Brian
+Duration: 1m 5s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Sorry, I'm driving, one sec.
+Agent: Sure, go ahead.
+Customer: I'm a member. Do I get a discount on a new system?
+Agent: Members get 15 percent off repairs. On full system replacements it's a flat $500 off plus the extended labor warranty.
+Customer: Okay good to know.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: My pleasure. Bye now.

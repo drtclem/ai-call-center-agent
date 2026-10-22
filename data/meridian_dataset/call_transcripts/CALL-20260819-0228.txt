@@ -1,0 +1,14 @@
+Call ID: CALL-20260819-0228
+Date: 2026-08-19T18:01
+Agent: Marcus
+Duration: 1m 28s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: I manage a 12-unit strip center and I need a quote on replacing four rooftop units.
+Agent: Thanks for calling. Commercial projects are handled by our commercial division. Let me take your info and have an estimator call you.
+Customer: Sure. Angela Okafor, 512-784-1255.
+Agent: Got it. Someone will reach out within one business day.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

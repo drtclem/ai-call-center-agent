@@ -1,0 +1,592 @@
+# Retrieval test set (D6, T5). Covers the handled call drivers (D3): scheduling and service questions
+# around a booking (hours, holidays, area, windows, fees, late techs, prices, services offered,
+# pre-visit troubleshooting), membership, billing, warranty.
+# expected = KB source paths (as in kb/manifest.toml) that hold the answer.
+# answer = verbatim phrases (any one) from the answering section; a hit = a top-3 section from an
+#   expected doc that contains one. Phrases must state the answer, not just mention the topic.
+#   Document-level hits are reported too.
+# source: "transcript" = caller wording from a transcript (near-verbatim); "kb" = drafted by Claude
+#   from the KB text (tends to share the docs' words, so easier); "paraphrase" = reworded kb questions.
+# Separately, every query is checked: no superseded, stub or agent_only doc may ever be returned.
+
+# --- Membership ---------------------------------------------------------------
+[[q]]
+id = "M01"
+bucket = "membership"
+question = "What does the Comfort Club membership actually include?"
+expected = ["membership/comfort_club_overview.md"]
+source = "transcript"
+answer = ["Two seasonal tune-ups per year", "Everything in Standard"]
+
+[[q]]
+id = "M02"
+bucket = "membership"
+question = "How much is the maintenance plan?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf"]
+source = "transcript"
+answer = ["$189 per year", "Membership (annual, 1 system)"]
+
+[[q]]
+id = "M03"
+bucket = "membership"
+question = "I thought the maintenance plan was $149 a year?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf"]
+source = "transcript"
+answer = ["$189 per year", "Membership (annual, 1 system)"]
+note = "Trap: $149 is only in the superseded archive copy."
+
+[[q]]
+id = "M04"
+bucket = "membership"
+question = "Can I pay for the Plus plan monthly?"
+expected = ["pricing/2026_fee_schedule.pdf", "membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["Membership (monthly, 1 system)"]
+
+[[q]]
+id = "M05"
+bucket = "membership"
+question = "I got an email saying my membership is renewing. When does it actually charge?"
+expected = ["membership/comfort_club_overview.md"]
+source = "transcript"
+answer = ["Annual plans bill once on the enrollment date", "renewal reminder email 30 days"]
+
+[[q]]
+id = "M06"
+bucket = "membership"
+question = "Can I cancel my membership before it renews?"
+expected = ["membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["cancel auto-renewal at any time"]
+
+[[q]]
+id = "M07"
+bucket = "membership"
+question = "Can I get a refund on my annual plan if I already had a tune-up this year?"
+expected = ["membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["non-refundable once a tune-up has been performed"]
+
+[[q]]
+id = "M08"
+bucket = "membership"
+question = "Can I upgrade from the regular plan to the Plus plan mid-year? What does it cost?"
+expected = ["membership/comfort_club_overview.md"]
+source = "transcript"
+answer = ["The difference ($80) is prorated"]
+
+[[q]]
+id = "M09"
+bucket = "membership"
+question = "I'm a member. Do I get a discount on a new system?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf", "services/service_catalog.md"]
+source = "transcript"
+answer = ["Full system replacement credit", "Comfort Club members receive $500 off", "$500 off any full system replacement"]
+
+[[q]]
+id = "M10"
+bucket = "membership"
+question = "Does the Comfort Club cover plumbing?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf"]
+source = "transcript"
+answer = ["Annual whole-home plumbing inspection", "Plumbing repair discount", "Plumbing discount applies to Plus members only"]
+
+[[q]]
+id = "M11"
+bucket = "membership"
+question = "If I move to a new house, does my membership come with me?"
+expected = ["membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["They do not transfer to a new address"]
+note = "Trap: the archive copy says it transfers to a new address; current says it stays with the address."
+
+[[q]]
+id = "M12"
+bucket = "membership"
+question = "How much to add a second system to my plan?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf"]
+source = "kb"
+answer = ["Each additional system", "Additional system (annual)"]
+
+[[q]]
+id = "M13"
+bucket = "membership"
+question = "I'm a member. Do I pay the after-hours fee for an emergency call?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["No after-hours dispatch fee on emergency calls", "After-hours emergency dispatch | $149 | Waived", "After-hours dispatch (Fee, SKU FEE-AH): $149. Member discount eligible: N. Note: Waived for members"]
+note = "Trap: the FAQ fee lines say $149 with no member exception. Answer-key fix 2026-10-19: the price book (FEE-AH, waived for members) also answers it."
+
+[[q]]
+id = "M14"
+bucket = "membership"
+question = "Is the diagnostic fee waived for members?"
+expected = ["faq/customer_faq.md", "membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Comfort Club members: diagnostic fee waived", "Diagnostic fee ($89) waived", "Diagnostic visit | $89 | Waived", "Diagnostic visit (Fee, SKU FEE-DIAG): $89. Member discount eligible: N. Note: Waived for members"]
+
+[[q]]
+id = "M15"
+bucket = "membership"
+question = "What discount do members get on repairs?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf"]
+source = "kb"
+answer = ["15% off all repairs", "Repair discount | 0% | 15%"]
+
+[[q]]
+id = "M16"
+bucket = "membership"
+question = "Do Plus members get a discount on plumbing repairs?"
+expected = ["pricing/2026_fee_schedule.pdf", "membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["15% off plumbing repairs", "Plumbing repair discount", "Plumbing discount applies to Plus members only"]
+
+[[q]]
+id = "M17"
+bucket = "membership"
+question = "Is a water heater flush included with my plan?"
+expected = ["membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf", "services/service_catalog.md", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Annual water heater flush", "Water heater flush | $119 | $119 | Included", "Water heater flush ($119, included in Comfort Club Plus)", "Note: Included for Plus"]
+
+[[q]]
+id = "M18"
+bucket = "membership"
+question = "Will my membership price go up when it renews?"
+expected = ["membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["locked at their enrollment price"]
+
+[[q]]
+id = "M19"
+bucket = "membership"
+question = "I'm on the monthly plan. Can I cancel after six months?"
+expected = ["membership/comfort_club_overview.md"]
+source = "kb"
+answer = ["charged the remaining balance of the minimum term"]
+
+# --- Billing ------------------------------------------------------------------
+[[q]]
+id = "B01"
+bucket = "billing"
+question = "I think I got charged twice. There are two $245 charges on my card from you guys."
+expected = ["faq/customer_faq.md"]
+source = "transcript"
+answer = ["pending authorization"]
+
+[[q]]
+id = "B02"
+bucket = "billing"
+question = "I need to pay my invoice. Can I give you my card number over the phone?"
+expected = ["faq/customer_faq.md"]
+source = "transcript"
+answer = ["Card numbers are never taken over the phone"]
+
+[[q]]
+id = "B03"
+bucket = "billing"
+question = "Do you take checks?"
+expected = ["faq/customer_faq.md"]
+source = "kb"
+answer = ["We do not accept checks"]
+note = "Trap: the old FAQ copy said checks were accepted."
+
+[[q]]
+id = "B04"
+bucket = "billing"
+question = "Do you offer financing on a big repair?"
+expected = ["faq/customer_faq.md"]
+source = "kb"
+answer = ["Financing is available on repairs over $1,000"]
+
+[[q]]
+id = "B05"
+bucket = "billing"
+question = "What payment methods do you accept?"
+expected = ["faq/customer_faq.md"]
+source = "kb"
+answer = ["We accept Visa"]
+
+[[q]]
+id = "B06"
+bucket = "billing"
+question = "Why is there a $49 charge on my invoice? I cancelled the morning of the appointment."
+expected = ["faq/customer_faq.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["$49 late-cancellation fee", "Late cancellation (<24h)", "Late cancellation (Fee, SKU FEE-LATE)"]
+
+[[q]]
+id = "B07"
+bucket = "billing"
+question = "I was charged a no-show fee but I was home the whole time and nobody came."
+expected = ["services/technician_arrival_and_etas.md", "faq/customer_faq.md", "pricing/2026_fee_schedule.pdf"]
+source = "kb"
+answer = ["A missed window is never charged as a no-show", "No-shows (nobody home at the address)"]
+
+[[q]]
+id = "B08"
+bucket = "billing"
+question = "What's this mechanical permit charge on my invoice?"
+expected = ["pricing/repair_price_book_2026.csv", "services/service_catalog.md"]
+source = "kb"
+answer = ["Mechanical permit (Fee"]
+
+[[q]]
+id = "B09"
+bucket = "billing"
+question = "How much is the disposal fee for my old equipment?"
+expected = ["pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Equipment disposal (Fee"]
+
+[[q]]
+id = "B10"
+bucket = "billing"
+question = "How much do you charge for an after-hours call?"
+expected = ["faq/customer_faq.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["After-hours dispatch fee is $149", "After-hours / weekend emergency dispatch: $149", "After-hours emergency dispatch | $149", "After-hours dispatch (Fee"]
+
+[[q]]
+id = "B11"
+bucket = "billing"
+question = "Is there an extra charge if a tech comes out on a holiday?"
+expected = ["policies/holiday_hours_2026.png", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Emergency dispatch fee on holidays: $199", "Holiday dispatch (Fee"]
+
+[[q]]
+id = "B12"
+bucket = "billing"
+question = "Does the $89 diagnostic fee count toward the repair?"
+expected = ["faq/customer_faq.md", "services/service_catalog.md"]
+source = "kb"
+answer = ["Applied as credit toward the repair", "credited toward repair"]
+
+[[q]]
+id = "B13"
+bucket = "billing"
+question = "How much is a capacitor replacement?"
+expected = ["services/service_catalog.md", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Run capacitor replacement", "| Capacitor replacement |"]
+
+[[q]]
+id = "B14"
+bucket = "billing"
+question = "What does it cost to put in a smart thermostat?"
+expected = ["services/service_catalog.md", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Thermostat, smart", "Thermostat replacement (smart)"]
+
+[[q]]
+id = "B15"
+bucket = "billing"
+question = "How much per pound for refrigerant?"
+expected = ["services/service_catalog.md", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["R-410A refrigerant per lb", "Refrigerant recharge (R-410A, per lb)"]
+
+[[q]]
+id = "B16"
+bucket = "billing"
+question = "My invoice says $149 but the tech quoted $89. What's the extra?"
+expected = ["faq/customer_faq.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["After-hours / weekend emergency dispatch: $149", "After-hours emergency dispatch | $149", "After-hours dispatch fee is $149"]
+note = "Real wording; the agent hands this off as a dispute (D11), but retrieval should still find the fee docs."
+
+# --- Warranty -----------------------------------------------------------------
+[[q]]
+id = "W01"
+bucket = "warranty"
+question = "The unit you installed last year stopped working. How do I file a warranty claim?"
+expected = ["warranty/warranty_policy.md"]
+source = "transcript"
+answer = ["Call to schedule a warranty diagnostic"]
+
+[[q]]
+id = "W02"
+bucket = "warranty"
+question = "Is there a diagnostic fee for a warranty visit?"
+expected = ["warranty/warranty_policy.md"]
+source = "kb"
+answer = ["If the failure is covered, there is no diagnostic fee"]
+
+[[q]]
+id = "W03"
+bucket = "warranty"
+question = "My Trane compressor died and the system is only three years old. Is that under warranty?"
+expected = ["warranty/warranty_policy.md"]
+source = "transcript"
+answer = ["| Trane | 10 years"]
+
+[[q]]
+id = "W04"
+bucket = "warranty"
+question = "Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing."
+expected = ["warranty/warranty_policy.md"]
+source = "transcript"
+answer = ["If the same part fails within 1 year"]
+
+[[q]]
+id = "W05"
+bucket = "warranty"
+question = "We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?"
+expected = ["warranty/warranty_policy.md"]
+source = "transcript"
+answer = ["Meridian labor warranties do **not** transfer", "may transfer once to a subsequent homeowner"]
+
+[[q]]
+id = "W06"
+bucket = "warranty"
+question = "Did you guys register my new unit with the manufacturer? I never got anything."
+expected = ["warranty/warranty_policy.md"]
+source = "transcript"
+answer = ["Meridian registers every installed unit"]
+
+[[q]]
+id = "W07"
+bucket = "warranty"
+question = "How long is the labor warranty on a new installation?"
+expected = ["warranty/warranty_policy.md"]
+source = "kb"
+answer = ["**2-year labor warranty**"]
+
+[[q]]
+id = "W08"
+bucket = "warranty"
+question = "I was a member when you installed my system. Do I get a longer warranty?"
+expected = ["warranty/warranty_policy.md"]
+source = "kb"
+answer = ["extended **5-year labor warranty**"]
+
+[[q]]
+id = "W09"
+bucket = "warranty"
+question = "What's the heat exchanger warranty on a Goodman furnace?"
+expected = ["warranty/warranty_policy.md"]
+source = "kb"
+answer = ["| Goodman |"]
+
+[[q]]
+id = "W10"
+bucket = "warranty"
+question = "If a part is under the manufacturer's warranty, do I still pay for labor?"
+expected = ["services/service_catalog.md", "warranty/warranty_policy.md", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["Labor to replace a warranted part is billable", "labor only, part under warranty", "Note: Part under mfr warranty"]
+
+[[q]]
+id = "W11"
+bucket = "warranty"
+question = "What isn't covered by your repair warranty?"
+expected = ["warranty/warranty_policy.md"]
+source = "kb"
+answer = ["does not cover different components"]
+
+[[q]]
+id = "W12"
+bucket = "warranty"
+question = "Is your repair warranty still 90 days?"
+expected = ["warranty/warranty_policy.md"]
+source = "kb"
+answer = ["**1-year labor warranty**"]
+note = "Trap: 90 days is only in the superseded 2023 terms."
+
+# --- Scheduling and service questions around a booking -------------------------
+[[q]]
+id = "G01"
+bucket = "scheduling"
+question = "What are your hours on Saturday?"
+expected = ["faq/customer_faq.md"]
+source = "kb"
+answer = ["Saturday 8:00am–4:00pm"]
+
+[[q]]
+id = "G02"
+bucket = "scheduling"
+question = "Are you open the day after Thanksgiving?"
+expected = ["policies/holiday_hours_2026.png"]
+source = "kb"
+answer = ["Thanksgiving (Nov 26-27)"]
+note = "Only in the PNG."
+
+[[q]]
+id = "G03"
+bucket = "scheduling"
+question = "Do you service Manor?"
+expected = ["policies/service_area.md"]
+source = "kb"
+answer = ["Manor (78653)"]
+
+[[q]]
+id = "G04"
+bucket = "scheduling"
+question = "Do you come out to San Marcos?"
+expected = ["policies/service_area.md"]
+source = "kb"
+answer = ["Not serviced: San Marcos"]
+
+[[q]]
+id = "G05"
+bucket = "scheduling"
+question = "Is Dripping Springs in your service area?"
+expected = ["policies/service_area.md"]
+source = "kb"
+answer = ["Dripping Springs (78620)"]
+
+[[q]]
+id = "G06"
+bucket = "scheduling"
+question = "What appointment windows do you have? Can I get an evening slot?"
+expected = ["faq/customer_faq.md"]
+source = "kb"
+answer = ["A 4pm–7pm window is available Tuesday and Thursday only"]
+
+[[q]]
+id = "G07"
+bucket = "scheduling"
+question = "Is there a fee if I cancel the day before?"
+expected = ["faq/customer_faq.md", "pricing/2026_fee_schedule.pdf"]
+source = "kb"
+answer = ["Cancellations or reschedules more than 24 hours before the window are free", "Late cancellation (<24h)"]
+
+[[q]]
+id = "G08"
+bucket = "scheduling"
+question = "My AC runs but the air is warm. Is there anything I can check before you send someone?"
+expected = ["faq/troubleshooting_before_you_call.md"]
+source = "kb"
+answer = ["Confirm the thermostat is set to COOL"]
+
+[[q]]
+id = "G09"
+bucket = "scheduling"
+question = "There's water pooling around the indoor unit. What should I do?"
+expected = ["faq/troubleshooting_before_you_call.md"]
+source = "transcript"
+answer = ["clogged condensate drain line"]
+
+[[q]]
+id = "G10"
+bucket = "scheduling"
+question = "How much does a tune-up cost?"
+expected = ["services/service_catalog.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "kb"
+answer = ["$129 for non-members", "Seasonal tune-up (per system) | $129", "Seasonal tune-up (Maintenance, SKU HV-TUNE): $129"]
+
+[[q]]
+id = "G11"
+bucket = "scheduling"
+question = "Do you do duct cleaning?"
+expected = ["services/service_catalog.md"]
+source = "kb"
+answer = ["Duct cleaning (we partner"]
+note = "The duct cleaning page is a stub; the catalog answers it."
+
+[[q]]
+id = "G12"
+bucket = "scheduling"
+question = "Can you fix my window AC unit?"
+expected = ["services/service_catalog.md"]
+source = "kb"
+answer = ["Window units or portable AC repair"]
+
+[[q]]
+id = "G13"
+bucket = "scheduling"
+question = "My system is 18 years old. Ballpark, what does a replacement cost?"
+expected = ["services/service_catalog.md"]
+source = "kb"
+answer = ["$8,000 – $16,000"]
+
+[[q]]
+id = "G14"
+bucket = "scheduling"
+question = "My window was 12 to 4 and it's 4:30. Nobody's here. Will I still be charged?"
+expected = ["services/technician_arrival_and_etas.md"]
+source = "transcript"
+answer = ["Customers are not required to wait past the window"]
+
+[[q]]
+id = "G15"
+bucket = "scheduling"
+question = "Will I get a text before the technician shows up?"
+expected = ["faq/customer_faq.md", "services/technician_arrival_and_etas.md"]
+source = "kb"
+answer = ["another text when the tech is 30 minutes away", "Dispatch will text the customer"]
+
+# --- Probes: nothing relevant should come from internal or old docs ----------------
+[[q]]
+id = "P01"
+bucket = "probe"
+question = "What fees are agents allowed to waive without a supervisor?"
+expected = []
+source = "kb"
+note = "Only internal notes answer this; they must never be retrieved."
+
+[[q]]
+id = "P02"
+bucket = "scheduling"
+question = "How much notice do I need to give to cancel, 48 hours?"
+expected = ["faq/customer_faq.md"]
+source = "kb"
+answer = ["Cancellations or reschedules more than 24 hours before the window are free"]
+note = "Trap: 48 h is only in the agent scheduling guide (agent_only, overridden)."
+
+# --- Reworded (2026-10-19, after review): versions of easy questions without the KB's rare words.
+# Written before any run; never tuned against.
+[[q]]
+id = "R01"
+bucket = "billing"
+question = "There's a line on my bill from the city, like a hundred something dollars. What is that?"
+expected = ["pricing/repair_price_book_2026.csv", "services/service_catalog.md"]
+source = "paraphrase"
+answer = ["Mechanical permit (Fee"]
+note = "Rewording of B08."
+
+[[q]]
+id = "R02"
+bucket = "billing"
+question = "You hauled my old furnace away. Why am I paying extra for that?"
+expected = ["pricing/repair_price_book_2026.csv", "services/service_catalog.md"]
+source = "paraphrase"
+answer = ["Equipment disposal (Fee"]
+note = "Rewording of B09."
+
+[[q]]
+id = "R03"
+bucket = "warranty"
+question = "My furnace is a Goodman. How long is the part that actually makes the heat covered?"
+expected = ["warranty/warranty_policy.md"]
+source = "paraphrase"
+answer = ["| Goodman |"]
+note = "Rewording of W09."
+
+[[q]]
+id = "R04"
+bucket = "membership"
+question = "If I'm on your plan, do I still have to pay just to have somebody come look at it?"
+expected = ["faq/customer_faq.md", "membership/comfort_club_overview.md", "pricing/2026_fee_schedule.pdf", "pricing/repair_price_book_2026.csv"]
+source = "paraphrase"
+answer = ["Comfort Club members: diagnostic fee waived", "Diagnostic fee ($89) waived", "Diagnostic visit | $89 | Waived", "Diagnostic visit (Fee, SKU FEE-DIAG): $89. Member discount eligible: N. Note: Waived for members"]
+note = "Rewording of M14."
+
+[[q]]
+id = "R05"
+bucket = "scheduling"
+question = "Can you guys clean out the air vents in my house?"
+expected = ["services/service_catalog.md"]
+source = "paraphrase"
+answer = ["Duct cleaning (we partner"]
+note = "Rewording of G11."
+
+[[q]]
+id = "R06"
+bucket = "scheduling"
+question = "Is anybody working that Friday after the big holiday in November?"
+expected = ["policies/holiday_hours_2026.png"]
+source = "paraphrase"
+answer = ["Thanksgiving (Nov 26-27)"]
+note = "Rewording of G02."

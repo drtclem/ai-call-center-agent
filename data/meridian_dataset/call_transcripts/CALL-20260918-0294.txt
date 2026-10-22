@@ -1,0 +1,23 @@
+Call ID: CALL-20260918-0294
+Date: 2026-09-18T09:09
+Agent: Brian
+Duration: 2m 6s
+Direction: Inbound
+
+Agent: Um, meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Hey, so the AC is making a loud grinding noise. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-69471.
+Agent: Um, perfect, and can you confirm the name?
+Customer: Michael Cruz.
+Agent: Okay, I see the account. Bear with me one second. What day works best for you?
+Customer: Monday if possible, first thing in the morning.
+Agent: Let me take a look. I have a afternoon window tomorrow, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

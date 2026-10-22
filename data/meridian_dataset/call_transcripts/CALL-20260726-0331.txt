@@ -1,0 +1,17 @@
+Call ID: CALL-20260726-0331
+Date: 2026-07-26T17:59
+Agent: Denise
+Duration: 1m 19s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Denise. How may I help?
+Customer: I think I got charged twice. There are two $312 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Patricia Rivera, 512-558-2804.
+Agent: One moment. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260817-0330
+Date: 2026-08-17T17:23
+Agent: Renee
+Duration: 1m 38s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: Yeah, I need to schedule a service call. The AC runs but the air is warm.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's David Garcia, 512-817-2502.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: As soon as possible if possible, 12 to 4.
+Agent: One moment. I have a morning window Thursday, 1 to 5. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

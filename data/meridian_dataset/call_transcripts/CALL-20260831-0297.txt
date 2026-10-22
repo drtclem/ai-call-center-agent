@@ -1,0 +1,19 @@
+Call ID: CALL-20260831-0297
+Date: 2026-08-31T07:26
+Agent: Marcus
+Duration: 2m 17s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: My system is 18 years old and I'm thinking about replacing it. What would that cost?
+Agent: Replacement pricing depends on the size of the home, ductwork, and efficiency level. We do free in-home estimates with a comfort advisor.
+Customer: Ballpark?
+Agent: Um, most full system replacements run between $8,000 and $16,000, but I really can't quote without a visit. Want me to set up the estimate?
+Customer: Yeah, let's do that.
+Agent: Let me verify the account. Name and service address?
+Customer: Linda Walker, 2532 Brookside Ct, Buda.
+Agent: I have an advisor available Thursday at 4pm.
+Customer: Works.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

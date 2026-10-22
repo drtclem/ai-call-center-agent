@@ -1,0 +1,16 @@
+Call ID: CALL-20260727-0138
+Date: 2026-07-27T15:31
+Agent: Denise
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I need to pay invoice INV-283380. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Linda Smith, 512-333-4107.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Um, alright, take care.

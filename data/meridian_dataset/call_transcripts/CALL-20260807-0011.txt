@@ -1,0 +1,21 @@
+Call ID: CALL-20260807-0011
+Date: 2026-08-07T14:37
+Agent: Jordan
+Duration: 2m 5s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Hey, so my thermostat is blank. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Jennifer Okafor, 512-220-3496.
+Agent: Okay, I see the, uh, account. Let me take a look. What day works best for you?
+Customer: Sometime this week if possible, the afternoon.
+Agent: Let me take a look. I have a morning window Friday, 12 to 4. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

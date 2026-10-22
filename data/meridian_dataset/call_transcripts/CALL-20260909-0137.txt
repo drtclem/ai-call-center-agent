@@ -1,0 +1,19 @@
+Call ID: CALL-20260909-0137
+Date: 2026-09-09T08:34
+Agent: Kayla
+Duration: 1m 17s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Sure, it's Jennifer Nguyen, 512-854-4654.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Hold on, my dog is barking.
+Agent: I can hear you fine.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

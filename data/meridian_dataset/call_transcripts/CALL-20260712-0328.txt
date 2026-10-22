@@ -1,0 +1,21 @@
+Call ID: CALL-20260712-0328
+Date: 2026-07-12T16:21
+Agent: Eli
+Duration: 1m 40s
+Direction: Inbound
+
+Agent: Um, hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: Two things. My AC is blowing warm and I want to get someone out, and I want to know if joining the maintenance plan would save me money on this.
+Agent: Um, do you have your account number handy?
+Customer: Yeah, it's MHC-83428.
+Agent: Perfect, and can you confirm the name?
+Customer: Um, james Reyes.
+Agent: Sure. If you join the Comfort Club today, the $89 diagnostic is waived and you'd get 15 percent off the repair. The plan is $189 a year.
+Customer: So it pays for itself basically.
+Agent: Often, yes. Want me to add it?
+Customer: Yeah, add it and book the visit.
+Agent: Done. I have tomorrow 8 to 12.
+Customer: Book it.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,15 @@
+Call ID: CALL-20260912-0083
+Date: 2026-09-12T13:23
+Agent: Tasha
+Duration: 1m 7s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Tasha speaking. What can I do for you?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Linda Ali, 512-396-2617.
+Agent: Bear with me one second. You have an open balance of $312 on INV-291922, due on the 8th.
+Customer: Um, okay, I'll pay it through the portal.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

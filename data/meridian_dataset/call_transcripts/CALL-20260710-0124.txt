@@ -1,0 +1,15 @@
+Call ID: CALL-20260710-0124
+Date: 2026-07-10T16:44
+Agent: Denise
+Duration: 1m 35s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Denise. How can I help you today?
+Customer: Um, just wanted to confirm I still have someone coming Thursday.
+Agent: Let me verify the account. Name and service address?
+Customer: James Nguyen, 317 Maple St, Buda.
+Agent: Let me take a look. Yes, Thursday 12 to 4, for a water heater inspection.
+Customer: Okay, thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

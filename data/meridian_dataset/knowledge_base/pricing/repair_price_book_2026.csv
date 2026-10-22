@@ -1,0 +1,22 @@
+sku,description,category,low_price,high_price,member_discount_eligible,notes
+HV-CAP-01,Run capacitor replacement,HVAC repair,180,260,Y,
+HV-CON-01,Contactor replacement,HVAC repair,190,280,Y,
+HV-REF-410,R-410A refrigerant per lb,HVAC repair,95,140,Y,Leak search billed separately
+HV-DRN-01,Condensate drain clearing,HVAC repair,120,190,Y,
+HV-BLW-01,Blower motor replacement,HVAC repair,550,950,Y,ECM motors at high end
+HV-THM-STD,"Thermostat, standard",HVAC repair,220,380,Y,
+HV-THM-SMT,"Thermostat, smart",HVAC repair,380,600,Y,
+HV-CMP-LAB,Compressor replacement labor,HVAC repair,600,900,Y,Part under mfr warranty
+HV-IGN-01,Furnace ignitor,HVAC repair,200,320,Y,
+HV-COIL-01,Evaporator coil replacement,HVAC repair,1400,2900,Y,
+HV-TUNE,Seasonal tune-up,Maintenance,129,129,N,Included for members
+PL-DRN-01,Drain clearing,Plumbing,149,290,Plus only,
+PL-WHF,Water heater flush,Plumbing,119,119,Plus only,Included for Plus
+PL-WHR-TANK,"Water heater replacement, 50gal tank",Plumbing,1800,2600,Plus only,
+PL-WHR-TKL,"Water heater replacement, tankless",Plumbing,3500,5200,Plus only,
+FEE-DIAG,Diagnostic visit,Fee,89,89,N,Waived for members
+FEE-AH,After-hours dispatch,Fee,149,149,N,Waived for members
+FEE-HOL,Holiday dispatch,Fee,199,199,N,
+FEE-LATE,Late cancellation,Fee,49,49,N,
+FEE-PERMIT,Mechanical permit,Fee,85,185,N,Varies by city
+FEE-DISP,Equipment disposal,Fee,75,150,N,

@@ -1,0 +1,17 @@
+Call ID: CALL-20260806-0077
+Date: 2026-08-06T15:17
+Agent: Kayla
+Duration: 1m 3s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Kayla speaking. What can I do for you?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Let me verify the account. Name and service address?
+Customer: Angela Singh, 3113 Harbor View Way, Kyle.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Um, done, it'll come by text. It expires in 24 hours.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,15 @@
+Call ID: CALL-20260827-0065
+Date: 2026-08-27T14:04
+Agent: Denise
+Duration: 1m 50s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Denise here. What's going on today?
+Customer: I want a full refund on the repair. It didn't fix anything and I had to call another company.
+Agent: Let me verify the account. Name and service address?
+Customer: Hannah Smith, 9939 Ridgeline Pass, Hutto.
+Agent: I understand your frustration. Refund requests go to our billing supervisor for review. I'll open a case and you'll hear back within two business days.
+Customer: I'd better.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

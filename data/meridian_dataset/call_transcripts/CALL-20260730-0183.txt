@@ -1,0 +1,17 @@
+Call ID: CALL-20260730-0183
+Date: 2026-07-30T14:08
+Agent: Eli
+Duration: 0m 59s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: Just wanted to confirm I still have someone coming Thursday.
+Agent: Can I get your name and the phone number on the account?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Um, sure, it's Omar Walker, 512-781-9955.
+Agent: Let me pull that up. Yes, Thursday 12 to 4, for a water heater inspection.
+Customer: Okay, thanks.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

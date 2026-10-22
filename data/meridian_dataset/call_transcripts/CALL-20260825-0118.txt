@@ -1,0 +1,19 @@
+Call ID: CALL-20260825-0118
+Date: 2026-08-25T12:01
+Agent: Tasha
+Duration: 1m 46s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Tasha speaking. What can I do for you?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Um, do you have your account number handy?
+Customer: Yeah, it's MHC-57578.
+Agent: Perfect, and can you confirm the name?
+Customer: Carlos Lopez.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: Um, you're welcome, have a great day.

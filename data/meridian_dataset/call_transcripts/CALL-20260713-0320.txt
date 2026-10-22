@@ -1,0 +1,23 @@
+Call ID: CALL-20260713-0320
+Date: 2026-07-13T09:12
+Agent: Kayla
+Duration: 2m 33s
+Direction: Inbound
+
+Agent: Um, thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: Yeah, I need to schedule a service call. The AC is making a loud grinding noise.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-82246.
+Agent: Perfect, and can you confirm the name?
+Customer: Hannah Cruz.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Friday if possible, 12 to 4.
+Agent: One moment. I have a afternoon window Thursday, 12 to 4. Would that work?
+Customer: Sure, let's do that.
+Agent: Um, you're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

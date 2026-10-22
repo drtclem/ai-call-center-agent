@@ -1,0 +1,21 @@
+Call ID: CALL-20260711-0109
+Date: 2026-07-11T09:56
+Agent: Denise
+Duration: 2m 19s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Denise. How can I help you today?
+Customer: Hey, so I need my annual tune-up. What's the soonest you can get a tech out?
+Agent: Um, i'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Nate Lopez, 2973 Maple St, Pflugerville.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Friday if possible, first thing in the morning.
+Agent: Let me pull that up. I have a morning window Monday, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Um, yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

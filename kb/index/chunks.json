@@ -1,0 +1,190 @@
+{
+ "model": "text-embedding-3-small",
+ "chunks": [
+  {
+   "id": "faq/customer_faq.md#hours-contact-0",
+   "doc": "faq/customer_faq.md",
+   "sha": "ec86d608fc40"
+  },
+  {
+   "id": "faq/customer_faq.md#scheduling-0",
+   "doc": "faq/customer_faq.md",
+   "sha": "4bf7c69129fa"
+  },
+  {
+   "id": "faq/customer_faq.md#fees-0",
+   "doc": "faq/customer_faq.md",
+   "sha": "b639bda11163"
+  },
+  {
+   "id": "faq/customer_faq.md#payment-0",
+   "doc": "faq/customer_faq.md",
+   "sha": "bf7f62f98746"
+  },
+  {
+   "id": "faq/customer_faq.md#duplicate-charges-0",
+   "doc": "faq/customer_faq.md",
+   "sha": "c6078c91171c"
+  },
+  {
+   "id": "faq/troubleshooting_before_you_call.md#intro-0",
+   "doc": "faq/troubleshooting_before_you_call.md",
+   "sha": "9937d6db5cc6"
+  },
+  {
+   "id": "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+   "doc": "faq/troubleshooting_before_you_call.md",
+   "sha": "98060860970b"
+  },
+  {
+   "id": "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+   "doc": "faq/troubleshooting_before_you_call.md",
+   "sha": "7cf0daee0c3f"
+  },
+  {
+   "id": "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+   "doc": "faq/troubleshooting_before_you_call.md",
+   "sha": "79903c9904c6"
+  },
+  {
+   "id": "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+   "doc": "faq/troubleshooting_before_you_call.md",
+   "sha": "89192222836a"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#intro-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "550279ffd984"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#comfort-club-standard-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "0895bdf46ebf"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#comfort-club-plus-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "95ccdff10f45"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#billing-and-renewal-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "a3b2e0f3dd74"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#cancellation-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "09c2e2683e0a"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#upgrades-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "fce4ccb4e890"
+  },
+  {
+   "id": "membership/comfort_club_overview.md#transfer-0",
+   "doc": "membership/comfort_club_overview.md",
+   "sha": "e2ab5aa6ef3d"
+  },
+  {
+   "id": "policies/holiday_hours_2026.png#intro-0",
+   "doc": "policies/holiday_hours_2026.png",
+   "sha": "f8475ca43b41"
+  },
+  {
+   "id": "policies/service_area.md#intro-0",
+   "doc": "policies/service_area.md",
+   "sha": "43799e68218b"
+  },
+  {
+   "id": "pricing/2026_fee_schedule.pdf#intro-0",
+   "doc": "pricing/2026_fee_schedule.pdf",
+   "sha": "709e70100879"
+  },
+  {
+   "id": "pricing/2026_fee_schedule.pdf#intro-1",
+   "doc": "pricing/2026_fee_schedule.pdf",
+   "sha": "ec14475d07ec"
+  },
+  {
+   "id": "pricing/repair_price_book_2026.csv#intro-0",
+   "doc": "pricing/repair_price_book_2026.csv",
+   "sha": "c8a5f42c72b2"
+  },
+  {
+   "id": "pricing/repair_price_book_2026.csv#intro-1",
+   "doc": "pricing/repair_price_book_2026.csv",
+   "sha": "59dc1dc65f1e"
+  },
+  {
+   "id": "pricing/repair_price_book_2026.csv#intro-2",
+   "doc": "pricing/repair_price_book_2026.csv",
+   "sha": "32b5a913dba4"
+  },
+  {
+   "id": "pricing/repair_price_book_2026.csv#intro-3",
+   "doc": "pricing/repair_price_book_2026.csv",
+   "sha": "a2bb24b365a6"
+  },
+  {
+   "id": "services/service_catalog.md#hvac-repair-0",
+   "doc": "services/service_catalog.md",
+   "sha": "d6b4b1f3a630"
+  },
+  {
+   "id": "services/service_catalog.md#hvac-repair-1",
+   "doc": "services/service_catalog.md",
+   "sha": "b826f0bcf6cf"
+  },
+  {
+   "id": "services/service_catalog.md#maintenance-tune-up-0",
+   "doc": "services/service_catalog.md",
+   "sha": "84c3e3bfa287"
+  },
+  {
+   "id": "services/service_catalog.md#system-replacement-0",
+   "doc": "services/service_catalog.md",
+   "sha": "8ca301478125"
+  },
+  {
+   "id": "services/service_catalog.md#plumbing-residential-0",
+   "doc": "services/service_catalog.md",
+   "sha": "81368c13a5ae"
+  },
+  {
+   "id": "services/service_catalog.md#not-offered-0",
+   "doc": "services/service_catalog.md",
+   "sha": "2e9eeb8caef5"
+  },
+  {
+   "id": "services/technician_arrival_and_etas.md#intro-0",
+   "doc": "services/technician_arrival_and_etas.md",
+   "sha": "975759d4701d"
+  },
+  {
+   "id": "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+   "doc": "warranty/warranty_policy.md",
+   "sha": "c2ea98bed615"
+  },
+  {
+   "id": "warranty/warranty_policy.md#new-system-installation-warranty-0",
+   "doc": "warranty/warranty_policy.md",
+   "sha": "4c05a4905c3d"
+  },
+  {
+   "id": "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+   "doc": "warranty/warranty_policy.md",
+   "sha": "06760a674ca1"
+  },
+  {
+   "id": "warranty/warranty_policy.md#warranty-transfer-0",
+   "doc": "warranty/warranty_policy.md",
+   "sha": "c6b53a6b84c8"
+  },
+  {
+   "id": "warranty/warranty_policy.md#filing-a-claim-0",
+   "doc": "warranty/warranty_policy.md",
+   "sha": "ba3ac325c2f7"
+  }
+ ]
+}

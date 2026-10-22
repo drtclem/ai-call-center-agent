@@ -1,0 +1,15 @@
+Call ID: CALL-20260904-0340
+Date: 2026-09-04T17:38
+Agent: Marcus
+Duration: 1m 55s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I need to cancel my appointment. My brother-in-law ended up fixing it.
+Agent: Let me verify the account. Name and service address?
+Customer: Sofia Cruz, 1077 Harbor View Way, Kyle.
+Agent: No problem. Since it's more than 24 hours out there's no cancellation fee. You're all set.
+Customer: Great.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

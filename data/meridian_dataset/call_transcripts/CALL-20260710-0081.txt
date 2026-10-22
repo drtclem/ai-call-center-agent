@@ -1,0 +1,21 @@
+Call ID: CALL-20260710-0081
+Date: 2026-07-10T11:14
+Agent: Kayla
+Duration: 2m 26s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: Two things. My AC is blowing warm and I want to get someone out, and I want to know if joining the maintenance plan would save me money on this.
+Agent: Let me verify the, uh, account. Name and service address?
+Customer: Michael Nguyen, 5701 Pecan Grove Rd, Leander.
+Agent: Sure. If you join the Comfort Club today, the $89 diagnostic is waived and you'd get 15 percent off the repair. The plan is $189 a year.
+Customer: So it pays for itself basically.
+Agent: Often, yes. Want me to add it?
+Customer: Yeah, add it and book the visit.
+Agent: Done. I have tomorrow 12 to 4.
+Customer: Book it.
+Agent: Um, is there anything else I can help you with?
+Customer: Can you hear me okay?
+Agent: Sure, go ahead.
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

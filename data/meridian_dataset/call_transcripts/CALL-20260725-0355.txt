@@ -1,0 +1,16 @@
+Call ID: CALL-20260725-0355
+Date: 2026-07-25T18:57
+Agent: Kayla
+Duration: 1m 30s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: My window was 12 to 4 and it's 4:30. Nobody's here and nobody's called.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's James Martinez, 512-976-5579.
+Agent: Let me take a look. I'm so sorry. The tech's previous job ran long. He's about 25 minutes out. I'll have him call you directly.
+Customer: Okay. I just need to know if I should wait.
+Agent: Please wait, he's on his way. And I'm noting the account so the diagnostic fee is waived for the delay.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

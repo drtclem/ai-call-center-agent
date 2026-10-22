@@ -1,0 +1,125 @@
+# KB manifest (D5). Every file under data/meridian_dataset/knowledge_base/ must be listed here,
+# or the build fails. Only status="current" + audience="customer" docs are searchable.
+#   status:   current | superseded | stub
+#   audience: customer | agent_only   (agent_only docs become agent rules, never quoted)
+#   text:     path of the text the index reads (converted for pdf/png/csv)
+# Precedence among current docs (D5): newest effective date wins; on fees the 2026 fee schedule
+# wins (it supersedes all prior); on booking behavior SCHEMA.md and the brief win.
+
+[[doc]]
+path = "archive/comfort_club_overview.md"
+status = "superseded"
+superseded_by = "membership/comfort_club_overview.md"
+audience = "customer"
+note = "Old pricing ($149/yr, 10% off, refundable any time). Callers still quote $149."
+
+[[doc]]
+path = "archive/warranty_terms_2023.txt"
+status = "superseded"
+effective = "2023"
+superseded_by = "warranty/warranty_policy.md"
+audience = "customer"
+note = "90-day repair / 1-year install labor; replaced 2025-06-15."
+
+[[doc]]
+path = "faq/customer_faq.md"
+status = "current"
+effective = "2026-03-02"
+audience = "customer"
+text = "kb/converted/customer_faq_customer.md"
+note = "Source lists the pre-April-2026 service area; the index reads a customer version without that line (D5, KB issue 8a)."
+
+[[doc]]
+path = "faq/faq_old_copy.md"
+status = "superseded"
+superseded_by = "faq/customer_faq.md"
+audience = "customer"
+note = "Diagnostic $79, after-hours $129, hours 8-6, checks accepted: all outdated."
+
+[[doc]]
+path = "faq/troubleshooting_before_you_call.md"
+status = "current"
+audience = "customer"
+
+[[doc]]
+path = "internal/agent_discretion_notes.md"
+status = "current"
+audience = "agent_only"
+note = "Human-agent discretion (waivers, discounts). The AI never uses it (D5); rules only."
+
+[[doc]]
+path = "membership/comfort_club_overview.md"
+status = "current"
+effective = "2026-01-01"
+audience = "customer"
+
+[[doc]]
+path = "policies/escalation_and_safety.md"
+status = "current"
+effective = "2026-01"
+audience = "agent_only"
+note = "Safety script and escalation triggers become agent rules (D11); the script is said verbatim."
+
+[[doc]]
+path = "policies/holiday_hours_2026.png"
+status = "current"
+effective = "2026"
+audience = "customer"
+format = "png"
+text = "kb/converted/holiday_hours_2026.md"
+
+[[doc]]
+path = "policies/service_area.md"
+status = "current"
+effective = "2026-04-01"
+audience = "customer"
+
+[[doc]]
+path = "pricing/2026_fee_schedule.pdf"
+status = "current"
+effective = "2026-01-01"
+audience = "customer"
+format = "pdf"
+text = "kb/converted/2026_fee_schedule.md"
+note = "Wins on fees (supersedes all prior fee schedules)."
+
+[[doc]]
+path = "pricing/repair_price_book_2026.csv"
+status = "current"
+effective = "2026"
+audience = "customer"
+format = "csv"
+text = "kb/converted/repair_price_book_2026.md"
+note = "Duplicates the service catalog table; adds permit, disposal and holiday fee ranges."
+
+[[doc]]
+path = "services/duct_cleaning.md"
+status = "stub"
+audience = "customer"
+note = "Only 'TODO'. The service catalog answers it: not offered, partner referral."
+
+[[doc]]
+path = "services/scheduling_guide.md"
+status = "current"
+effective = "2024-11"
+audience = "agent_only"
+note = "Agent procedure; its 48 h cancellation and 'same-day overflow' lines are overridden (I13)."
+
+[[doc]]
+path = "services/service_catalog.md"
+status = "current"
+effective = "2026-02-10"
+audience = "customer"
+
+[[doc]]
+path = "services/technician_arrival_and_etas.md"
+status = "current"
+audience = "customer"
+text = "kb/converted/technician_arrival_customer.md"
+note = "Source mixes customer facts with staff-only fee-waiver discretion; the index reads a customer version with the waiver lines removed (D5)."
+
+[[doc]]
+path = "warranty/warranty_policy.md"
+status = "current"
+effective = "2025-06-15"
+audience = "customer"

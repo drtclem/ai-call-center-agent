@@ -1,0 +1,16 @@
+Call ID: CALL-20260809-0376
+Date: 2026-08-09T09:23
+Agent: Brian
+Duration: 1m 33s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Patricia Cruz, 512-507-8327.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Um, is there anything else I can help you with?
+Customer: Um, no, that's it. Thanks.
+Agent: You're welcome, have a great day.

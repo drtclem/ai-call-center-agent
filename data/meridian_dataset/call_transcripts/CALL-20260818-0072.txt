@@ -1,0 +1,21 @@
+Call ID: CALL-20260818-0072
+Date: 2026-08-18T15:03
+Agent: Renee
+Duration: 1m 38s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: Um, yeah, I need to schedule a service call. The AC runs but the, uh, air is warm.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Angela Ali, 512-818-1108.
+Agent: Okay, I see the, uh, account. Let me pull that up. What day works best for you?
+Customer: This Saturday if possible, 12 to 4.
+Agent: Bear with me one second. I have a morning window Friday, 12 to 4. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

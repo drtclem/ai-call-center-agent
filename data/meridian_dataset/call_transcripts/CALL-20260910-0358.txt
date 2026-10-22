@@ -1,0 +1,21 @@
+Call ID: CALL-20260910-0358
+Date: 2026-09-10T19:00
+Agent: Brian
+Duration: 1m 35s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: I think I got charged twice. There are two $149 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-24673.
+Agent: Perfect, and can you confirm the name?
+Customer: Hold on, my dog is barking.
+Agent: I can hear you fine.
+Customer: Daniel Rivera.
+Agent: One moment. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

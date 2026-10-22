@@ -1,0 +1,17 @@
+Call ID: CALL-20260725-0288
+Date: 2026-07-25T08:23
+Agent: Brian
+Duration: 1m 21s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: I think I got charged twice. There are two $245 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Carlos Nguyen, 512-339-1102.
+Agent: Let me pull that up. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Anything else today?
+Customer: Um, nope, that covers it.
+Agent: Alright, take care.

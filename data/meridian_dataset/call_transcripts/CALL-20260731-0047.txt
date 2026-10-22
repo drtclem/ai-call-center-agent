@@ -1,0 +1,27 @@
+Call ID: CALL-20260731-0047
+Date: 2026-07-31T13:38
+Agent: Marcus
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Marcus. How can I help you today?
+Customer: Hi, there's water pooling around the indoor unit and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Can you hear me okay?
+Agent: No problem, take your time.
+Customer: Yeah, it's MHC-49223.
+Agent: Perfect, and can you confirm the name?
+Customer: Wei Johnson.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Friday if possible, 8 to 12.
+Agent: Okay, give me just a sec here. I have a afternoon window Friday, 1 to 5. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the, uh, morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,7 @@
+{
+ "label": "final-claude-sonnet-5-5",
+ "split": "final",
+ "brain": "claude-sonnet-5-5",
+ "commit": "30e6f2f",
+ "sentinel_misses": []
+}

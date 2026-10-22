@@ -1,0 +1,7 @@
+{
+ "label": "heldout-claude-haiku-5-5",
+ "split": "heldout",
+ "brain": "claude-haiku-5-5",
+ "commit": "5e59c16",
+ "sentinel_misses": []
+}

@@ -1,0 +1,19 @@
+Call ID: CALL-20260715-0213
+Date: 2026-07-15T13:05
+Agent: Renee
+Duration: 1m 9s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-49795.
+Agent: Perfect, and can you confirm the name?
+Customer: Derek Singh.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

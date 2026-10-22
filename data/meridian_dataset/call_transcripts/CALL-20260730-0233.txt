@@ -1,0 +1,18 @@
+Call ID: CALL-20260730-0233
+Date: 2026-07-30T14:16
+Agent: Renee
+Duration: 1m 54s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: I need to pay invoice INV-222342. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-59931.
+Agent: Perfect, and can you confirm the name?
+Customer: Linda Foster.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

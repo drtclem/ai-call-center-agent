@@ -1,0 +1,23 @@
+Call ID: CALL-20260822-0383
+Date: 2026-08-22T19:39
+Agent: Tasha
+Duration: 2m 47s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Tasha. How can I help you today?
+Customer: I'm calling to book a repair, my kitchen sink is backing up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Linda Chen, 512-866-5138.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Tomorrow if possible, 8 to 12.
+Agent: Let me pull that up. I have a afternoon window Monday, 8 to 12. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

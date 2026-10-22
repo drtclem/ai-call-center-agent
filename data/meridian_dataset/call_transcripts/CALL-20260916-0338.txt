@@ -1,0 +1,21 @@
+Call ID: CALL-20260916-0338
+Date: 2026-09-16T18:02
+Agent: Jordan
+Duration: 1m 46s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Hi, the furnace won't kick on and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Jennifer Reyes, 512-751-1662.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Friday if possible, 12 to 4.
+Agent: Bear with me one second. I have a afternoon window Thursday, 1 to 5. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,18 @@
+Call ID: CALL-20260810-0008
+Date: 2026-08-10T14:18
+Agent: Marcus
+Duration: 1m 59s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: I need to pay invoice INV-291384. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-97410.
+Agent: Perfect, and can you confirm the name?
+Customer: Kim Thompson.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

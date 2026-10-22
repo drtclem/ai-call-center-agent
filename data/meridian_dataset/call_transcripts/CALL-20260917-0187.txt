@@ -1,0 +1,14 @@
+Call ID: CALL-20260917-0187
+Date: 2026-09-17T10:13
+Agent: Denise
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I manage a 12-unit strip center and I need a quote on replacing four rooftop units.
+Agent: Thanks for calling. Commercial projects are handled by our commercial division. Let me take your info and have an estimator call you.
+Customer: Sure. Elena Patel, 512-876-5999.
+Agent: Got it. Someone will reach out within one business day.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260919-0037
+Date: 2026-09-19T08:19
+Agent: Denise
+Duration: 2m 29s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Denise. How can I help you today?
+Customer: I'm calling to book a repair, my kitchen sink is backing up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Um, yeah, it's MHC-11198.
+Agent: Perfect, and can you confirm the name?
+Customer: Omar Nguyen.
+Agent: Okay, I see the, uh, account. Okay, give me just a sec here. What day works best for you?
+Customer: As soon as possible if possible, 8 to 12.
+Agent: One moment. I have a morning window tomorrow, 8 to 12. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

@@ -1,0 +1,16 @@
+Call ID: CALL-20260821-0181
+Date: 2026-08-21T10:46
+Agent: Marcus
+Duration: 1m 24s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Wei Ali, 512-388-4849.
+Agent: One moment. Your term ends on the 6th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Um, yes, any time before the renewal date.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Um, alright, take care.

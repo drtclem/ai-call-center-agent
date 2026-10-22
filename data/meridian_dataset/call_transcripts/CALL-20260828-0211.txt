@@ -1,0 +1,23 @@
+Call ID: CALL-20260828-0211
+Date: 2026-08-28T14:55
+Agent: Kayla
+Duration: 2m 46s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: Yeah, I need to schedule a service call. I need my annual tune-up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Derek Brown, 9655 Windcrest Ave, Pflugerville.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Next Tuesday if possible, first thing in the morning.
+Agent: Let me take a look. I have a afternoon window Monday, 12 to 4. Would that work?
+Customer: Um, can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Um, okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yes.
+Agent: Got it. You'll get a text the, uh, morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

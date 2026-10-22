@@ -1,0 +1,21 @@
+Call ID: CALL-20260808-0159
+Date: 2026-08-08T15:03
+Agent: Marcus
+Duration: 2m 28s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: Hey, so the furnace won't kick on. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Jennifer Thompson, 1105 Sunset Terrace, Kyle.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: This Saturday if possible, the afternoon.
+Agent: Let me pull that up. I have a afternoon window Thursday, 8 to 12. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: Um, yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

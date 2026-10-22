@@ -1,0 +1,15 @@
+Call ID: CALL-20260730-0323
+Date: 2026-07-30T11:55
+Agent: Brian
+Duration: 1m 17s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Did you guys register my new unit with the manufacturer? I never got anything.
+Agent: Let me verify the account. Name and service address?
+Customer: Priya Rivera, 4537 Pecan Grove Rd, Kyle.
+Agent: Let me pull that up. Yes, we register every install within 30 days. I see it was registered on the 9th. I'll resend the confirmation.
+Customer: Thanks.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

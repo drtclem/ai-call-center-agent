@@ -1,0 +1,17 @@
+Call ID: CALL-20260821-0310
+Date: 2026-08-21T18:41
+Agent: Brian
+Duration: 1m 36s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Brian. How may I help?
+Customer: What's my current balance?
+Agent: Let me verify the, uh, account. Name and service address?
+Customer: Patricia Chen, 352 Sunset Terrace, Georgetown.
+Agent: Let me take a look. You have an open balance of $149 on INV-268162, due on the 22th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Anything else I can do for you?
+Customer: Can you hear me okay?
+Agent: No problem, take your time.
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,17 @@
+Call ID: CALL-20260719-0059
+Date: 2026-07-19T08:22
+Agent: Renee
+Duration: 1m 42s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Let me verify the account. Name and service address?
+Customer: Raj Diaz, 5722 Brookside Ct, Buda.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

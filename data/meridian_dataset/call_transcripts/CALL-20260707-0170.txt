@@ -1,0 +1,23 @@
+Call ID: CALL-20260707-0170
+Date: 2026-07-07T08:06
+Agent: Denise
+Duration: 2m 23s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Denise. How may I help?
+Customer: Yeah, I need to schedule a service call. My thermostat is blank.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-14782.
+Agent: Perfect, and can you confirm the name?
+Customer: Marcus Murphy.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Next Tuesday if possible, 4 to 7, after work.
+Agent: Let me pull that up. I have a afternoon window Friday, 8 to 12. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Um, yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

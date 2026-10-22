@@ -1,0 +1,120 @@
+/* Meridian chat — one hand-written stylesheet (D12.3). Tokens first; light and dark. */
+:root {
+  color-scheme: light dark;
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --text: #1c2430;
+  --muted: #5b6676;
+  --border: #dde2e8;
+  --accent: #0f6e7a;
+  --accent-text: #ffffff;
+  --agent-bubble: #ffffff;
+  --user-bubble: #0f6e7a;
+  --user-text: #ffffff;
+  --notice-bg: #fff7e6;
+  --notice-border: #f0d9a8;
+  --card-bg: #f0f6f7;
+  --focus: #8a5a00;
+  --input-border: #808a99;
+  --radius: 14px;
+  --space: 1rem;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11161c;
+    --surface: #1a2129;
+    --text: #e6ebf1;
+    --muted: #9aa6b4;
+    --border: #2b3540;
+    --accent: #3fb3c0;
+    --accent-text: #0b1014;
+    --agent-bubble: #1f2832;
+    --user-bubble: #2a7f89;
+    --user-text: #ffffff;
+    --notice-bg: #2a2416;
+    --notice-border: #4d4126;
+    --card-bg: #18262b;
+    --focus: #e0a100;
+    --input-border: #66778a;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 16px/1.5 var(--font); }
+.site-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.75rem var(--space); background: var(--surface); border-bottom: 1px solid var(--border);
+}
+.brand { font-weight: 650; letter-spacing: 0.01em; display: flex; align-items: center; gap: 0.5rem; }
+.brand-mark { width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--accent); display: inline-block; }
+main { max-width: 46rem; margin: 0 auto; padding: var(--space); }
+.notice {
+  background: var(--notice-bg); border: 1px solid var(--notice-border); border-radius: var(--radius);
+  padding: 0.6rem var(--space); font-size: 0.92rem; margin-bottom: var(--space);
+}
+.notice p { margin: 0; }
+.notice-alert { border-color: #d9534f; }
+.messages { list-style: none; padding: 0; margin: 0 0 var(--space); display: flex; flex-direction: column; gap: 0.75rem; }
+.msg { display: flex; flex-direction: column; max-width: 85%; }
+.msg-user { align-self: flex-end; align-items: flex-end; }
+.msg-agent { align-self: flex-start; }
+.bubble {
+  margin: 0; padding: 0.65rem 0.9rem; border-radius: var(--radius); white-space: pre-line;
+  overflow-wrap: anywhere; border: 1px solid var(--border);
+}
+.msg-agent .bubble { background: var(--agent-bubble); border-bottom-left-radius: 4px; }
+.msg-user .bubble { background: var(--user-bubble); color: var(--user-text); border-color: transparent; border-bottom-right-radius: 4px; }
+.card { margin-top: 0.5rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 0.9rem; }
+.card-title { margin: 0 0 0.25rem; font-weight: 650; }
+.card-note { margin: 0.4rem 0 0; color: var(--muted); font-size: 0.88rem; }
+.ticket dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 0.75rem; margin: 0.5rem 0 0; font-size: 0.92rem; }
+.ticket dt { color: var(--muted); }
+.ticket dd { margin: 0; overflow-wrap: anywhere; }
+.composer { display: flex; gap: 0.5rem; align-items: flex-end; }
+.composer textarea {
+  flex: 1; resize: vertical; min-height: 2.75rem; padding: 0.6rem 0.75rem; font: inherit; color: var(--text);
+  background: var(--surface); border: 1px solid var(--input-border); border-radius: var(--radius);
+}
+.button {
+  font: inherit; font-weight: 600; padding: 0.6rem 1.1rem; border-radius: var(--radius); border: 0;
+  background: var(--accent); color: var(--accent-text); cursor: pointer;
+}
+.link-button { font: inherit; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0.25rem; }
+.icon-button { font-size: 1.15rem; background: none; border: 1px solid var(--input-border); border-radius: 999px; padding: 0.2rem 0.6rem; cursor: pointer; }
+.rating { min-height: 2.25rem; margin-top: 0.75rem; color: var(--muted); font-size: 0.92rem; }
+.rating form { display: flex; align-items: center; gap: 0.5rem; }
+.rated { margin: 0; }
+.typing { display: none; color: var(--muted); font-size: 0.9rem; margin: 0 0 0.5rem; }
+.htmx-request .typing { display: block; }
+.htmx-request .composer button { opacity: 0.6; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 520px) {
+  main { padding: 0.75rem; }
+  .msg { max-width: 92%; }
+  .ticket dl { grid-template-columns: 1fr; }
+}
+/* Staff pages (T14) */
+.muted { color: var(--muted); }
+.site-header a { color: var(--accent); }
+main:has(.tiles), main:has(.events) { max-width: 72rem; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 0.75rem; margin: 0 0 var(--space); }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem; display: flex; flex-direction: column; color: var(--muted); font-size: 0.88rem; }
+.tile-n { font-size: 1.5rem; font-weight: 650; color: var(--text); }
+.table-wrap { overflow-x: auto; margin-bottom: var(--space); }
+table { border-collapse: collapse; width: 100%; background: var(--surface); font-size: 0.92rem; }
+th, td { white-space: nowrap; text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+td a, main li a { color: var(--accent); }
+.actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1rem; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
+.events { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.event { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.6rem 0.8rem; }
+.event-user { background: var(--card-bg); }
+.event-head { margin: 0; color: var(--muted); font-size: 0.85rem; }
+.event-text { margin: 0.25rem 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 0.82rem; }
+.wrap { white-space: normal; min-width: 16rem; }

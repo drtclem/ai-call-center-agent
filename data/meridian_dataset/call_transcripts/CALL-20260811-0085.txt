@@ -1,0 +1,19 @@
+Call ID: CALL-20260811-0085
+Date: 2026-08-11T07:05
+Agent: Brian
+Duration: 1m 46s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Brian. How can I help you today?
+Customer: My Rheem compressor died and the system is only three years old. Is that under warranty?
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-85527.
+Agent: Um, perfect, and can you confirm the name?
+Customer: Hannah Johnson.
+Agent: Bear with me one second. Your system was installed 2 years ago. Rheem parts are covered 10 years if registered, which yours is. So the compressor part is covered. Labor is covered for 2 years through us, so labor would be billable.
+Customer: How much is labor on a compressor?
+Agent: Typically $600 to $900 depending on the unit. The tech will quote exact before starting.
+Customer: Okay. Let's schedule it then.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

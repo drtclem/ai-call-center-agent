@@ -1,0 +1,17 @@
+Call ID: CALL-20260718-0419
+Date: 2026-07-18T15:11
+Agent: Denise
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: What's my current balance?
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-25606.
+Agent: Perfect, and can you confirm the name?
+Customer: Victor Patel.
+Agent: Let me take a look. You have an open balance of $149 on INV-204322, due on the 2th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

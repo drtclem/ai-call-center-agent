@@ -1,0 +1,18 @@
+Call ID: CALL-20260721-0258
+Date: 2026-07-21T14:09
+Agent: Kayla
+Duration: 1m 31s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: I have a tech coming tomorrow but something came up. Can I move it?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Priya Brown, 512-516-6351.
+Agent: One moment. I see the appointment tomorrow 8 to 12. What day works instead?
+Customer: Friday?
+Agent: I can do Friday 1 to 5.
+Customer: Perfect.
+Agent: Moved. New confirmation text is on its way.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

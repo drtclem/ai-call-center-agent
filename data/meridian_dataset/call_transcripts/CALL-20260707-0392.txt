@@ -1,0 +1,16 @@
+Call ID: CALL-20260707-0392
+Date: 2026-07-07T09:00
+Agent: Jordan
+Duration: 2m 9s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Let me verify the account. Name and service address?
+Customer: Tom Cruz, 6496 Cedar Ridge Ln, Hutto.
+Agent: Okay, give me just a sec here. Your term ends on the 14th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Anything else today?
+Customer: Um, nope, that covers it.
+Agent: Alright, take care.

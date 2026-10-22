@@ -1,0 +1,17 @@
+Call ID: CALL-20260812-0169
+Date: 2026-08-12T07:15
+Agent: Denise
+Duration: 1m 32s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I want a full refund on the repair. It didn't fix anything and I had to call another company.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-69168.
+Agent: Perfect, and can you confirm the name?
+Customer: Um, robert Smith.
+Agent: Um, i understand your frustration. Refund requests go to our billing supervisor for review. I'll open a case and you'll hear back within two business days.
+Customer: I'd better.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

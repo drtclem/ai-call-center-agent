@@ -1,0 +1,18 @@
+Call ID: CALL-20260816-0097
+Date: 2026-08-16T14:38
+Agent: Marcus
+Duration: 2m 5s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: My window was 12 to 4 and it's 4:30. Nobody's here and nobody's called.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Wei Smith, 512-501-2022.
+Agent: Bear with me one second. I'm so sorry. The tech's previous job ran long. He's about 25 minutes out. I'll have him call you directly.
+Customer: Sorry, I'm driving, one sec.
+Agent: Sure, go ahead.
+Customer: Okay. I just need to know if I should wait.
+Agent: Please wait, he's on his way. And I'm noting the account so the diagnostic fee is waived for the delay.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

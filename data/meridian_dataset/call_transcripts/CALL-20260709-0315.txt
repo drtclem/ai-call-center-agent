@@ -1,0 +1,19 @@
+Call ID: CALL-20260709-0315
+Date: 2026-07-09T12:09
+Agent: Kayla
+Duration: 1m 45s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: My Trane compressor died and the system is only three years old. Is that under warranty?
+Agent: Um, let me verify the account. Name and service address?
+Customer: Patricia Hernandez, 1075 Oak Hollow Dr, Pflugerville.
+Agent: One moment. Your system was installed 3 years ago. Trane parts are covered 10 years if registered, which yours is. So the compressor part is covered. Labor is covered for 2 years through us, so labor would be billable.
+Customer: How much is labor on a compressor?
+Agent: Typically $600 to $900 depending on the, uh, unit. The tech will quote exact before starting.
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: Okay. Let's schedule it then.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

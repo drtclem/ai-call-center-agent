@@ -1,0 +1,16 @@
+Call ID: CALL-20260730-0346
+Date: 2026-07-30T16:51
+Agent: Brian
+Duration: 2m 14s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: Hold on, my dog is barking.
+Agent: I can hear you fine.
+Customer: It's 3750 Ridgeline Pass, Kyle.
+Agent: Bear with me one second. I see a Rheem installed there. I'll email you the manufacturer transfer form.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,160 @@
+appointment_id,slot_id,customer_id,issue_description,created_at,status,is_warranty_visit
+1,2,MHC-57204,Annual tune-up,2026-10-07,scheduled,0
+2,3,MHC-47132,Water at indoor unit,2026-10-07,scheduled,0
+3,4,MHC-17357,Thermostat blank,2026-10-07,scheduled,0
+4,6,MHC-98908,Water at indoor unit,2026-10-15,scheduled,0
+5,7,MHC-95154,Annual tune-up,2026-10-06,scheduled,0
+6,8,MHC-56591,Water heater pilot out,2026-10-15,scheduled,0
+7,9,MHC-99400,Replacement estimate,2026-10-15,scheduled,0
+8,10,MHC-95149,Furnace won't start,2026-10-06,scheduled,1
+9,11,MHC-25475,Thermostat blank,2026-10-13,scheduled,0
+10,12,MHC-57632,Warranty recall - blower,2026-10-11,scheduled,0
+11,13,MHC-38442,Replacement estimate,2026-10-13,scheduled,0
+12,15,MHC-98908,Warranty recall - blower,2026-10-14,scheduled,0
+13,16,MHC-90299,Replacement estimate,2026-10-14,scheduled,1
+14,18,MHC-31160,Water at indoor unit,2026-10-07,scheduled,0
+15,20,MHC-18700,Warranty recall - blower,2026-10-09,scheduled,0
+16,21,MHC-62175,AC not cooling,2026-10-06,scheduled,0
+17,22,MHC-73231,Annual tune-up,2026-10-11,scheduled,0
+18,23,MHC-67178,Furnace won't start,2026-10-06,scheduled,1
+19,26,MHC-41747,Kitchen drain backed up,2026-10-06,scheduled,0
+20,28,MHC-96313,Thermostat blank,2026-10-09,scheduled,0
+21,29,MHC-61242,Kitchen drain backed up,2026-10-15,scheduled,0
+22,30,MHC-78690,Thermostat blank,2026-10-15,scheduled,0
+23,31,MHC-36446,Annual tune-up,2026-10-16,scheduled,0
+24,32,MHC-13063,Grinding noise from outdoor unit,2026-10-10,scheduled,0
+25,33,MHC-29577,Furnace won't start,2026-10-13,scheduled,0
+26,34,MHC-62595,Thermostat blank,2026-10-10,scheduled,0
+27,36,MHC-58358,AC not cooling,2026-10-13,scheduled,0
+28,37,MHC-82491,Annual tune-up,2026-10-10,scheduled,0
+29,38,MHC-64248,Water heater pilot out,2026-10-08,scheduled,0
+30,39,MHC-39024,Replacement estimate,2026-10-10,scheduled,0
+31,40,MHC-31273,Furnace won't start,2026-10-10,scheduled,0
+32,46,MHC-10376,Replacement estimate,2026-10-15,scheduled,0
+33,47,MHC-18700,Grinding noise from outdoor unit,2026-10-13,scheduled,0
+34,49,MHC-51123,Grinding noise from outdoor unit,2026-10-18,scheduled,0
+35,51,MHC-91779,Thermostat blank,2026-10-16,scheduled,0
+36,59,MHC-20561,Replacement estimate,2026-10-16,scheduled,0
+37,60,MHC-18700,Thermostat blank,2026-10-16,scheduled,0
+38,69,MHC-86554,Water heater pilot out,2026-10-12,scheduled,0
+39,70,MHC-40346,Thermostat blank,2026-10-14,scheduled,0
+40,73,MHC-41927,Thermostat blank,2026-10-16,scheduled,0
+41,74,MHC-76263,Grinding noise from outdoor unit,2026-10-10,scheduled,0
+42,75,MHC-72283,Replacement estimate,2026-10-16,scheduled,0
+43,76,MHC-17357,Thermostat blank,2026-10-17,scheduled,0
+44,78,MHC-52727,Replacement estimate,2026-10-18,scheduled,0
+45,79,MHC-20561,Water heater pilot out,2026-10-19,scheduled,0
+46,83,MHC-77976,Water at indoor unit,2026-10-15,scheduled,1
+47,85,MHC-13798,Water at indoor unit,2026-10-16,scheduled,0
+48,88,MHC-95154,Furnace won't start,2026-10-11,scheduled,0
+49,92,MHC-39394,Grinding noise from outdoor unit,2026-10-16,scheduled,1
+50,93,MHC-94607,Furnace won't start,2026-10-16,scheduled,0
+51,94,MHC-48492,Grinding noise from outdoor unit,2026-10-14,scheduled,0
+52,97,MHC-93419,Water at indoor unit,2026-10-15,scheduled,0
+53,99,MHC-90868,Annual tune-up,2026-10-13,scheduled,1
+54,100,MHC-93419,Thermostat blank,2026-10-13,scheduled,0
+55,101,MHC-61883,Water at indoor unit,2026-10-15,scheduled,0
+56,102,MHC-83207,AC not cooling,2026-10-13,scheduled,1
+57,103,MHC-74829,Water heater pilot out,2026-10-16,scheduled,0
+58,105,MHC-91779,Water heater pilot out,2026-10-19,scheduled,0
+59,111,MHC-55482,Warranty recall - blower,2026-10-17,scheduled,0
+60,112,MHC-76660,Grinding noise from outdoor unit,2026-10-14,scheduled,0
+61,117,MHC-34185,Annual tune-up,2026-10-20,scheduled,0
+62,121,MHC-32897,AC not cooling,2026-10-11,scheduled,0
+63,122,MHC-46493,Thermostat blank,2026-10-19,scheduled,1
+64,126,MHC-46517,Thermostat blank,2026-10-15,scheduled,0
+65,128,MHC-13798,Water heater pilot out,2026-10-14,scheduled,0
+66,131,MHC-83207,Grinding noise from outdoor unit,2026-10-12,scheduled,0
+67,133,MHC-94473,Kitchen drain backed up,2026-10-15,scheduled,0
+68,137,MHC-65059,Replacement estimate,2026-10-20,scheduled,0
+69,138,MHC-21764,Water heater pilot out,2026-10-12,scheduled,0
+70,139,MHC-15531,Kitchen drain backed up,2026-10-18,scheduled,1
+71,140,MHC-94714,Grinding noise from outdoor unit,2026-10-19,scheduled,0
+72,141,MHC-73231,Replacement estimate,2026-10-17,scheduled,0
+73,146,MHC-62175,Water at indoor unit,2026-10-16,scheduled,0
+74,147,MHC-38896,Thermostat blank,2026-10-17,scheduled,0
+75,148,MHC-58358,Kitchen drain backed up,2026-10-18,scheduled,0
+76,149,MHC-38140,Replacement estimate,2026-10-14,scheduled,0
+77,152,MHC-10376,Grinding noise from outdoor unit,2026-10-19,scheduled,0
+78,153,MHC-94339,Warranty recall - blower,2026-10-12,scheduled,0
+79,154,MHC-67688,Replacement estimate,2026-10-15,scheduled,0
+80,155,MHC-82491,Water at indoor unit,2026-10-12,scheduled,0
+81,156,MHC-68866,Thermostat blank,2026-10-20,scheduled,0
+82,158,MHC-47959,Annual tune-up,2026-10-14,scheduled,0
+83,160,MHC-62175,Grinding noise from outdoor unit,2026-10-17,scheduled,0
+84,163,MHC-94607,Kitchen drain backed up,2026-10-20,scheduled,0
+85,164,MHC-38591,Kitchen drain backed up,2026-10-12,scheduled,0
+86,167,MHC-82491,Replacement estimate,2026-10-20,scheduled,1
+87,168,MHC-18700,Kitchen drain backed up,2026-10-20,scheduled,0
+88,170,MHC-10885,Warranty recall - blower,2026-10-17,scheduled,0
+89,172,MHC-16329,Water heater pilot out,2026-10-14,scheduled,0
+90,175,MHC-20197,Annual tune-up,2026-10-21,scheduled,0
+91,178,MHC-38896,Grinding noise from outdoor unit,2026-10-13,scheduled,0
+92,181,MHC-73719,Thermostat blank,2026-10-21,scheduled,0
+93,184,MHC-25475,AC not cooling,2026-10-16,scheduled,0
+94,189,MHC-57204,Annual tune-up,2026-10-20,scheduled,0
+95,197,MHC-95921,Water at indoor unit,2026-10-21,scheduled,0
+96,200,MHC-94607,Warranty recall - blower,2026-10-17,scheduled,0
+97,203,MHC-72198,Annual tune-up,2026-10-19,scheduled,0
+98,215,MHC-57632,Annual tune-up,2026-10-19,scheduled,0
+99,217,MHC-56591,Furnace won't start,2026-10-16,scheduled,0
+100,219,MHC-68866,AC not cooling,2026-10-22,scheduled,0
+101,226,MHC-95604,Water at indoor unit,2026-10-21,scheduled,0
+102,230,MHC-94268,Water at indoor unit,2026-10-22,scheduled,0
+103,242,MHC-38591,Water heater pilot out,2026-10-24,scheduled,0
+104,245,MHC-60842,Kitchen drain backed up,2026-10-22,scheduled,0
+105,265,MHC-49756,AC not cooling,2026-10-26,scheduled,0
+106,276,MHC-17357,Water heater pilot out,2026-10-24,scheduled,0
+107,285,MHC-58398,Replacement estimate,2026-10-21,scheduled,0
+108,298,MHC-31273,Kitchen drain backed up,2026-10-27,scheduled,0
+109,305,MHC-55482,Water at indoor unit,2026-10-21,scheduled,0
+110,310,MHC-38591,Warranty recall - blower,2026-10-22,scheduled,0
+111,312,MHC-90012,Furnace won't start,2026-10-19,scheduled,0
+112,319,MHC-24034,Water heater pilot out,2026-10-20,scheduled,0
+113,321,MHC-91779,Water heater pilot out,2026-10-19,scheduled,0
+114,324,MHC-62175,Annual tune-up,2026-10-19,scheduled,0
+115,329,MHC-58237,Warranty recall - blower,2026-10-22,scheduled,0
+116,338,MHC-82768,Water at indoor unit,2026-10-24,scheduled,0
+117,339,MHC-44511,AC not cooling,2026-10-25,scheduled,0
+118,342,MHC-83707,Furnace won't start,2026-10-26,scheduled,0
+119,349,MHC-49756,Replacement estimate,2026-10-19,scheduled,0
+120,350,MHC-70824,Replacement estimate,2026-10-25,scheduled,0
+121,356,MHC-95149,Grinding noise from outdoor unit,2026-10-28,scheduled,0
+122,362,MHC-60020,Replacement estimate,2026-10-28,scheduled,0
+123,366,MHC-73719,Furnace won't start,2026-10-26,scheduled,0
+124,372,MHC-73719,Kitchen drain backed up,2026-10-26,scheduled,0
+125,374,MHC-75925,Replacement estimate,2026-10-20,scheduled,0
+126,377,MHC-10052,Warranty recall - blower,2026-10-20,scheduled,0
+127,382,MHC-54566,Furnace won't start,2026-10-22,scheduled,0
+128,390,MHC-39394,Replacement estimate,2026-10-22,scheduled,0
+129,393,MHC-86460,Replacement estimate,2026-10-31,scheduled,0
+130,395,MHC-40867,Replacement estimate,2026-10-30,scheduled,0
+131,397,MHC-41747,Warranty recall - blower,2026-10-25,scheduled,0
+132,402,MHC-51416,Annual tune-up,2026-10-23,scheduled,1
+133,403,MHC-73231,AC not cooling,2026-10-27,scheduled,1
+134,405,MHC-66261,Kitchen drain backed up,2026-10-28,scheduled,0
+135,415,MHC-78578,Water heater pilot out,2026-10-31,scheduled,0
+136,421,MHC-60020,Warranty recall - blower,2026-10-31,scheduled,0
+137,422,MHC-66681,Water at indoor unit,2026-10-27,scheduled,0
+138,426,MHC-17882,AC not cooling,2026-10-29,scheduled,0
+139,427,MHC-49756,Replacement estimate,2026-10-25,scheduled,0
+140,429,MHC-16329,AC not cooling,2026-10-24,scheduled,0
+141,433,MHC-72198,Replacement estimate,2026-10-28,scheduled,0
+142,438,MHC-75688,AC not cooling,2026-10-30,scheduled,0
+143,442,MHC-41747,Kitchen drain backed up,2026-11-02,scheduled,0
+144,447,MHC-40346,Kitchen drain backed up,2026-11-01,scheduled,0
+145,459,MHC-58358,Furnace won't start,2026-11-01,scheduled,0
+146,463,MHC-50341,Water at indoor unit,2026-10-26,scheduled,0
+147,468,MHC-52697,Water at indoor unit,2026-10-25,scheduled,0
+148,479,MHC-60948,Grinding noise from outdoor unit,2026-10-27,scheduled,1
+149,483,MHC-17882,Water at indoor unit,2026-10-27,scheduled,0
+150,484,MHC-51123,AC not cooling,2026-11-02,scheduled,0
+151,487,MHC-40867,Kitchen drain backed up,2026-11-01,scheduled,0
+152,489,MHC-83707,Water heater pilot out,2026-10-31,scheduled,0
+153,497,MHC-90299,Furnace won't start,2026-10-30,scheduled,0
+154,505,MHC-86554,Grinding noise from outdoor unit,2026-11-02,scheduled,0
+155,513,MHC-61242,Thermostat blank,2026-11-02,scheduled,0
+156,519,MHC-18700,Annual tune-up,2026-10-26,scheduled,0
+157,525,MHC-66681,Annual tune-up,2026-11-04,scheduled,0
+158,528,MHC-82768,Annual tune-up,2026-11-01,scheduled,1
+159,159,MHC-10001,AC blowing warm air,2026-10-14,scheduled,0

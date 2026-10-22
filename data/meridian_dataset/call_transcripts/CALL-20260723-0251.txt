@@ -1,0 +1,16 @@
+Call ID: CALL-20260723-0251
+Date: 2026-07-23T07:35
+Agent: Denise
+Duration: 1m 34s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I want to cancel my Comfort Club membership.
+Agent: Let me verify the account. Name and service address?
+Customer: Robert Diaz, 9157 Oak Hollow Dr, Leander.
+Agent: I can help with that. Just so you know, the plan is annual. If you've already used a tune-up this term, there's no refund on the remaining months, but it won't renew.
+Customer: That's fine, just make sure it doesn't renew.
+Agent: Done. Auto-renew is off and you'll get a confirmation email.
+Agent: Um, anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

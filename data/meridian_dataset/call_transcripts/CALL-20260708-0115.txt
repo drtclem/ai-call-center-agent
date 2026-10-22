@@ -1,0 +1,18 @@
+Call ID: CALL-20260708-0115
+Date: 2026-07-08T12:04
+Agent: Renee
+Duration: 1m 59s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: I need to pay invoice INV-263891. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Um, do you have your account number handy?
+Customer: Yeah, it's MHC-27627.
+Agent: Perfect, and can you confirm the name?
+Customer: Maria Patel.
+Agent: Um, sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

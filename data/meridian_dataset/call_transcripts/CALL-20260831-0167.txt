@@ -1,0 +1,16 @@
+Call ID: CALL-20260831-0167
+Date: 2026-08-31T17:13
+Agent: Brian
+Duration: 1m 16s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Um, i got an email saying my membership is renewing. When does it actually charge?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Nadia Cruz, 512-549-8331.
+Agent: Okay, give me just a sec here. Your term ends on the 8th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

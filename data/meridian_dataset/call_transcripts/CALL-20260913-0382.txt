@@ -1,0 +1,16 @@
+Call ID: CALL-20260913-0382
+Date: 2026-09-13T10:08
+Agent: Brian
+Duration: 1m 2s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Let me verify the account. Name and service address?
+Customer: Carlos Lee, 1950 Windcrest Ave, Hutto.
+Agent: One moment. Your term ends on the 13th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

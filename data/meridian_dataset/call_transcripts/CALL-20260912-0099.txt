@@ -1,0 +1,19 @@
+Call ID: CALL-20260912-0099
+Date: 2026-09-12T13:29
+Agent: Denise
+Duration: 2m 26s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Denise here. What's going on today?
+Customer: I think I got charged twice. There are two $89 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-92483.
+Agent: Perfect, and can you confirm the name?
+Customer: Susan Kim.
+Agent: Bear with me one second. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

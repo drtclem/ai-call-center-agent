@@ -1,0 +1,18 @@
+Call ID: CALL-20260914-0009
+Date: 2026-09-14T09:08
+Agent: Renee
+Duration: 1m 7s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Wei Brown, 512-351-1090.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: Um, i have tomorrow 8 to 12.
+Customer: Take it.
+Agent: Is there anything else I can help you with?
+Customer: Um, no, that's it. Thanks.
+Agent: You're welcome, have a great day.

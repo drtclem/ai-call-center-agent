@@ -1,0 +1,21 @@
+Call ID: CALL-20260817-0354
+Date: 2026-08-17T08:22
+Agent: Brian
+Duration: 1m 52s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Brian here. What's going on today?
+Customer: I'm calling to book a repair, my thermostat is blank.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Sure, it's Omar Martinez, 512-828-9341.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: As soon as possible if possible, 4 to 7, after work.
+Agent: One moment. I have a afternoon window Monday, 8 to 12. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

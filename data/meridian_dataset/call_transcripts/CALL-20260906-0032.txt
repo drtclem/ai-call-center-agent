@@ -1,0 +1,23 @@
+Call ID: CALL-20260906-0032
+Date: 2026-09-06T13:43
+Agent: Eli
+Duration: 1m 56s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: Um, hey, so I smell something burning from the vents. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Nadia Patel, 3152 Windcrest Ave, Round Rock.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Um, thursday if possible, the afternoon.
+Agent: Let me take a look. I have a afternoon window Friday, 1 to 5. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

@@ -1,0 +1,21 @@
+Call ID: CALL-20260803-0155
+Date: 2026-08-03T11:13
+Agent: Renee
+Duration: 2m 11s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Renee. How can I help you today?
+Customer: My system is 18 years old and I'm thinking about replacing it. What would that cost?
+Agent: Replacement pricing depends on the size of the home, ductwork, and efficiency level. We do free in-home estimates with a comfort advisor.
+Customer: Ballpark?
+Agent: Most full system replacements run between $8,000 and $16,000, but I really can't quote without a visit. Want me to set up the estimate?
+Customer: Hold on, my dog is barking.
+Agent: Sure, go ahead.
+Customer: Yeah, let's do that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Michael Brown, 512-480-1161.
+Agent: I have an advisor available Tuesday at 4pm.
+Customer: Works.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

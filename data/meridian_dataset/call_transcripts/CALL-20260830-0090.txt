@@ -1,0 +1,23 @@
+Call ID: CALL-20260830-0090
+Date: 2026-08-30T08:52
+Agent: Kayla
+Duration: 1m 50s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Kayla speaking. What can I do for you?
+Customer: I'm calling to book a repair, the water heater pilot light keeps going out.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Elena Chen, 512-952-1643.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: This Saturday if possible, the afternoon.
+Agent: Bear with me one second. I have a morning window Friday, 12 to 4. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

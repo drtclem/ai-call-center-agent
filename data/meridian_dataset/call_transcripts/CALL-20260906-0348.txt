@@ -1,0 +1,23 @@
+Call ID: CALL-20260906-0348
+Date: 2026-09-06T13:11
+Agent: Marcus
+Duration: 2m 26s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Marcus. How can I help you today?
+Customer: Hi, the AC runs but the air is warm and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-36350.
+Agent: Perfect, and can you confirm the name?
+Customer: David Garcia.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Friday if possible, first thing in the morning.
+Agent: Let me take a look. I have a morning window Thursday, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, anything else I can do for you?
+Customer: No that's everything.
+Agent: Um, okay, thanks for calling Meridian.

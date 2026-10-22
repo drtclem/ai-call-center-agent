@@ -1,0 +1,17 @@
+Call ID: CALL-20260723-0276
+Date: 2026-07-23T17:27
+Agent: Eli
+Duration: 1m 58s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: My Trane compressor died and the system is only three years old. Is that under warranty?
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Sure, it's Priya Murphy, 512-247-9508.
+Agent: One moment. Your system was installed 4 years ago. Trane parts are covered 10 years if registered, which yours is. So the compressor part is covered. Labor is covered for 2 years through us, so labor would be billable.
+Customer: How much is labor on a compressor?
+Agent: Typically $600 to $900 depending on the unit. The tech will quote exact before starting.
+Customer: Okay. Let's schedule it then.
+Agent: Anything else today?
+Customer: Um, nope, that covers it.
+Agent: Um, alright, take care.

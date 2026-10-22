@@ -1,0 +1,17 @@
+Call ID: CALL-20260828-0316
+Date: 2026-08-28T12:49
+Agent: Eli
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: What does the Comfort Club membership actually include?
+Agent: The Comfort Club is our maintenance plan. You get two tune-ups a year, one for heating and one for cooling, priority scheduling, no diagnostic fee on service calls, and 15 percent off repairs.
+Customer: Um, and how much is it?
+Agent: It's $189 a year for one system, or $16.99 a month. Each additional system is $99 a year.
+Customer: Does it cover plumbing?
+Agent: Um, the standard plan is HVAC only. The Comfort Club Plus adds an annual water heater flush and plumbing inspection for $269 a year.
+Customer: Okay, let me think about it.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

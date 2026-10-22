@@ -1,0 +1,16 @@
+Call ID: CALL-20260916-0098
+Date: 2026-09-16T17:14
+Agent: Tasha
+Duration: 1m 48s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Tasha. How can I help you today?
+Customer: My window was 12 to 4 and it's 4:30. Nobody's here and nobody's called.
+Agent: Let me verify the account. Name and service address?
+Customer: Aisha Brown, 221 Ridgeline Pass, Buda.
+Agent: Let me take a look. I'm so sorry. The tech's previous job ran long. He's about 25 minutes out. I'll have him call you directly.
+Customer: Okay. I just need to know if I should wait.
+Agent: Please wait, he's on his way. And I'm noting the account so the diagnostic fee is waived for the delay.
+Agent: Um, was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

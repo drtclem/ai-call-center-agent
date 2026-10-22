@@ -1,0 +1,59 @@
+---
+description: Required build workflow for every task — subagents, definition of done, standing rules, and how the agent commits and merges
+alwaysApply: true
+---
+
+# Build workflow (required for every task)
+
+Project docs live in `docs/`: `brief.md` (original brief, never edit), `decisions.md` (goals and every decision with rationale), `prd.md` (what), `architecture.md` (how; its **Rules** section is binding), `tasks.md` (ordered tasks with "done" criteria), `requirements.md` (brief → decision → task → test matrix), `system-explained.md` (plain-English guide), `diagrams/`. The dataset is in `data/meridian_dataset/` (read-only). Read the relevant parts before every task. If the task, the code, and the docs disagree: stop and ask.
+
+## For every task, in order
+1. **Pick one task** from `docs/tasks.md`. One at a time.
+2. **Where to work.** First make sure `git status` is clean in `~/Projects/aea_callcenter` (starting a cloud agent stashes uncommitted changes). **Sequential task:** `git checkout main && git pull --ff-only && git checkout -b cursor/T<n>-<short-slug>`. **Parallel task (marked in `docs/tasks.md`):** create and use only a worktree: `git -C ~/Projects/aea_callcenter fetch && git -C ~/Projects/aea_callcenter worktree add ~/Projects/aea_callcenter-wt/<slug> -b cursor/T<n>-<slug> origin/main`. Touch only the task's **Owns** paths; never a **Must not touch** path (stop and report instead).
+3. **Design check (when needed).** If the task needs a decision the docs don't cover (tool interface, prompt structure, retrieval change, schema change, dependency, any change to `docs/architecture.md`), send it to **design-critic** first. If the verdict is "Rethink" or the decision is hard to reverse, STOP and ask the owner.
+4. **Tests first.** **tester** writes tests from the "done" criteria. Confirm they fail for the right reason.
+5. **Implement** the smallest change that makes the tests pass, following existing patterns.
+6. **Verify.** **verifier**. If NOT VERIFIED, fix the cause and re-run.
+7. **Review.** **reviewer**. Fix every **Blocking** finding.
+8. **Audit (agent loop, prompts, tools, retrieval, scheduling writes, escalation, chat endpoint, logging).** **agent-safety-auditor**. Fix every **Critical** and **High** finding.
+9. After any fixes in 7–8, re-run verifier, reviewer, and (if it applied) agent-safety-auditor.
+10. **Diagrams.** If a component, boundary, tool, flow or data path changed, run **diagrammer**. Otherwise say so in the report.
+11. **Explain.** If discovery, ingestion, retrieval, the agent loop, a tool, escalation, evals or monitoring changed, run **explainer**.
+12. **Trace.** Run **requirements-tracer**.
+13. **Commit and push** (see Git below), wait for the branch pipeline, fix until green.
+14. **Merge** (see Git below) once everything in "Done" holds. **🔒 tasks: do NOT merge.** Stop at the green MR and report "T<n> ready for review"; Claude reviews and merges.
+15. **Report back** with: what changed, verifier / reviewer / auditor results, diagrams and explainer updates, the tracer's gap line, eval numbers if they changed (before → after), the commits and MR link, pipeline status, deferred Should-fix/Medium/Low items, every new dependency with its one-line justification, and **anything where an AI suggestion was wrong, an API was guessed at, or you had to correct yourself** (for `docs/ai-log.md`).
+
+## A task is NOT done until
+- verifier says **VERIFIED**, and
+- reviewer says **No blocking issues**, and
+- for agent/tool/retrieval/scheduling/escalation/endpoint/logging changes, agent-safety-auditor says **No Critical/High findings**, and
+- requirements-tracer shows no `Gap` for this task's requirements, and
+- the GitLab branch pipeline is **green**. "Passed locally" is not done.
+
+## Hard rules (never cut)
+- Never skip, disable, delete, or weaken tests, assertions, CI jobs, or thresholds to get green. No new `# type: ignore`, `Any`, `cast`, or `noqa` without a one-line reason in the same line.
+- **Evals are sacred.** Never edit eval-set labels, expected answers, or metric definitions to raise a number. Never tune prompts or retrieval on the held-out test split. Any eval change needs a decision in `docs/decisions.md`.
+- **No guessing.** Every customer-facing fact comes from a retrieved current KB document or a DB row; otherwise the agent escalates. Never put KB facts (prices, hours, policies) in prompts or code by hand.
+- **The data is read-only.** Never modify `data/meridian_dataset/`. Tests use temp copies of the SQLite DB; the app writes to its own runtime copy per D13.
+- **Time:** "today" comes from the configured clock (D10), never `date.today()` / `datetime.now()` directly.
+- Never edit `docs/brief.md`, `docs/decisions.md`, `docs/prd.md`, or `docs/architecture.md` without the owner's approval. Never edit old rows in `docs/ai-log.md` (append-only).
+- No features or abstractions outside the current task. No "for later" code.
+- Verify current library versions and LLM APIs from official docs; don't rely on memory. Model names and SDKs changed in 2026.
+- **Secrets:** treat the repo as PUBLIC. Secrets only from env vars; add every new variable to `.env.example` with a placeholder. Never `cat`, print, echo, or paste `.env` or any key; you may check a variable is set (`test -n "$VAR"`). No key ever reaches the browser.
+- **Privacy:** follow D17 for what personal data is logged. Until it is decided, plain-text logs carry IDs, outcomes, timings and error codes only.
+- **Failures:** every LLM call has a timeout and a clear caller-visible fallback (usually escalation); nothing hangs silently.
+- Don't add a dependency without a one-line justification in the report.
+- Live LLM calls (live tests, full eval) are opt-in (env flag) and never run in CI.
+- If something is ambiguous, ask rather than guess.
+
+## Git (the main agent commits and merges; subagents never run git that changes anything)
+- Conventional Commits, scoped to one logical step: `feat(scheduling): atomic book_slot with member check`, `test(retrieval): recall@3 on labeled questions`, `docs(diagrams): add booking flow`. Reference the task in the body: `Task: T7`. Several small commits per task beats one big one; never a dump commit.
+- End every commit message with: `Co-Authored-By: Cursor Agent <cursoragent@cursor.com>`
+- Never commit `.env*` (except `.env.example`), keys, or the runtime DB. Never commit a lockfile change without the matching manifest change.
+- Push after every commit so CI gives early feedback. First push opens the merge request:
+  `git push -u origin <branch> -o merge_request.create -o merge_request.target=main -o merge_request.title="T<n>: <task title>"`
+- Check the pipeline with `glab ci status` (or the MR page). If it fails, fix it before continuing.
+- **🔒 tasks (marked in `docs/tasks.md`) are merged by Claude after review, never by you.** Leave the MR open and green.
+- **Merge** (non-🔒 tasks) only when every "Done" item holds, through GitLab so the pipeline gate is enforced server-side: `glab mr merge <MR> --auto-merge --remove-source-branch`. If the branch is behind `main`, rebase it, re-run verifier, push, and let auto-merge proceed. Only if `glab` is unavailable: `git checkout main && git pull --ff-only && git merge --ff-only <branch> && git push origin main` after confirming the branch pipeline is green. Never force-push `main`.
+- After a parallel task merges, remove its worktree: `git -C ~/Projects/aea_callcenter worktree remove ~/Projects/aea_callcenter-wt/<slug>`.

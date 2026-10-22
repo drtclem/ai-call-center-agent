@@ -1,0 +1,17 @@
+Call ID: CALL-20260908-0158
+Date: 2026-09-08T09:01
+Agent: Jordan
+Duration: 1m 25s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: Just wanted to confirm I still have someone coming Thursday.
+Agent: Let me verify the account. Name and service address?
+Customer: Marcus Nguyen, 952 Lakeshore Blvd, Kyle.
+Agent: Bear with me one second. Yes, Thursday 12 to 4, for a AC repair.
+Customer: Okay, thanks.
+Agent: Is there anything else I can help you with?
+Customer: Hold on, my dog is barking.
+Agent: No problem, take your time.
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

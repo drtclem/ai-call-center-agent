@@ -1,0 +1,16 @@
+Call ID: CALL-20260710-0135
+Date: 2026-07-10T07:46
+Agent: Tasha
+Duration: 1m 9s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Tasha. How may I help?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Carlos Diaz, 512-266-3089.
+Agent: One moment. Your term ends on the 22th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Um, yes, any time before the renewal date.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

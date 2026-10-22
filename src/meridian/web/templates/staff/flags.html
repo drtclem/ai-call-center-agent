@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Flag review · Meridian staff{% endblock %}
+{% block header_extra %}<a href="/staff">Back to dashboard</a>{% endblock %}
+{% block main %}
+<h1>Flagged conversations ({{ flags | length }})</h1>
+<p class="muted">Flagged automatically: 👎, answer-check failure, no supporting section, abandoned, error, suspected injection. Tag each one and write the correct answer or action. Only reviewed flags can be added as a test; tests go to the eval development set, never the held-out set.</p>
+{% for f in flags %}
+<section class="card" id="flag-{{ f.id }}">
+  <p class="card-title">#{{ f.id }} · {{ f.kind }} · <a href="/staff/conversations/{{ f.conversation_id }}">{{ f.created_at | ct }}</a></p>
+  <dl class="facts">
+    <dt>Caller</dt><dd>{{ f.caller }}</dd>
+    <dt>First message</dt><dd>{{ f.first_message or "—" }}</dd>
+    <dt>Reviewed by</dt><dd>{{ f.reviewed_by or "not reviewed" }}{% if f.tag %} · {{ tags[f.tag] }}{% endif %}{% if f.added_as_test %} · added as a test{% endif %}</dd>
+  </dl>
+  {% if request.state.role == "staff" %}
+  <details{% if not f.reviewed_by %} open{% endif %}><summary>Review</summary>
+  <form method="post" action="/staff/flags/{{ f.id }}/review">
+    <p><label>Tag <select name="tag" required>
+      {% for key, label in tags.items() %}<option value="{{ key }}"{% if key == f.tag %} selected{% endif %}>{{ label }}</option>{% endfor %}
+    </select></label></p>
+    <p><label>Correct answer or action<br><textarea name="correct_answer" rows="3" cols="60" maxlength="2000">{{ f.correct_answer }}</textarea></label></p>
+    <p><label>Reviewed by <input name="reviewed_by" required maxlength="80" value="{{ f.reviewed_by }}"></label></p>
+    <button class="button" type="submit">Save review</button>
+  </form>
+  </details>
+  {% if f.added_as_test %}
+  <p><a href="/staff/flags/{{ f.id }}/test-case.json">Download the test case</a> <span class="muted">(then run <code>python -m evals.conversations.import_feedback</code> on it locally)</span></p>
+  {% elif f.reviewed_by %}
+  <p class="notice">Check the caller's text before exporting: phone numbers and emails are swapped for the test customer's, but names and addresses the caller typed stay in the case.</p>
+  {% if f.wrote %}<p class="muted">This conversation booked, moved or cancelled a visit, so it can only be added as a handoff case: a "handled" case checks that the database stays unchanged.</p>{% endif %}
+  <form method="post" action="/staff/flags/{{ f.id }}/add-test" class="actions">
+    <label>The call should <select name="expected">
+      {% if not f.wrote %}<option value="handle">be handled by the agent</option>{% endif %}
+      {% for r in reasons %}<option value="{{ r }}">hand off: {{ r.replace("_", " ") }}</option>{% endfor %}
+    </select></label>
+    <button class="button" type="submit">Add as test (dev set)</button>
+  </form>
+  {% endif %}
+  {% endif %}
+</section>
+{% else %}<p class="muted">Nothing flagged.</p>{% endfor %}
+{% endblock %}

@@ -1,0 +1,25 @@
+Call ID: CALL-20260802-0016
+Date: 2026-08-02T12:10
+Agent: Renee
+Duration: 2m 22s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Renee. How may I help?
+Customer: Yeah, I need to schedule a service call. The water heater pilot light keeps going out.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Maria Thompson, 512-257-5806.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: Friday if possible, 12 to 4.
+Agent: Um, okay, give me just a sec here. I have a morning window tomorrow, 1 to 5. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: Sorry, I'm driving, one sec.
+Agent: No problem, take your time.
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

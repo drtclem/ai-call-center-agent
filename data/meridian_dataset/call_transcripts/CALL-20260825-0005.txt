@@ -1,0 +1,23 @@
+Call ID: CALL-20260825-0005
+Date: 2026-08-25T12:39
+Agent: Eli
+Duration: 2m 30s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Eli. How may I help?
+Customer: Hi, there's water pooling around the indoor unit and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Um, yeah, it's MHC-76562.
+Agent: Perfect, and can you confirm the name?
+Customer: Maria Baker.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Thursday if possible, 4 to 7, after work.
+Agent: Okay, give me just a sec here. I have a morning window Friday, 1 to 5. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

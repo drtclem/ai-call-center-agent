@@ -1,0 +1,15 @@
+Call ID: CALL-20260708-0255
+Date: 2026-07-08T08:03
+Agent: Denise
+Duration: 1m 48s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Denise here. What's going on today?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's James Smith, 512-399-7854.
+Agent: One moment. You have an open balance of $245 on INV-233442, due on the 6th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

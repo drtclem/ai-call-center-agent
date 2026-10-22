@@ -1,0 +1,20 @@
+Call ID: CALL-20260714-0326
+Date: 2026-07-14T15:41
+Agent: Kayla
+Duration: 1m 12s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-38523.
+Agent: Perfect, and can you confirm the name?
+Customer: Priya Nguyen.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 8 to 12.
+Customer: Take it.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

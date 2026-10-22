@@ -1,0 +1,23 @@
+Call ID: CALL-20260721-0110
+Date: 2026-07-21T11:14
+Agent: Brian
+Duration: 1m 54s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Hi, I need my annual tune-up and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Wei Smith, 512-933-8006.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Um, this Saturday if possible, first thing in the morning.
+Agent: Okay, give me just a sec here. I have a afternoon window Monday, 8 to 12. Would that work?
+Customer: Um, can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yep, same one.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,18 @@
+Call ID: CALL-20260819-0177
+Date: 2026-08-19T14:15
+Agent: Eli
+Duration: 1m 35s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Eli. How can I help you today?
+Customer: I've called three times about the same problem and nobody has called me back. I'm done.
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Sure, it's Hannah Nguyen, 512-296-4032.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,14 @@
+Call ID: CALL-20260823-0142
+Date: 2026-08-23T17:28
+Agent: Renee
+Duration: 1m 59s
+Direction: Inbound
+
+Agent: Um, thank you for calling Meridian Home Comfort, this is Renee. How can I help you today?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the, uh, manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: It's 7488 Maple St, Leander.
+Agent: Let me pull that up. I see a Goodman installed there. I'll email you the manufacturer transfer form.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: Um, you're welcome, have a great day.

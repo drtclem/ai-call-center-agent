@@ -1,0 +1,16 @@
+Call ID: CALL-20260721-0125
+Date: 2026-07-21T09:27
+Agent: Tasha
+Duration: 1m 25s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Tasha here. What's going on today?
+Customer: I need to pay invoice INV-267286. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's James Garcia, 512-845-8074.
+Agent: Sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

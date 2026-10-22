@@ -1,0 +1,21 @@
+Call ID: CALL-20260807-0312
+Date: 2026-08-07T08:00
+Agent: Marcus
+Duration: 2m 20s
+Direction: Inbound
+
+Agent: Um, hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: Um, yeah, I need to schedule a service call. I need my annual tune-up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: James Ali, 5857 Sunset Terrace, Round Rock.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Tomorrow if possible, 4 to 7, after work.
+Agent: One moment. I have a afternoon window Friday, 12 to 4. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

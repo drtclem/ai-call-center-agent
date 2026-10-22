@@ -1,0 +1,18 @@
+Call ID: CALL-20260809-0197
+Date: 2026-08-09T12:11
+Agent: Eli
+Duration: 1m 13s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: I need to pay invoice INV-273813. Can I do it over the phone?
+Agent: We don't take card numbers over the phone, but I can text you a secure payment link.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-40423.
+Agent: Perfect, and can you confirm the name?
+Customer: Nate Garcia.
+Agent: Um, sent. You should have it now.
+Customer: Got it. Thanks.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

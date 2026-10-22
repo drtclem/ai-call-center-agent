@@ -1,0 +1,22 @@
+Call ID: CALL-20260726-0189
+Date: 2026-07-26T18:06
+Agent: Marcus
+Duration: 2m 21s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: Um, your technician told my wife the system needed a $4,000 replacement and I got a second opinion and it was a $200 capacitor. I want to speak to someone in charge.
+Agent: Do you have your account number handy?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Yeah, it's MHC-98917.
+Agent: Perfect, and can you confirm the name?
+Customer: Can you hear me okay?
+Agent: No problem, take your time.
+Customer: Elena Diaz.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

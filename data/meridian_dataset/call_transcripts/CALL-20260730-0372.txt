@@ -1,0 +1,21 @@
+Call ID: CALL-20260730-0372
+Date: 2026-07-30T17:23
+Agent: Marcus
+Duration: 1m 52s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: Hey, so there's water pooling around the indoor unit. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's David Brown, 512-411-3839.
+Agent: Um, okay, I see the account. One moment. What day works best for you?
+Customer: As soon as possible if possible, the afternoon.
+Agent: Let me take a look. I have a morning window Monday, 12 to 4. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Um, got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: Um, you're welcome, have a great day.

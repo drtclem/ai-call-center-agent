@@ -1,0 +1,25 @@
+Call ID: CALL-20260810-0088
+Date: 2026-08-10T13:55
+Agent: Jordan
+Duration: 2m 55s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Jordan speaking. What can I do for you?
+Customer: Hey, so the water heater pilot light keeps going out. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Aisha Reyes, 512-509-4869.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Tomorrow if possible, 4 to 7, after work.
+Agent: Bear with me one second. I have a afternoon window Friday, 8 to 12. Would that work?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Rheem?
+Customer: Um, i think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,17 @@
+Call ID: CALL-20260806-0207
+Date: 2026-08-06T17:49
+Agent: Marcus
+Duration: 1m 25s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Marcus. How can I help you today?
+Customer: I think I got charged twice. There are two $312 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Let me verify the account. Name and service address?
+Customer: Omar Walker, 4635 Sunset Terrace, Round Rock.
+Agent: One moment. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

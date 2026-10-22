@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Conversation · Meridian staff{% endblock %}
+{% block header_extra %}<a href="/staff">Back to dashboard</a>{% endblock %}
+{% block main %}
+{% set c = conversation %}
+<h1>Conversation {{ c.id }}</h1>
+<dl class="facts">
+  <dt>Started</dt><dd>{{ c.started_at | ct }}</dd>
+  <dt>Last message</dt><dd>{{ c.ended_at | ct }}</dd>
+  <dt>Outcome</dt><dd>{{ c.final_outcome.replace("_", " ") }}{% if c.outcome_reason %} ({{ c.outcome_reason.replace("_", " ") }}){% endif %}</dd>
+  <dt>Customer</dt><dd>{{ c.customer_id or "not verified" }}</dd>
+  <dt>Rating</dt><dd>{{ {1: "👍", -1: "👎"}.get(c.rating, "—") }}</dd>
+  <dt>Turns · cost</dt><dd>{{ c.turns }} · {{ "%.2f" % (c.cost_usd_micros / 10000) }}¢</dd>
+  <dt>Models</dt><dd>{{ c.models_used }}</dd>
+</dl>
+<ol class="events">
+{% for e in events %}
+  <li class="event event-{{ e.role }}">
+    <p class="event-head">{{ e.role }}{% if e.worker %} · {{ e.worker }}{% endif %}{% if e.latency_ms is not none %} · {{ e.latency_ms }} ms{% endif %}{% if e.model %} · {{ e.model }}{% endif %}</p>
+    <p class="event-text">{{ e.text }}</p>
+    {% if e.tool_calls %}<details><summary>{{ e.tool_calls | length }} tool call(s)</summary><pre>{{ e.tool_calls | tojson(indent=2) }}</pre></details>{% endif %}
+    {% if e.sections %}<p class="muted">Sections: {{ e.sections | join(", ") }}</p>{% endif %}
+    {% if e.check_result %}<p class="notice notice-alert">Answer check: {{ e.check_result }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% for k in tickets %}
+<section class="card ticket"><p class="card-title">Handoff ticket #{{ k.id }} ({{ k.status }})</p>
+  <dl><dt>Reason</dt><dd>{{ k.reason.replace("_", " ") }}</dd><dt>Urgency</dt><dd>{{ k.urgency }}</dd><dt>Summary</dt><dd>{{ k.summary }}</dd><dt>Callback</dt><dd>{{ k.callback_window or "—" }}</dd></dl>
+</section>
+{% endfor %}
+{% for f in fees %}
+<section class="card ticket"><p class="card-title">Fee review #{{ f.id }} ({{ f.status }})</p>
+  <dl><dt>Visit</dt><dd>{{ f.appointment_id }}</dd><dt>Change</dt><dd>{{ f.change }}</dd><dt>Fee</dt><dd>${{ "%.2f" % (f.amount_cents / 100) }}</dd><dt>Consent</dt><dd>{{ f.consent_method }} at {{ f.consent_at | ct }}</dd><dt>Notice shown</dt><dd>{{ f.notice_text or "—" }}</dd></dl>
+</section>
+{% endfor %}
+{% endblock %}

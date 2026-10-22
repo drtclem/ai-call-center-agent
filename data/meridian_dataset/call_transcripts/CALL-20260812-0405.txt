@@ -1,0 +1,16 @@
+Call ID: CALL-20260812-0405
+Date: 2026-08-12T17:23
+Agent: Brian
+Duration: 2m 5s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: Um, can I upgrade from the regular plan to the Plus plan mid-year?
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Sofia Garcia, 512-384-2876.
+Agent: Yes. We prorate the difference for the remaining months. For you that'd be about $39 today.
+Customer: Let's do it.
+Agent: You're upgraded. I'll send a payment link for the prorated amount.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

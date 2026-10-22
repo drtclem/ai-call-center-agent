@@ -1,0 +1,27 @@
+Call ID: CALL-20260825-0370
+Date: 2026-08-25T14:22
+Agent: Kayla
+Duration: 1m 53s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Kayla. How may I help?
+Customer: I'm calling to book a repair, the furnace won't kick on.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Um, let me verify the account. Name and service address?
+Customer: Tom Murphy, 1077 Maple St, Pflugerville.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Um, thursday if possible, 8 to 12.
+Agent: Okay, give me just a sec here. I have a morning window tomorrow, 8 to 12. Would that work?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: Um, can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Hold on, my dog is barking.
+Agent: No problem, take your time.
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

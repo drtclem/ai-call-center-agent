@@ -1,0 +1,3278 @@
+{
+ "run_at": "2026-10-20T21:02:16+00:00",
+ "questions": 70,
+ "scored": 69,
+ "modes": {
+  "hybrid": {
+   "section_top3": 66,
+   "section_top4": 67,
+   "doc_top3": 68,
+   "mrr_top3": 0.857
+  },
+  "bm25": {
+   "section_top3": 58,
+   "section_top4": 61,
+   "doc_top3": 63,
+   "mrr_top3": 0.708
+  },
+  "embeddings": {
+   "section_top3": 64,
+   "section_top4": 65,
+   "doc_top3": 69,
+   "mrr_top3": 0.812
+  }
+ },
+ "groups": {
+  "bucket: billing": [
+   17,
+   18
+  ],
+  "bucket: membership": [
+   18,
+   20
+  ],
+  "bucket: scheduling": [
+   18,
+   18
+  ],
+  "bucket: warranty": [
+   13,
+   13
+  ],
+  "source: kb": [
+   46,
+   47
+  ],
+  "source: paraphrase": [
+   5,
+   6
+  ],
+  "source: transcript": [
+   15,
+   16
+  ]
+ },
+ "forbidden_returned": 0,
+ "rows": [
+  {
+   "id": "M01",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "What does the Comfort Club membership actually include?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "Two seasonal tune-ups per year",
+    "Everything in Standard"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": 4,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M02",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "How much is the maintenance plan?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "$189 per year",
+    "Membership (annual, 1 system)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 4,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M03",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "I thought the maintenance plan was $149 a year?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "$189 per year",
+    "Membership (annual, 1 system)"
+   ],
+   "scored": true,
+   "note": "Trap: $149 is only in the superseded archive copy.",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#upgrades-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M04",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Can I pay for the Plus plan monthly?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "Membership (monthly, 1 system)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#upgrades-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#cancellation-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M05",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "I got an email saying my membership is renewing. When does it actually charge?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "Annual plans bill once on the enrollment date",
+    "renewal reminder email 30 days"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0",
+     "faq/customer_faq.md#payment-0"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#upgrades-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M06",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Can I cancel my membership before it renews?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "cancel auto-renewal at any time"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "membership/comfort_club_overview.md#upgrades-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M07",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Can I get a refund on my annual plan if I already had a tune-up this year?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "non-refundable once a tune-up has been performed"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#upgrades-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M08",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "Can I upgrade from the regular plan to the Plus plan mid-year? What does it cost?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "The difference ($80) is prorated"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M09",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "I'm a member. Do I get a discount on a new system?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Full system replacement credit",
+    "Comfort Club members receive $500 off",
+    "$500 off any full system replacement"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M10",
+   "bucket": "membership",
+   "source": "transcript",
+   "question": "Does the Comfort Club cover plumbing?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "Annual whole-home plumbing inspection",
+    "Plumbing repair discount",
+    "Plumbing discount applies to Plus members only"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "services/service_catalog.md#plumbing-residential-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "services/service_catalog.md#plumbing-residential-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "services/service_catalog.md#plumbing-residential-0",
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M11",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "If I move to a new house, does my membership come with me?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "They do not transfer to a new address"
+   ],
+   "scored": true,
+   "note": "Trap: the archive copy says it transfers to a new address; current says it stays with the address.",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#transfer-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#transfer-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0",
+     "warranty/warranty_policy.md#warranty-transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#transfer-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M12",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "How much to add a second system to my plan?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "Each additional system",
+    "Additional system (annual)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#upgrades-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M13",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "I'm a member. Do I pay the after-hours fee for an emergency call?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "No after-hours dispatch fee on emergency calls",
+    "After-hours emergency dispatch | $149 | Waived",
+    "After-hours dispatch (Fee, SKU FEE-AH): $149. Member discount eligible: N. Note: Waived for members"
+   ],
+   "scored": true,
+   "note": "Trap: the FAQ fee lines say $149 with no member exception. Answer-key fix 2026-10-19: the price book (FEE-AH, waived for members) also answers it.",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "bm25": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M14",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Is the diagnostic fee waived for members?",
+   "expected": [
+    "faq/customer_faq.md",
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "Comfort Club members: diagnostic fee waived",
+    "Diagnostic fee ($89) waived",
+    "Diagnostic visit | $89 | Waived",
+    "Diagnostic visit (Fee, SKU FEE-DIAG): $89. Member discount eligible: N. Note: Waived for members"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M15",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "What discount do members get on repairs?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "15% off all repairs",
+    "Repair discount | 0% | 15%"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M16",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Do Plus members get a discount on plumbing repairs?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "15% off plumbing repairs",
+    "Plumbing repair discount",
+    "Plumbing discount applies to Plus members only"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "services/service_catalog.md#plumbing-residential-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M17",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Is a water heater flush included with my plan?",
+   "expected": [
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Annual water heater flush",
+    "Water heater flush | $119 | $119 | Included",
+    "Water heater flush ($119, included in Comfort Club Plus)",
+    "Note: Included for Plus"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#plumbing-residential-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#plumbing-residential-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#plumbing-residential-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M18",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "Will my membership price go up when it renews?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "locked at their enrollment price"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "membership/comfort_club_overview.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0"
+    ],
+    "section_rank": 4,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "M19",
+   "bucket": "membership",
+   "source": "kb",
+   "question": "I'm on the monthly plan. Can I cancel after six months?",
+   "expected": [
+    "membership/comfort_club_overview.md"
+   ],
+   "answer": [
+    "charged the remaining balance of the minimum term"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B01",
+   "bucket": "billing",
+   "source": "transcript",
+   "question": "I think I got charged twice. There are two $245 charges on my card from you guys.",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "pending authorization"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#payment-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#payment-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#payment-0",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B02",
+   "bucket": "billing",
+   "source": "transcript",
+   "question": "I need to pay my invoice. Can I give you my card number over the phone?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "Card numbers are never taken over the phone"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/customer_faq.md#scheduling-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B03",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "Do you take checks?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "We do not accept checks"
+   ],
+   "scored": true,
+   "note": "Trap: the old FAQ copy said checks were accepted.",
+   "hybrid": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#payment-0",
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B04",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "Do you offer financing on a big repair?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "Financing is available on repairs over $1,000"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "services/service_catalog.md#system-replacement-0",
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B05",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "What payment methods do you accept?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "We accept Visa"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#duplicate-charges-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B06",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "Why is there a $49 charge on my invoice? I cancelled the morning of the appointment.",
+   "expected": [
+    "faq/customer_faq.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "$49 late-cancellation fee",
+    "Late cancellation (<24h)",
+    "Late cancellation (Fee, SKU FEE-LATE)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#cancellation-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#cancellation-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#fees-0",
+     "services/technician_arrival_and_etas.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B07",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "I was charged a no-show fee but I was home the whole time and nobody came.",
+   "expected": [
+    "faq/customer_faq.md",
+    "pricing/2026_fee_schedule.pdf",
+    "services/technician_arrival_and_etas.md"
+   ],
+   "answer": [
+    "A missed window is never charged as a no-show",
+    "No-shows (nobody home at the address)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "membership/comfort_club_overview.md#cancellation-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#duplicate-charges-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B08",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "What's this mechanical permit charge on my invoice?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Mechanical permit (Fee"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "services/service_catalog.md#hvac-repair-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B09",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "How much is the disposal fee for my old equipment?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "Equipment disposal (Fee"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "services/service_catalog.md#hvac-repair-1",
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#filing-a-claim-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "pricing/2026_fee_schedule.pdf#intro-1",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B10",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "How much do you charge for an after-hours call?",
+   "expected": [
+    "faq/customer_faq.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "After-hours dispatch fee is $149",
+    "After-hours / weekend emergency dispatch: $149",
+    "After-hours emergency dispatch | $149",
+    "After-hours dispatch (Fee"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "services/technician_arrival_and_etas.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "warranty/warranty_policy.md#filing-a-claim-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#scheduling-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B11",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "Is there an extra charge if a tech comes out on a holiday?",
+   "expected": [
+    "policies/holiday_hours_2026.png",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "Emergency dispatch fee on holidays: $199",
+    "Holiday dispatch (Fee"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B12",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "Does the $89 diagnostic fee count toward the repair?",
+   "expected": [
+    "faq/customer_faq.md",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Applied as credit toward the repair",
+    "credited toward repair"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "faq/customer_faq.md#fees-0",
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B13",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "How much is a capacitor replacement?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Run capacitor replacement",
+    "| Capacitor replacement |"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-0",
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "services/service_catalog.md#plumbing-residential-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B14",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "What does it cost to put in a smart thermostat?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Thermostat, smart",
+    "Thermostat replacement (smart)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-1",
+     "faq/customer_faq.md#hours-contact-0",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "services/service_catalog.md#hvac-repair-1",
+     "services/service_catalog.md#system-replacement-0",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B15",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "How much per pound for refrigerant?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "R-410A refrigerant per lb",
+    "Refrigerant recharge (R-410A, per lb)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-0",
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "B16",
+   "bucket": "billing",
+   "source": "kb",
+   "question": "My invoice says $149 but the tech quoted $89. What's the extra?",
+   "expected": [
+    "faq/customer_faq.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "After-hours / weekend emergency dispatch: $149",
+    "After-hours emergency dispatch | $149",
+    "After-hours dispatch fee is $149"
+   ],
+   "scored": true,
+   "note": "Real wording; the agent hands this off as a dispute (D11), but retrieval should still find the fee docs.",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-1",
+     "services/service_catalog.md#hvac-repair-0",
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W01",
+   "bucket": "warranty",
+   "source": "transcript",
+   "question": "The unit you installed last year stopped working. How do I file a warranty claim?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "Call to schedule a warranty diagnostic"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W02",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "Is there a diagnostic fee for a warranty visit?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "If the failure is covered, there is no diagnostic fee"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W03",
+   "bucket": "warranty",
+   "source": "transcript",
+   "question": "My Trane compressor died and the system is only three years old. Is that under warranty?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "| Trane | 10 years"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W04",
+   "bucket": "warranty",
+   "source": "transcript",
+   "question": "Does the labor warranty cover a repeat repair? You fixed my blower in March and it's doing the same thing.",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "If the same part fails within 1 year"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W05",
+   "bucket": "warranty",
+   "source": "transcript",
+   "question": "We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "Meridian labor warranties do **not** transfer",
+    "may transfer once to a subsequent homeowner"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "services/service_catalog.md#system-replacement-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W06",
+   "bucket": "warranty",
+   "source": "transcript",
+   "question": "Did you guys register my new unit with the manufacturer? I never got anything.",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "Meridian registers every installed unit"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "faq/customer_faq.md#payment-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W07",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "How long is the labor warranty on a new installation?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "**2-year labor warranty**"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W08",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "I was a member when you installed my system. Do I get a longer warranty?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "extended **5-year labor warranty**"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#filing-a-claim-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "services/service_catalog.md#system-replacement-0",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W09",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "What's the heat exchanger warranty on a Goodman furnace?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "| Goodman |"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#filing-a-claim-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W10",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "If a part is under the manufacturer's warranty, do I still pay for labor?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md",
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "Labor to replace a warranted part is billable",
+    "labor only, part under warranty",
+    "Note: Part under mfr warranty"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#warranty-transfer-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 4,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W11",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "What isn't covered by your repair warranty?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "does not cover different components"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "W12",
+   "bucket": "warranty",
+   "source": "kb",
+   "question": "Is your repair warranty still 90 days?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "**1-year labor warranty**"
+   ],
+   "scored": true,
+   "note": "Trap: 90 days is only in the superseded 2023 terms.",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#filing-a-claim-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "warranty/warranty_policy.md#warranty-transfer-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G01",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "What are your hours on Saturday?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "Saturday 8:00am\u20134:00pm"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/customer_faq.md#scheduling-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#payment-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#hours-contact-0",
+     "services/service_catalog.md#system-replacement-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#payment-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "services/technician_arrival_and_etas.md#intro-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G02",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Are you open the day after Thanksgiving?",
+   "expected": [
+    "policies/holiday_hours_2026.png"
+   ],
+   "answer": [
+    "Thanksgiving (Nov 26-27)"
+   ],
+   "scored": true,
+   "note": "Only in the PNG.",
+   "hybrid": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G03",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Do you service Manor?",
+   "expected": [
+    "policies/service_area.md"
+   ],
+   "answer": [
+    "Manor (78653)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "services/service_catalog.md#not-offered-0",
+     "faq/customer_faq.md#fees-0",
+     "membership/comfort_club_overview.md#transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "membership/comfort_club_overview.md#transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#not-offered-0",
+     "faq/customer_faq.md#scheduling-0",
+     "policies/service_area.md#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G04",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Do you come out to San Marcos?",
+   "expected": [
+    "policies/service_area.md"
+   ],
+   "answer": [
+    "Not serviced: San Marcos"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "policies/service_area.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G05",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Is Dripping Springs in your service area?",
+   "expected": [
+    "policies/service_area.md"
+   ],
+   "answer": [
+    "Dripping Springs (78620)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "services/service_catalog.md#plumbing-residential-0",
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#not-offered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "membership/comfort_club_overview.md#transfer-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "policies/service_area.md#intro-0",
+     "services/service_catalog.md#plumbing-residential-0",
+     "services/service_catalog.md#not-offered-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G06",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "What appointment windows do you have? Can I get an evening slot?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "A 4pm\u20137pm window is available Tuesday and Thursday only"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/troubleshooting_before_you_call.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/troubleshooting_before_you_call.md#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G07",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Is there a fee if I cancel the day before?",
+   "expected": [
+    "faq/customer_faq.md",
+    "pricing/2026_fee_schedule.pdf"
+   ],
+   "answer": [
+    "Cancellations or reschedules more than 24 hours before the window are free",
+    "Late cancellation (<24h)"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "pricing/repair_price_book_2026.csv#intro-3"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G08",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "My AC runs but the air is warm. Is there anything I can check before you send someone?",
+   "expected": [
+    "faq/troubleshooting_before_you_call.md"
+   ],
+   "answer": [
+    "Confirm the thermostat is set to COOL"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "services/service_catalog.md#maintenance-tune-up-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "services/service_catalog.md#maintenance-tune-up-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G09",
+   "bucket": "scheduling",
+   "source": "transcript",
+   "question": "There's water pooling around the indoor unit. What should I do?",
+   "expected": [
+    "faq/troubleshooting_before_you_call.md"
+   ],
+   "answer": [
+    "clogged condensate drain line"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "services/service_catalog.md#plumbing-residential-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G10",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "How much does a tune-up cost?",
+   "expected": [
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "$129 for non-members",
+    "Seasonal tune-up (per system) | $129",
+    "Seasonal tune-up (Maintenance, SKU HV-TUNE): $129"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#hours-contact-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "pricing/2026_fee_schedule.pdf#intro-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "faq/customer_faq.md#fees-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G11",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Do you do duct cleaning?",
+   "expected": [
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Duct cleaning (we partner"
+   ],
+   "scored": true,
+   "note": "The duct cleaning page is a stub; the catalog answers it.",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#not-offered-0",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#not-offered-0",
+     "services/service_catalog.md#maintenance-tune-up-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#not-offered-0",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G12",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Can you fix my window AC unit?",
+   "expected": [
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Window units or portable AC repair"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "services/service_catalog.md#not-offered-0",
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "faq/customer_faq.md#scheduling-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/service_catalog.md#not-offered-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/customer_faq.md#scheduling-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-0",
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G13",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "My system is 18 years old. Ballpark, what does a replacement cost?",
+   "expected": [
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "$8,000 \u2013 $16,000"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#system-replacement-0",
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "warranty/warranty_policy.md#new-system-installation-warranty-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "services/service_catalog.md#system-replacement-0"
+    ],
+    "section_rank": 4,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "services/service_catalog.md#system-replacement-0",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G14",
+   "bucket": "scheduling",
+   "source": "transcript",
+   "question": "My window was 12 to 4 and it's 4:30. Nobody's here. Will I still be charged?",
+   "expected": [
+    "services/technician_arrival_and_etas.md"
+   ],
+   "answer": [
+    "Customers are not required to wait past the window"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "membership/comfort_club_overview.md#cancellation-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "policies/holiday_hours_2026.png#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "G15",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "Will I get a text before the technician shows up?",
+   "expected": [
+    "faq/customer_faq.md",
+    "services/technician_arrival_and_etas.md"
+   ],
+   "answer": [
+    "another text when the tech is 30 minutes away",
+    "Dispatch will text the customer"
+   ],
+   "scored": true,
+   "note": "",
+   "hybrid": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#payment-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/troubleshooting_before_you_call.md#water-pooling-at-the-indoor-unit-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "P01",
+   "bucket": "probe",
+   "source": "kb",
+   "question": "What fees are agents allowed to waive without a supervisor?",
+   "expected": [],
+   "answer": [],
+   "scored": false,
+   "note": "Only internal notes answer this; they must never be retrieved.",
+   "hybrid": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#payment-0",
+     "services/service_catalog.md#hvac-repair-0"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "bm25": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#payment-0",
+     "faq/customer_faq.md#fees-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#fees-0",
+     "pricing/2026_fee_schedule.pdf#intro-0",
+     "warranty/warranty_policy.md#filing-a-claim-0"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "forbidden": []
+  },
+  {
+   "id": "P02",
+   "bucket": "scheduling",
+   "source": "kb",
+   "question": "How much notice do I need to give to cancel, 48 hours?",
+   "expected": [
+    "faq/customer_faq.md"
+   ],
+   "answer": [
+    "Cancellations or reschedules more than 24 hours before the window are free"
+   ],
+   "scored": true,
+   "note": "Trap: 48 h is only in the agent scheduling guide (agent_only, overridden).",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "faq/customer_faq.md#scheduling-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#cancellation-0",
+     "faq/customer_faq.md#scheduling-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "faq/customer_faq.md#payment-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "policies/holiday_hours_2026.png#intro-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "R01",
+   "bucket": "billing",
+   "source": "paraphrase",
+   "question": "There's a line on my bill from the city, like a hundred something dollars. What is that?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Mechanical permit (Fee"
+   ],
+   "scored": true,
+   "note": "Rewording of B08.",
+   "hybrid": {
+    "returned": [
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "policies/holiday_hours_2026.png#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#billing-and-renewal-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "pricing/repair_price_book_2026.csv#intro-3",
+     "policies/holiday_hours_2026.png#intro-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "faq/customer_faq.md#duplicate-charges-0",
+     "services/service_catalog.md#plumbing-residential-0",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "R02",
+   "bucket": "billing",
+   "source": "paraphrase",
+   "question": "You hauled my old furnace away. Why am I paying extra for that?",
+   "expected": [
+    "pricing/repair_price_book_2026.csv",
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Equipment disposal (Fee"
+   ],
+   "scored": true,
+   "note": "Rewording of B09.",
+   "hybrid": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "faq/customer_faq.md#scheduling-0"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#scheduling-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "policies/holiday_hours_2026.png#intro-0"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#hvac-repair-1",
+     "faq/customer_faq.md#fees-0",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "services/service_catalog.md#not-offered-0"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "R03",
+   "bucket": "warranty",
+   "source": "paraphrase",
+   "question": "My furnace is a Goodman. How long is the part that actually makes the heat covered?",
+   "expected": [
+    "warranty/warranty_policy.md"
+   ],
+   "answer": [
+    "| Goodman |"
+   ],
+   "scored": true,
+   "note": "Rewording of W09.",
+   "hybrid": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0",
+     "warranty/warranty_policy.md#repair-warranty-meridian-labor-warranty-0",
+     "services/service_catalog.md#hvac-repair-1"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "services/service_catalog.md#hvac-repair-1",
+     "pricing/repair_price_book_2026.csv#intro-1",
+     "faq/troubleshooting_before_you_call.md#furnace-won-t-turn-on-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "R04",
+   "bucket": "membership",
+   "source": "paraphrase",
+   "question": "If I'm on your plan, do I still have to pay just to have somebody come look at it?",
+   "expected": [
+    "faq/customer_faq.md",
+    "membership/comfort_club_overview.md",
+    "pricing/2026_fee_schedule.pdf",
+    "pricing/repair_price_book_2026.csv"
+   ],
+   "answer": [
+    "Comfort Club members: diagnostic fee waived",
+    "Diagnostic fee ($89) waived",
+    "Diagnostic visit | $89 | Waived",
+    "Diagnostic visit (Fee, SKU FEE-DIAG): $89. Member discount eligible: N. Note: Waived for members"
+   ],
+   "scored": true,
+   "note": "Rewording of M14.",
+   "hybrid": {
+    "returned": [
+     "membership/comfort_club_overview.md#comfort-club-plus-0",
+     "membership/comfort_club_overview.md#comfort-club-standard-0",
+     "membership/comfort_club_overview.md#cancellation-0",
+     "membership/comfort_club_overview.md#billing-and-renewal-0"
+    ],
+    "section_rank": 2,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "membership/comfort_club_overview.md#intro-0",
+     "membership/comfort_club_overview.md#upgrades-0",
+     "membership/comfort_club_overview.md#transfer-0",
+     "membership/comfort_club_overview.md#comfort-club-plus-0"
+    ],
+    "section_rank": null,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "faq/customer_faq.md#fees-0",
+     "warranty/warranty_policy.md#filing-a-claim-0",
+     "faq/troubleshooting_before_you_call.md#intro-0",
+     "faq/customer_faq.md#scheduling-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "R05",
+   "bucket": "scheduling",
+   "source": "paraphrase",
+   "question": "Can you guys clean out the air vents in my house?",
+   "expected": [
+    "services/service_catalog.md"
+   ],
+   "answer": [
+    "Duct cleaning (we partner"
+   ],
+   "scored": true,
+   "note": "Rewording of G11.",
+   "hybrid": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0",
+     "services/service_catalog.md#not-offered-0",
+     "services/service_catalog.md#maintenance-tune-up-0"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/troubleshooting_before_you_call.md#ac-not-cooling-or-blowing-warm-air-0",
+     "faq/troubleshooting_before_you_call.md#thermostat-screen-is-blank-0"
+    ],
+    "section_rank": null,
+    "doc_hit": false
+   },
+   "embeddings": {
+    "returned": [
+     "services/service_catalog.md#not-offered-0",
+     "services/service_catalog.md#maintenance-tune-up-0",
+     "services/service_catalog.md#hvac-repair-0",
+     "pricing/repair_price_book_2026.csv#intro-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  },
+  {
+   "id": "R06",
+   "bucket": "scheduling",
+   "source": "paraphrase",
+   "question": "Is anybody working that Friday after the big holiday in November?",
+   "expected": [
+    "policies/holiday_hours_2026.png"
+   ],
+   "answer": [
+    "Thanksgiving (Nov 26-27)"
+   ],
+   "scored": true,
+   "note": "Rewording of G02.",
+   "hybrid": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#hours-contact-0",
+     "pricing/repair_price_book_2026.csv#intro-2",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "bm25": {
+    "returned": [
+     "faq/customer_faq.md#hours-contact-0",
+     "warranty/warranty_policy.md#manufacturer-parts-warranty-residential-when-registered-0",
+     "policies/holiday_hours_2026.png#intro-0",
+     "pricing/repair_price_book_2026.csv#intro-2"
+    ],
+    "section_rank": 3,
+    "doc_hit": true
+   },
+   "embeddings": {
+    "returned": [
+     "policies/holiday_hours_2026.png#intro-0",
+     "faq/customer_faq.md#scheduling-0",
+     "services/technician_arrival_and_etas.md#intro-0",
+     "faq/customer_faq.md#hours-contact-0"
+    ],
+    "section_rank": 1,
+    "doc_hit": true
+   },
+   "forbidden": []
+  }
+ ]
+}

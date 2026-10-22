@@ -1,0 +1,116 @@
+# Docker executor on the owner's Mac Studio runner (same shape as boostlingo).
+# The full Python image is pinned to the current 3.14 patch. Slim has no curl,
+# and the uv installer needs curl. The deploy image is the slim Dockerfile.
+
+stages:
+  - lint
+  - test
+  - security
+  - deploy
+  - alert
+
+# Branch and scheduled pipelines only, as before T18 (no duplicate merge-request pipelines).
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - when: always
+
+default:
+  interruptible: true
+
+# Scheduled pipelines run only the alert jobs (T18); everything else runs on pushes and MRs.
+.not_scheduled:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - when: on_success
+
+.python:
+  extends: .not_scheduled
+  image: python:3.14.8
+  variables:
+    UV_CACHE_DIR: "$CI_PROJECT_DIR/.cache/uv"
+  cache:
+    key:
+      prefix: uv
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv
+  before_script:
+    - curl -LsSf https://astral.sh/uv/0.13.1/install.sh | sh
+    - $HOME/.local/bin/uv sync --frozen
+
+lint:ruff:
+  extends: .python
+  stage: lint
+  script:
+    - $HOME/.local/bin/uv run ruff check
+    - $HOME/.local/bin/uv run ruff format --check
+
+lint:pyright:
+  extends: .python
+  stage: lint
+  script:
+    - $HOME/.local/bin/uv run pyright
+
+test:pytest:
+  extends: .python
+  stage: test
+  script:
+    - $HOME/.local/bin/uv run pytest
+
+security:gitleaks:
+  extends: .not_scheduled
+  stage: security
+  variables:
+    # Full history. A shallow clone would miss a secret that has already
+    # scrolled out of the default 20 commits.
+    GIT_DEPTH: "0"
+  image:
+    name: ghcr.io/gitleaks/gitleaks:v8.30.1
+    entrypoint: [""]
+  script:
+    - gitleaks detect --source . --redact --verbose
+
+# T17: deploy green main to Railway (D13). Runs only once the owner has added the masked
+# RAILWAY_TOKEN (a Railway project token, deploy-only) and RAILWAY_SERVICE as CI variables.
+# Pin RAILWAY_CLI_VERSION to the owner's tested `railway --version`.
+deploy:railway:
+  stage: deploy
+  image: node:24-slim
+  interruptible: false
+  resource_group: production
+  variables:
+    RAILWAY_CLI_VERSION: "5.63.1"  # 4.2.0 had no linux-arm64 build (the runner is an ARM Mac)
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $RAILWAY_TOKEN && $RAILWAY_SERVICE'
+  script:
+    - npm install --global --no-fund --no-audit "@railway/cli@${RAILWAY_CLI_VERSION}"
+    - railway up --service "$RAILWAY_SERVICE" --ci
+
+# T18 alerts (D15.6). Two GitLab schedules (CI/CD > Schedules), each with the variable ALERT set
+# to "health" (hourly) or "conversations" (daily), and the project variable APP_URL set to the
+# live URL. A failed job fails the pipeline, and GitLab emails the owner.
+.alert:
+  stage: alert
+  image: python:3.14.8-slim
+  interruptible: false
+  needs: []
+
+alert:health:
+  extends: .alert
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $ALERT == "health" && $APP_URL'
+  script:
+    - python scripts/alert_check.py health "$APP_URL"
+
+alert:conversations:
+  extends: .alert
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $ALERT == "conversations" && $APP_URL'
+  script:
+    - python scripts/alert_check.py conversations "$APP_URL"

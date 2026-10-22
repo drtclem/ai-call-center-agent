@@ -1,0 +1,18 @@
+Call ID: CALL-20260813-0350
+Date: 2026-08-13T19:28
+Agent: Denise
+Duration: 1m 31s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Let me verify the account. Name and service address?
+Customer: Marcus Lopez, 1442 Harbor View Way, Round Rock.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Um, tomorrow if you can.
+Agent: Um, i have tomorrow 12 to 4.
+Customer: Take it.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

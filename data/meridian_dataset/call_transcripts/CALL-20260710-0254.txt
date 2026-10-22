@@ -1,0 +1,17 @@
+Call ID: CALL-20260710-0254
+Date: 2026-07-10T07:38
+Agent: Kayla
+Duration: 1m 42s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Kayla. How may I help?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Aisha Clark, 512-764-8816.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

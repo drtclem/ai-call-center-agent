@@ -1,0 +1,13 @@
+Call ID: CALL-20260716-0379
+Date: 2026-07-16T07:47
+Agent: Jordan
+Duration: 0m 50s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Jordan. How may I help?
+Customer: Hi, are you guys hiring HVAC techs? I saw a posting.
+Agent: We are. Applications go through the careers page on our website. I can't take applications over the phone, but I'll pass along that you called.
+Customer: Okay, I'll apply online.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

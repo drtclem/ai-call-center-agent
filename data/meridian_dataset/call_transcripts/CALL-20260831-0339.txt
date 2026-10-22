@@ -1,0 +1,18 @@
+Call ID: CALL-20260831-0339
+Date: 2026-08-31T09:03
+Agent: Denise
+Duration: 1m 32s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Denise. How can I help you today?
+Customer: Your technician told my wife the, uh, system needed a $4,000 replacement and I got a second opinion and it was a $200 capacitor. I want to speak to someone in charge.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Susan Murphy, 512-697-9373.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Anything else I can do for you?
+Customer: Can you hear me okay?
+Agent: Sure, go ahead.
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

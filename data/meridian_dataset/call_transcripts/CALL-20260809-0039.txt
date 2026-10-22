@@ -1,0 +1,16 @@
+Call ID: CALL-20260809-0039
+Date: 2026-08-09T17:13
+Agent: Kayla
+Duration: 1m 29s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: We just bought a house and the previous owner had a system installed by you. Does the warranty transfer?
+Agent: Manufacturer parts warranties usually transfer once with a fee from the manufacturer. Our labor warranty does not transfer. I can look up the install if you have the address.
+Customer: Can you hear me okay?
+Agent: Sure, go ahead.
+Customer: It's 1304 Cedar Ridge Ln, Leander.
+Agent: Let me pull that up. I see a Carrier installed there. I'll email you the manufacturer transfer form.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

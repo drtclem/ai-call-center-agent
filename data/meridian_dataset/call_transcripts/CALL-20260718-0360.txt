@@ -1,0 +1,27 @@
+Call ID: CALL-20260718-0360
+Date: 2026-07-18T14:28
+Agent: Jordan
+Duration: 2m 14s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Um, i'm calling to book a repair, my kitchen sink is backing up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-40814.
+Agent: Perfect, and can you confirm the name?
+Customer: Grace Nguyen.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Can you hear me okay?
+Agent: Sure, go ahead.
+Customer: Monday if possible, first thing in the morning.
+Agent: Um, one moment. I have a afternoon window Thursday, 1 to 5. Would that work?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

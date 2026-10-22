@@ -1,0 +1,20 @@
+Call ID: CALL-20260729-0260
+Date: 2026-07-29T19:31
+Agent: Jordan
+Duration: 1m 30s
+Direction: Inbound
+
+Agent: Um, thanks for calling Meridian, this is Jordan. How may I help?
+Customer: Sorry, you cut out for a second.
+Agent: No problem, take your time.
+Customer: I want to talk to a manager. The tech who came out yesterday was rude, tracked mud through my house, and left without explaining anything.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-95466.
+Agent: Perfect, and can you confirm the name?
+Customer: Nadia Thompson.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Was there anything else?
+Customer: Um, that's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

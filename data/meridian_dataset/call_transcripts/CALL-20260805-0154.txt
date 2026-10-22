@@ -1,0 +1,15 @@
+Call ID: CALL-20260805-0154
+Date: 2026-08-05T16:04
+Agent: Kayla
+Duration: 1m 25s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: Just wanted to confirm I still have someone coming Thursday.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Beth Okafor, 512-337-4539.
+Agent: Let me take a look. Yes, Thursday 12 to 4, for a AC repair.
+Customer: Okay, thanks.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,17 @@
+Call ID: CALL-20260811-0275
+Date: 2026-08-11T07:28
+Agent: Brian
+Duration: 1m 58s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Brian. How can I help you today?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Luis Singh, 512-322-7807.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

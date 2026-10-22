@@ -1,0 +1,21 @@
+Call ID: CALL-20260910-0236
+Date: 2026-09-10T12:30
+Agent: Denise
+Duration: 2m 40s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Denise. How may I help?
+Customer: I'm calling to book a repair, I need my annual tune-up.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Um, can I get your name and the phone number on the account?
+Customer: Sure, it's Marcus Nguyen, 512-870-5123.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Tomorrow if possible, 4 to 7, after work.
+Agent: One moment. I have a morning window Monday, 1 to 5. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the, uh, repair if you go ahead with it. Is the unit still a American Standard?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

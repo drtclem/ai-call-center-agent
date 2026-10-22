@@ -1,0 +1,15 @@
+Call ID: CALL-20260831-0231
+Date: 2026-08-31T15:27
+Agent: Denise
+Duration: 1m 42s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Denise speaking. What can I do for you?
+Customer: How much is the maintenance plan?
+Agent: The Comfort Club is $189 a year for a single system, or $16.99 monthly. Plus is $269 and adds plumbing coverage.
+Customer: I thought it was $149?
+Agent: That was the old pricing. It changed at the start of the year. Existing members keep their rate until renewal.
+Customer: Hm. Okay.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,16 @@
+Call ID: CALL-20260808-0271
+Date: 2026-08-08T16:49
+Agent: Brian
+Duration: 1m 13s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Brian speaking. What can I do for you?
+Customer: My window was 12 to 4 and it's 4:30. Nobody's here and nobody's called.
+Agent: Let me verify the account. Name and service address?
+Customer: Derek Rivera, 2553 Lakeshore Blvd, Hutto.
+Agent: Bear with me one second. I'm so sorry. The tech's previous job ran long. He's about 25 minutes out. I'll have him call you directly.
+Customer: Um, okay. I just need to know if I should wait.
+Agent: Please wait, he's on his way. And I'm noting the account so the diagnostic fee is waived for the delay.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,23 @@
+Call ID: CALL-20260726-0141
+Date: 2026-07-26T10:06
+Agent: Jordan
+Duration: 2m 45s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Jordan here. What's going on today?
+Customer: Hi, the AC runs but the air is warm and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: James Kim, 6422 Windcrest Ave, Georgetown.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Thursday if possible, first thing in the morning.
+Agent: One moment. I have a morning window Monday, 12 to 4. Would that work?
+Customer: Um, can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Carrier?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

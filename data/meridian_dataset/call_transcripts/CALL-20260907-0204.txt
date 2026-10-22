@@ -1,0 +1,17 @@
+Call ID: CALL-20260907-0204
+Date: 2026-09-07T16:00
+Agent: Tasha
+Duration: 1m 32s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Tasha speaking. What can I do for you?
+Customer: I got an invoice, INV-230710, for $149 and I'm not sure what it's for.
+Agent: Sure, let me look that up.
+Agent: Let me verify the account. Name and service address?
+Customer: Angela Brown, 9945 Lakeshore Blvd, Buda.
+Agent: Okay, give me just a sec here. That's from the service visit on the 25th. It's the diagnostic fee plus the blower motor.
+Customer: Oh okay. Can you email me an itemized copy?
+Agent: Absolutely, sending that to the email on file now.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

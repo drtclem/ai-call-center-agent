@@ -1,0 +1,18 @@
+Call ID: CALL-20260711-0248
+Date: 2026-07-11T14:33
+Agent: Marcus
+Duration: 1m 8s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Marcus speaking. What can I do for you?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Can I get your name and the phone number on the account?
+Customer: Um, sure, it's Omar Singh, 512-342-5833.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 8 to 12.
+Customer: Take it.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

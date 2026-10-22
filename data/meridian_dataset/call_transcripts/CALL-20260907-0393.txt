@@ -1,0 +1,21 @@
+Call ID: CALL-20260907-0393
+Date: 2026-09-07T17:23
+Agent: Eli
+Duration: 2m 23s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: Hey, so my thermostat is blank. What's the, uh, soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Raj Garcia, 512-211-4544.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Um, tomorrow if possible, 12 to 4.
+Agent: Let me take a look. I have a afternoon window Monday, 8 to 12. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

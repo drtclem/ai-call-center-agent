@@ -1,0 +1,23 @@
+Call ID: CALL-20260907-0221
+Date: 2026-09-07T16:43
+Agent: Marcus
+Duration: 2m 6s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Marcus here. What's going on today?
+Customer: Hey, so the furnace won't kick on. What's the soonest you can get a tech out?
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-65269.
+Agent: Perfect, and can you confirm the name?
+Customer: Linda Johnson.
+Agent: Okay, I see the account. Let me take a look. What day works best for you?
+Customer: Um, this Saturday if possible, the afternoon.
+Agent: Bear with me one second. I have a afternoon window Monday, 12 to 4. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

@@ -1,0 +1,16 @@
+Call ID: CALL-20260730-0222
+Date: 2026-07-30T14:50
+Agent: Marcus
+Duration: 1m 19s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: I want to talk to a manager. The tech who came out yesterday was rude, tracked mud through my house, and left without explaining anything.
+Agent: Let me verify the account. Name and service address?
+Customer: Omar Kim, 5373 Pecan Grove Rd, Hutto.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

@@ -1,0 +1,18 @@
+Call ID: CALL-20260722-0198
+Date: 2026-07-22T15:01
+Agent: Renee
+Duration: 1m 26s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: I want to talk to a manager. The tech who came out yesterday was rude, tracked mud through my house, and left without explaining anything.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Omar Nguyen, 512-365-9518.
+Agent: I'm really sorry. I'm going to escalate this to our service manager. She'll call you back today.
+Customer: Today. Not next week.
+Agent: Today. I've marked it urgent.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

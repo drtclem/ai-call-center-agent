@@ -1,0 +1,23 @@
+Call ID: CALL-20260826-0390
+Date: 2026-08-26T11:19
+Agent: Denise
+Duration: 2m 43s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Denise. How can I help you today?
+Customer: Hi, my kitchen sink is backing up and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Let me verify the account. Name and service address?
+Customer: Daniel Diaz, 6092 Brookside Ct, Cedar Park.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Sometime this week if possible, 8 to 12.
+Agent: Let me take a look. I have a morning window Thursday, 1 to 5. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Lennox?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

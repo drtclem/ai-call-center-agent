@@ -1,0 +1,15 @@
+Call ID: CALL-20260901-0410
+Date: 2026-09-01T17:51
+Agent: Brian
+Duration: 1m 35s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Brian. How may I help?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Maria Johnson, 512-413-8171.
+Agent: Okay, give me just a sec here. You have an open balance of $89 on INV-297041, due on the 28th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Anything else I can do for you?
+Customer: Um, no that's everything.
+Agent: Okay, thanks for calling Meridian.

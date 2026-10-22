@@ -1,0 +1,25 @@
+Call ID: CALL-20260810-0210
+Date: 2026-08-10T14:51
+Agent: Renee
+Duration: 2m 15s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: Sorry, I'm driving, one sec.
+Agent: Sure, go ahead.
+Customer: I'm calling to book a repair, the furnace won't kick on.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-30875.
+Agent: Perfect, and can you confirm the name?
+Customer: Jennifer Kim.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: Tomorrow if possible, 8 to 12.
+Agent: Okay, give me just a sec here. I have a morning window tomorrow, 12 to 4. Would that work?
+Customer: Yeah, that works.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the, uh, repair if you go ahead with it. Is the unit still a American Standard?
+Customer: I think so, it's whatever was there when we moved in.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

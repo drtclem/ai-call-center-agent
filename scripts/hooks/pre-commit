@@ -1,0 +1,20 @@
+#!/bin/sh
+# Format and lint staged Python files. Check only; do not rewrite the index.
+set -eu
+
+cd "$(git rev-parse --show-toplevel)"
+
+if ! git diff --cached --name-only --diff-filter=ACMR -- '*.py' | grep -q .; then
+  exit 0
+fi
+
+# Ruff reads the worktree. Refuse when staged Python differs from it.
+if ! git diff --quiet -- '*.py'; then
+  echo "pre-commit: unstaged Python edits differ from the index. Stage them so ruff checks the committed text." >&2
+  exit 1
+fi
+
+git diff --cached --name-only --diff-filter=ACMR -z -- '*.py' \
+  | xargs -0 uv run ruff format --check
+git diff --cached --name-only --diff-filter=ACMR -z -- '*.py' \
+  | xargs -0 uv run ruff check

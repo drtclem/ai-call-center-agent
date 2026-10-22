@@ -1,0 +1,25 @@
+Call ID: CALL-20260812-0302
+Date: 2026-08-12T16:53
+Agent: Denise
+Duration: 2m 3s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Denise. How can I help you today?
+Customer: Hi, my thermostat is blank and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-95234.
+Agent: Perfect, and can you confirm the name?
+Customer: Angela Smith.
+Agent: Okay, I see the account. Okay, give me just a sec here. What day works best for you?
+Customer: This Saturday if possible, the afternoon.
+Agent: Okay, give me just a sec here. I have a morning window tomorrow, 1 to 5. Would that work?
+Customer: Can you do anything earlier?
+Agent: Unfortunately that's the earliest I have for a non-emergency. I can add you to the waitlist for cancellations.
+Customer: Okay, do that. And book the slot.
+Agent: Um, you're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a American Standard?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Um, anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

@@ -1,0 +1,18 @@
+Call ID: CALL-20260714-0200
+Date: 2026-07-14T15:04
+Agent: Eli
+Duration: 1m 55s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Eli. How can I help you today?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Let me verify the account. Name and service address?
+Customer: Priya Foster, 5057 Sunset Terrace, Cedar Park.
+Agent: Okay, give me just a sec here. Your term ends on the 12th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Was there anything else?
+Customer: Sorry, I'm driving, one sec.
+Agent: I can hear you fine.
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

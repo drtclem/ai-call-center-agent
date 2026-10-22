@@ -1,0 +1,19 @@
+Call ID: CALL-20260713-0263
+Date: 2026-07-13T13:31
+Agent: Brian
+Duration: 2m 19s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Brian. How can I help you today?
+Customer: I want to set up autopay for my membership.
+Agent: Happy to help with that.
+Agent: Let me verify the account. Name and service address?
+Customer: Can you hear me okay?
+Agent: I can hear you fine.
+Customer: Angela Lopez, 2062 Ridgeline Pass, Round Rock.
+Agent: You can do that from the customer portal under Payment Methods, or I can send you a secure link to add a card.
+Customer: Send the link.
+Agent: Done, it'll come by text. It expires in 24 hours.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

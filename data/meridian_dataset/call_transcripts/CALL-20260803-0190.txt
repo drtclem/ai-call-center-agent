@@ -1,0 +1,15 @@
+Call ID: CALL-20260803-0190
+Date: 2026-08-03T15:06
+Agent: Marcus
+Duration: 1m 6s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Marcus. How may I help?
+Customer: What's my current balance?
+Agent: Let me verify the account. Name and service address?
+Customer: Raj Reyes, 8930 Cedar Ridge Ln, Round Rock.
+Agent: Bear with me one second. You have an open balance of $2890 on INV-268201, due on the 7th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

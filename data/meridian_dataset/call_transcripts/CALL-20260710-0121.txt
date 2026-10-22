@@ -1,0 +1,15 @@
+Call ID: CALL-20260710-0121
+Date: 2026-07-10T08:36
+Agent: Kayla
+Duration: 1m 49s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Kayla here. What's going on today?
+Customer: What's my current balance?
+Agent: Let me verify the account. Name and service address?
+Customer: Daniel Kim, 5657 Harbor View Way, Pflugerville.
+Agent: One moment. You have an open balance of $189 on INV-256744, due on the 11th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Um, is there anything else I can help you with?
+Customer: Um, no, that's it. Thanks.
+Agent: You're welcome, have a great day.

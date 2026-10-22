@@ -1,0 +1,15 @@
+Call ID: CALL-20260816-0313
+Date: 2026-08-16T12:19
+Agent: Jordan
+Duration: 1m 37s
+Direction: Inbound
+
+Agent: Thanks for calling Meridian, this is Jordan. How may I help?
+Customer: What's my current balance?
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Jennifer Foster, 512-387-2125.
+Agent: Okay, give me just a sec here. You have an open balance of $478 on INV-231713, due on the 17th.
+Customer: Okay, I'll pay it through the portal.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

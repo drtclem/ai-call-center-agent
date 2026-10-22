@@ -1,0 +1,7 @@
+{
+ "label": "heldout-claude-sonnet-5-5",
+ "split": "heldout",
+ "brain": "claude-sonnet-5-5",
+ "commit": "4243fc6",
+ "sentinel_misses": []
+}

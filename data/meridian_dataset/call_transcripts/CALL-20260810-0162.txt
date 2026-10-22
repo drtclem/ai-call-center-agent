@@ -1,0 +1,21 @@
+Call ID: CALL-20260810-0162
+Date: 2026-08-10T07:59
+Agent: Brian
+Duration: 1m 31s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Brian here. What's going on today?
+Customer: The tech quoted me $89 and the invoice says $149. That's not what I agreed to.
+Agent: Do you have your account number handy?
+Customer: Sorry, you cut out for a second.
+Agent: Sure, go ahead.
+Customer: Yeah, it's MHC-42145.
+Agent: Perfect, and can you confirm the name?
+Customer: Sofia Singh.
+Agent: Let me take a look. I see the quote and the invoice. The difference is the permit fee which wasn't on the verbal quote.
+Customer: Nobody told me about that.
+Agent: I understand. I'll flag this for a billing supervisor to review and they'll call you back within one business day.
+Customer: Fine.
+Agent: Is there anything else I can help you with?
+Customer: Um, no, that's it. Thanks.
+Agent: You're welcome, have a great day.

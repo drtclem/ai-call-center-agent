@@ -1,0 +1,20 @@
+Call ID: CALL-20260902-0229
+Date: 2026-09-02T16:38
+Agent: Eli
+Duration: 1m 5s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: I have a tech coming tomorrow but something came up. Can I move it?
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-96895.
+Agent: Perfect, and can you confirm the name?
+Customer: Kim Nguyen.
+Agent: One moment. I see the appointment tomorrow 8 to 12. What day works instead?
+Customer: Friday?
+Agent: I can do Monday 8 to 12.
+Customer: Perfect.
+Agent: Moved. New confirmation text is on its way.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

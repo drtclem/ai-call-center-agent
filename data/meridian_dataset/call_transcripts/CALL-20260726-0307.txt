@@ -1,0 +1,18 @@
+Call ID: CALL-20260726-0307
+Date: 2026-07-26T16:02
+Agent: Eli
+Duration: 2m 1s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Eli speaking. What can I do for you?
+Customer: I got an email saying my membership is renewing. When does it actually charge?
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-89005.
+Agent: Perfect, and can you confirm the name?
+Customer: Maria Lopez.
+Agent: Let me take a look. Your term ends on the 4th of next month and it renews that day at $189.
+Customer: And I can still cancel before then?
+Agent: Yes, any time before the renewal date.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

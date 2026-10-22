@@ -1,0 +1,23 @@
+Call ID: CALL-20260918-0384
+Date: 2026-09-18T15:22
+Agent: Renee
+Duration: 2m 34s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Renee here. What's going on today?
+Customer: Hi, I need my annual tune-up and I'd like to get someone out to look at it.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-49093.
+Agent: Perfect, and can you confirm the name?
+Customer: Victor Nguyen.
+Agent: Okay, I see the account. One moment. What day works best for you?
+Customer: Monday if possible, first thing in the morning.
+Agent: Let me pull that up. I have a morning window tomorrow, 12 to 4. Would that work?
+Customer: That's fine.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the repair if you go ahead with it. Is the unit still a Trane?
+Customer: Yes.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

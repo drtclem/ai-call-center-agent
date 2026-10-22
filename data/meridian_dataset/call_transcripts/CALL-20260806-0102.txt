@@ -1,0 +1,15 @@
+Call ID: CALL-20260806-0102
+Date: 2026-08-06T09:15
+Agent: Brian
+Duration: 0m 55s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Brian here. What's going on today?
+Customer: Just wanted to confirm I still have someone coming Thursday.
+Agent: Can I get your name and the phone number on the account?
+Customer: Sure, it's Nate Cruz, 512-693-2985.
+Agent: One moment. Yes, Thursday 12 to 4, for a water heater inspection.
+Customer: Um, okay, thanks.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: My pleasure. Bye now.

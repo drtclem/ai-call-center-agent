@@ -1,0 +1,22 @@
+Call ID: CALL-20260723-0042
+Date: 2026-07-23T07:55
+Agent: Tasha
+Duration: 1m 55s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Tasha here. What's going on today?
+Customer: I need to file a warranty claim. The unit you installed last year stopped working.
+Agent: I'm sorry about that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-70694.
+Agent: Perfect, and can you confirm the name?
+Customer: Marcus Murphy.
+Agent: Since it's under a year, both parts and labor are covered. I'll book a warranty diagnostic at no charge. What day works?
+Customer: Tomorrow if you can.
+Agent: I have tomorrow 8 to 12.
+Customer: Hold on, my dog is barking.
+Agent: I can hear you fine.
+Customer: Take it.
+Agent: Was there anything else?
+Customer: That's all, thank you so much.
+Agent: Um, my pleasure. Bye now.

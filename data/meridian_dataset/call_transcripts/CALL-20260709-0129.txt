@@ -1,0 +1,17 @@
+Call ID: CALL-20260709-0129
+Date: 2026-07-09T17:29
+Agent: Tasha
+Duration: 2m 21s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Tasha here. What's going on today?
+Customer: I think I got charged twice. There are two $1240 charges on my card from you guys.
+Agent: I apologize for that, let's take a look.
+Agent: Let me verify the account. Name and service address?
+Customer: Hannah Brown, 8561 Ridgeline Pass, Georgetown.
+Agent: One moment. I do see two authorizations. One is a pending hold that should drop off in 3 to 5 business days, only one actually posted.
+Customer: So I'm not actually paying twice?
+Agent: Correct. If it's still there after five business days, call us back and we'll open a ticket with the processor.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

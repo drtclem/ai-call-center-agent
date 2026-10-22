@@ -1,0 +1,23 @@
+Call ID: CALL-20260917-0332
+Date: 2026-09-17T16:35
+Agent: Kayla
+Duration: 1m 33s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: Two things. My AC is blowing warm and I want to get someone out, and I want to know if joining the maintenance plan would save me money on this.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-38642.
+Agent: Perfect, and can you confirm the name?
+Customer: Raj Thompson.
+Agent: Sure. If you join the, uh, Comfort Club today, the $89 diagnostic is waived and you'd get 15 percent off the repair. The plan is $189 a year.
+Customer: So it pays for itself basically.
+Agent: Often, yes. Want me to add it?
+Customer: Can you hear me okay?
+Agent: No problem, take your time.
+Customer: Yeah, add it and book the visit.
+Agent: Done. I have Thursday 8 to 12.
+Customer: Book it.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

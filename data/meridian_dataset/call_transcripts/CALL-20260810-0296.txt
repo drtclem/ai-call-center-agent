@@ -1,0 +1,25 @@
+Call ID: CALL-20260810-0296
+Date: 2026-08-10T10:28
+Agent: Kayla
+Duration: 2m 17s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Kayla. How can I help you today?
+Customer: Sorry, you cut out for a second.
+Agent: I can hear you fine.
+Customer: Yeah, I need to schedule a service call. The furnace won't kick on.
+Agent: I'm sorry to hear that, let's get you taken care of.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-75034.
+Agent: Perfect, and can you confirm the name?
+Customer: Um, sofia Rivera.
+Agent: Okay, I see the account. Let me pull that up. What day works best for you?
+Customer: Tomorrow if possible, the afternoon.
+Agent: Let me take a look. I have a afternoon window Friday, 12 to 4. Would that work?
+Customer: Sure, let's do that.
+Agent: You're booked. The diagnostic fee is $89 and that gets applied toward the, uh, repair if you go ahead with it. Is the unit still a Goodman?
+Customer: Yep, same one.
+Agent: Got it. You'll get a text the morning of with the tech's name and a 30 minute heads-up before arrival.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

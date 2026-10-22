@@ -1,0 +1,21 @@
+Call ID: CALL-20260709-0134
+Date: 2026-07-09T08:20
+Agent: Eli
+Duration: 2m 6s
+Direction: Inbound
+
+Agent: Hi, you've reached Meridian Home Comfort, Eli here. What's going on today?
+Customer: My system is 18 years old and I'm thinking about replacing it. What would that cost?
+Agent: Um, replacement pricing depends on the size of the home, ductwork, and efficiency level. We do free in-home estimates with a comfort advisor.
+Customer: Ballpark?
+Agent: Most full system replacements run between $8,000 and $16,000, but I really can't quote without a visit. Want me to set up the estimate?
+Customer: Yeah, let's do that.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-10256.
+Agent: Perfect, and can you confirm the, uh, name?
+Customer: Um, david Foster.
+Agent: I have an advisor available Saturday at 4pm.
+Customer: Works.
+Agent: Is there anything else I can help you with?
+Customer: No, that's it. Thanks.
+Agent: You're welcome, have a great day.

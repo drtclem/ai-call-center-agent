@@ -1,0 +1,17 @@
+Call ID: CALL-20260709-0010
+Date: 2026-07-09T17:26
+Agent: Renee
+Duration: 0m 59s
+Direction: Inbound
+
+Agent: Meridian Home Comfort, Renee speaking. What can I do for you?
+Customer: Did you guys register my new unit with the manufacturer? I never got anything.
+Agent: Do you have your account number handy?
+Customer: Yeah, it's MHC-49139.
+Agent: Perfect, and can you confirm the name?
+Customer: Beth Cruz.
+Agent: Let me take a look. Yes, we register every install within 30 days. I see it was registered on the 26th. I'll resend the confirmation.
+Customer: Thanks.
+Agent: Anything else today?
+Customer: Nope, that covers it.
+Agent: Alright, take care.

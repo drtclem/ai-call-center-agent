@@ -1,0 +1,19 @@
+Call ID: CALL-20260719-0153
+Date: 2026-07-19T12:58
+Agent: Brian
+Duration: 1m 59s
+Direction: Inbound
+
+Agent: Thank you for calling Meridian Home Comfort, this is Brian. How can I help you today?
+Customer: My Goodman compressor died and the system is only three years old. Is that under warranty?
+Agent: Um, do you have your account number handy?
+Customer: Um, yeah, it's MHC-63127.
+Agent: Perfect, and can you confirm the name?
+Customer: Susan Baker.
+Agent: Let me take a look. Your system was installed 4 years ago. Goodman parts are covered 10 years if registered, which yours is. So the compressor part is covered. Labor is covered for 2 years through us, so labor would be billable.
+Customer: How much is labor on a compressor?
+Agent: Typically $600 to $900 depending on the unit. The tech will quote exact before starting.
+Customer: Okay. Let's schedule it then.
+Agent: Anything else I can do for you?
+Customer: No that's everything.
+Agent: Okay, thanks for calling Meridian.

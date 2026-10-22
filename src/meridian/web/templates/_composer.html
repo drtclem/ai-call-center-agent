@@ -1,0 +1,5 @@
+<form id="composer" class="composer" method="post" action="/chat" hx-post="/chat" hx-target="#messages" hx-swap="beforeend" hx-indicator=".chat" hx-disabled-elt="find button" {% if oob %}hx-swap-oob="true"{% endif %}>
+  <label for="message" class="visually-hidden">Your message</label>
+  <textarea id="message" name="message" rows="2" maxlength="{{ max_message or 1000 }}" required placeholder="Type your message…"></textarea>
+  <button id="send" class="button" type="submit">Send</button>
+</form>
